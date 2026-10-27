@@ -1,0 +1,18 @@
+0x239865e74:  (__TEXT,__text) external	_RDUpdateCountryCodeFromMCC	
+0x239865f04:  (__TEXT,__text) external	_RDUpdateCountryCodeFromPeer	
+0x239865f84:  (__TEXT,__text) external	_RDUpdateCountryCodeFromPeerInfo	
+0x239865ef4:  (__TEXT,__text) external	_RDUpdateCountryCodeFromWiFiAPs	
+0x239865d88:  (__TEXT,__text) external	_RDUpdateCountryCodeInfoFromLocation	
+0x239865efc:  (__TEXT,__text) external	_RDUpdateCountryCodesFromGeoIP	
+0x239865dec:  (__TEXT,__text) external	_RDUpdateCountryCodesFromLocation	
+0x239865e64:  (__TEXT,__text) external	_RDUpdateCountryCodesFromNearbyCells	
+0x239865f80:  (__TEXT,__text) external	_RDUpdateCountryCodesFromPeer	
+0x239865e6c:  (__TEXT,__text) external	_RDUpdateCountryCodesFromServingCell	
+0x239865eec:  (__TEXT,__text) external	_RDUpdateCountryCodesFromWiFiAPs	
+0x23986edd8:  (__TEXT,__const) external	_kRDPriorityGEOIP	
+0x23986edd0:  (__TEXT,__const) external	_kRDPriorityNearbyCellsMCC	
+0x23986edcc:  (__TEXT,__const) external	_kRDPriorityServingCellMCC	
+0x23986edd4:  (__TEXT,__const) external	_kRDPrioritySingleLocation	
+0x23986edc8:  (__TEXT,__const) external	_kRDPriorityWiFiAP	
+0x23986f2a4: "countryCodeCache.plist"
+0x274c25d58:  "countryCodeCache.plist"

@@ -1,0 +1,97 @@
+{
+  "name": "key-com.apple.locationd",
+  "keys": [
+    "com.apple.locationd"
+  ],
+  "started": 1792436174.1791182,
+  "shutdown": {
+    "code": 0,
+    "out": "",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\n"
+  },
+  "boot": {
+    "code": 0,
+    "out": "",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\n"
+  },
+  "bootstatus": {
+    "code": 0,
+    "out": "Monitoring boot status for GoldenNugget-Daemon-Audit (362457BA-2C1E-49CE-B6FB-DC7B1FEBD053).\n[2026-10-19 18:56:22 +0000] Status=1, isTerminal=NO, Elapsed=00:01.\n\tWaiting on BackBoard\n\n[2026-10-19 18:56:28 +0000] Status=4, isTerminal=NO, Elapsed=00:07.\n\tWaiting on System App\n\n[2026-10-19 18:56:29 +0000] Status=4, isTerminal=NO, Elapsed=00:08.\n\tWaiting on System App\n\n[2026-10-19 18:56:29 +0000] Status=4, isTerminal=NO, Elapsed=00:08.\n\tWaiting on System App\n\n[2026-10-19 18:56:30 +0000] Status=4, isTerminal=NO, Elapsed=00:09.\n\tWaiting on System App\n\n[2026-10-19 18:56:31 +0000] Status=4, isTerminal=NO, Elapsed=00:10.\n\tWaiting on System App\n\n[2026-10-19 18:56:32 +0000] Status=4, isTerminal=NO, Elapsed=00:11.\n\tWaiting on System App\n\n[2026-10-19 18:56:33 +0000] Status=4, isTerminal=NO, Elapsed=00:12.\n\tWaiting on System App\n\n[2026-10-19 18:56:34 +0000] Status=4, isTerminal=NO, Elapsed=00:13.\n\tWaiting on System App\n\n[2026-10-19 18:56:35 +0000] Status=4, isTerminal=NO, Elapsed=00:14.\n\tWaiting on System App\n\n[2026-10-19 18:56:36 +0000] Status=4, isTerminal=NO, Elapsed=00:15.\n\tWaiting on System App\n\n[2026-10-19 18:56:37 +0000] Status=4, isTerminal=NO, Elapsed=00:16.\n\tWaiting on System App\n\n[2026-10-19 18:56:38 +0000] Status=4, isTerminal=NO, Elapsed=00:17.\n\tWaiting on System App\n\n[2026-10-19 18:56:39 +0000] Status=4, isTerminal=NO, Elapsed=00:18.\n\tWaiting on System App\n\n[2026-10-19 18:56:40 +0000] Status=4, isTerminal=NO, Elapsed=00:19.\n\tWaiting on System App\n\n[2026-10-19 18:56:41 +0000] Status=4, isTerminal=NO, Elapsed=00:20.\n\tWaiting on System App\n\n[2026-10-19 18:56:42 +0000] Status=4, isTerminal=NO, Elapsed=00:21.\n\tWaiting on System App\n\n[2026-10-19 18:56:43 +0000] Status=4, isTerminal=NO, Elapsed=00:22.\n\tWaiting on System App\n\n[2026-10-19 18:56:44 +0000] Status=4, isTerminal=NO, Elapsed=00:23.\n\tWaiting on System App\n\n[2026-10-19 18:56:45 +0000] Status=4, isTerminal=NO, Elapsed=00:24.\n\tWaiting on System App\n\n[2026-10-19 18:56:46 +0000] Status=4, isTerminal=NO, Elapsed=00:25.\n\tWaiting on System App\n\n[2026-10-19 18:56:47 +0000] Status=4294967295, isTerminal=YES, Elapsed=00:26.\n\tFinished\n\n",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\n"
+  },
+  "disabled": {
+    "com.apple.locationd": true
+  },
+  "target_jobs": {
+    "com.apple.locationd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.locationd\" in domain for uid: 501\n"
+    }
+  },
+  "samples": [
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "37213",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "37234",
+        "runs": "1",
+        "state": "running"
+      }
+    },
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "37213",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "37234",
+        "runs": "1",
+        "state": "running"
+      }
+    },
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "37213",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "37234",
+        "runs": "1",
+        "state": "running"
+      }
+    },
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "37213",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "37234",
+        "runs": "1",
+        "state": "running"
+      }
+    }
+  ],
+  "screenshot": {
+    "code": 0,
+    "out": "",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nDetected file type from extension: PNG\nNote: No display specified. Defaulting to display: FC17A5EF-2C06-417E-B911-D9CB7E8E0AE7 (screenID: 1, name: LCD)\nWrote screenshot to: /Users/awesomenull/Projects/GoldenNugget/docs/research/daemon-audit-2026-10-19/key-com.apple.locationd/screen.png\n"
+  },
+  "verdict": "booted_stable",
+  "duration": 66.3
+}

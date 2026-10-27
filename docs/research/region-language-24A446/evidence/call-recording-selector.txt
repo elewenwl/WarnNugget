@@ -1,0 +1,4 @@
+0x1a00a79f0:  21 40 2b 90   adrp	x1, 0x1f68ab000
+0x1a00a79f4:  21 5c 25 91   add	x1, x1, #0x957 ; isDomainEligible:
+0x1a00a79f8:  82 63 fd 17   b	_objc_msgSend
+

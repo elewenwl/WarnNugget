@@ -1,0 +1,55 @@
+{
+ "source": "MobileSync backup 00008130-001431082E40001C (iPad16,2 / iOS 27.0 24A5424a)",
+ "domain": "ManagedPreferencesDomain",
+ "files": {
+  "mobile/com.apple.springboard.plist": {
+   "fileID": "7c0ca76a3bf0c9965dd52f9b4f5e32b44ce62ddb",
+   "bytes": 269,
+   "keys": {
+    "SBExtendedDisplayOverrideSupportForAirPlayAndDontFileRadars": true
+   }
+  },
+  "mobile/.GlobalPreferences.plist": {
+   "fileID": "9949a47f42b3816899d85cd0722804010ff92953",
+   "bytes": 682,
+   "keys": {
+    "AccessoryDeveloperEnabled": true,
+    "INNextFreshmintRefreshDateKey": 809792060.842425,
+    "INNextHeartbeatDate": 810029368.030218,
+    "SBDisableClockIconSecondsHand": true,
+    "SBIconVisibility": true,
+    "SBSearchDisabledDomains": true,
+    "SolariumForceEnhancedSpeculars": true,
+    "UIStatusBarShowBuildVersion": true,
+    "com.apple.content-rating.AppRating": 1000,
+    "com.apple.content-rating.ExplicitBooksAllowed": true,
+    "com.apple.content-rating.ExplicitMusicPodcastsAllowed": true,
+    "com.apple.content-rating.MovieRating": 1000,
+    "com.apple.content-rating.TVShowRating": 1000,
+    "com.apple.system.AutoCorrectionAllowed": true,
+    "com.apple.system.SpellCheckAllowed": true
+   }
+  },
+  "mobile/com.apple.sharingd.plist": {
+   "fileID": "badb6eaae70b017b49c7296bcc932ab51a7b6a59",
+   "bytes": 239,
+   "keys": {
+    "OverrideTimeLimitEveryoneMode": true
+   }
+  },
+  "mobile/com.apple.webcontentfilter.plist": {
+   "fileID": "ed248cf557df575f57718b98dc5008628bd47f65",
+   "bytes": 502,
+   "keys": {
+    "filterBlacklist": "[]",
+    "filterWhitelist": "[]",
+    "limitWebProxies": false,
+    "restrictWeb": false,
+    "useContentFilter": false,
+    "useContentFilterOverrides": false,
+    "useTransitiveTrust": true,
+    "whitelistEnabled": false
+   }
+  }
+ }
+}

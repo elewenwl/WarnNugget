@@ -1,0 +1,103 @@
+
+__LTPreferencesBooleanForKey
+0x2421df044:  7f 23 03 d5   pacibsp
+0x2421df048:  f6 57 bd a9   stp	x22, x21, [sp, #-0x30]!
+0x2421df04c:  f4 4f 01 a9   stp	x20, x19, [sp, #0x10]
+0x2421df050:  fd 7b 02 a9   stp	fp, lr, [sp, #0x20]
+0x2421df054:  fd 83 00 91   add	fp, sp, #0x20
+0x2421df058:  f3 03 01 aa   mov	x19, x1
+0x2421df05c:  c8 f7 12 f0   adrp	x8, 0x2680da000
+0x2421df060:  14 d9 47 f9   ldr	x20, [x8, #0xfb0] ; _ptr.NSUserDefaults
+0x2421df064:  9b d8 7a 95   bl	_objc_retain_x0_stub
+0x2421df068:  f5 03 00 aa   mov	x21, x0
+0x2421df06c:  e0 03 14 aa   mov	x0, x20
+0x2421df070:  6c 95 78 95   bl	0x248004620
+0x2421df074:  bf e9 7a 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421df078:  f6 03 00 aa   mov	x22, x0
+0x2421df07c:  e2 03 15 aa   mov	x2, x21
+0x2421df080:  a4 8d 78 95   bl	0x248002710
+0x2421df084:  bb e9 7a 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421df088:  f4 03 00 aa   mov	x20, x0
+0x2421df08c:  69 d8 7a 95   bl	_objc_release_x21_stub
+0x2421df090:  6c d8 7a 95   bl	_objc_release_x22_stub
+0x2421df094:  48 f8 12 90   adrp	x8, 0x2680e7000
+0x2421df098:  00 d9 42 f9   ldr	x0, [x8, #0x5b0] ; _ptr.NSNumber
+0x2421df09c:  d9 ee 7a 95   bl	_objc_opt_class_stub
+0x2421df0a0:  e1 03 00 aa   mov	x1, x0
+0x2421df0a4:  e0 03 14 aa   mov	x0, x20
+0x2421df0a8:  da ee 7a 95   bl	_objc_opt_isKindOfClass_stub
+0x2421df0ac:  80 00 00 36   tbz	w0, #0, loc_2421df0bc ; ⤵ 0x10
+0x2421df0b0:  e0 03 14 aa   mov	x0, x20
+0x2421df0b4:  e3 88 78 95   bl	0x248001440
+0x2421df0b8:  f3 03 00 aa   mov	x19, x0
+0x2421df0bc:  ; loc_2421df0bc
+0x2421df0bc:  59 d8 7a 95   bl	_objc_release_x20_stub
+0x2421df0c0:  e0 03 13 aa   mov	x0, x19
+0x2421df0c4:  fd 7b 42 a9   ldp	fp, lr, [sp, #0x20]
+0x2421df0c8:  f4 4f 41 a9   ldp	x20, x19, [sp, #0x10]
+0x2421df0cc:  f6 57 c3 a8   ldp	x22, x21, [sp], #0x30
+0x2421df0d0:  ff 0f 5f d6   retab
+
+__LTPreferencesStringForKey
+0x2421df0d4:  7f 23 03 d5   pacibsp
+0x2421df0d8:  f6 57 bd a9   stp	x22, x21, [sp, #-0x30]!
+0x2421df0dc:  f4 4f 01 a9   stp	x20, x19, [sp, #0x10]
+0x2421df0e0:  fd 7b 02 a9   stp	fp, lr, [sp, #0x20]
+0x2421df0e4:  fd 83 00 91   add	fp, sp, #0x20
+0x2421df0e8:  f3 03 00 aa   mov	x19, x0
+0x2421df0ec:  c8 f7 12 f0   adrp	x8, 0x2680da000
+0x2421df0f0:  14 d9 47 f9   ldr	x20, [x8, #0xfb0] ; _ptr.NSUserDefaults
+0x2421df0f4:  7f d8 7a 95   bl	_objc_retain_x1_stub
+0x2421df0f8:  f5 03 00 aa   mov	x21, x0
+0x2421df0fc:  81 d8 7a 95   bl	_objc_retain_x19_stub
+0x2421df100:  f3 03 00 aa   mov	x19, x0
+0x2421df104:  e0 03 14 aa   mov	x0, x20
+0x2421df108:  46 95 78 95   bl	0x248004620
+0x2421df10c:  99 e9 7a 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421df110:  f4 03 00 aa   mov	x20, x0
+0x2421df114:  e2 03 13 aa   mov	x2, x19
+0x2421df118:  7e 8d 78 95   bl	0x248002710
+0x2421df11c:  95 e9 7a 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421df120:  f6 03 00 aa   mov	x22, x0
+0x2421df124:  3b d8 7a 95   bl	_objc_release_x19_stub
+0x2421df128:  48 f8 12 90   adrp	x8, 0x2680e7000
+0x2421df12c:  00 5d 43 f9   ldr	x0, [x8, #0x6b8] ; _ptr.NSString
+0x2421df130:  b4 ee 7a 95   bl	_objc_opt_class_stub
+0x2421df134:  e1 03 00 aa   mov	x1, x0
+0x2421df138:  e0 03 16 aa   mov	x0, x22
+0x2421df13c:  b5 ee 7a 95   bl	_objc_opt_isKindOfClass_stub
+0x2421df140:  1f 00 00 72   tst	w0, #0x1
+0x2421df144:  c8 12 9f 9a   csel	x8, x22, xzr, ne
+0x2421df148:  1f 01 00 f1   cmp	x8, #0
+0x2421df14c:  b3 02 88 9a   csel	x19, x21, x8, eq
+0x2421df150:  e0 03 13 aa   mov	x0, x19
+0x2421df154:  8f e9 7a 95   bl	_objc_retainAutoreleaseReturnValue_stub
+0x2421df158:  36 d8 7a 95   bl	_objc_release_x21_stub
+0x2421df15c:  39 d8 7a 95   bl	_objc_release_x22_stub
+0x2421df160:  30 d8 7a 95   bl	_objc_release_x20_stub
+0x2421df164:  e0 03 13 aa   mov	x0, x19
+0x2421df168:  fd 7b 42 a9   ldp	fp, lr, [sp, #0x20]
+0x2421df16c:  f4 4f 41 a9   ldp	x20, x19, [sp, #0x10]
+0x2421df170:  f6 57 c3 a8   ldp	x22, x21, [sp], #0x30
+0x2421df174:  ff 0f 5f d6   retab
+
+__LTPreferencesSetObjectForKey
+0x2421df178:  7f 23 03 d5   pacibsp
+0x2421df17c:  ff 03 01 d1   sub	sp, sp, #0x40
+0x2421df180:  f6 57 01 a9   stp	x22, x21, [sp, #0x10]
+0x2421df184:  f4 4f 02 a9   stp	x20, x19, [sp, #0x20]
+0x2421df188:  fd 7b 03 a9   stp	fp, lr, [sp, #0x30]
+0x2421df18c:  fd c3 00 91   add	fp, sp, #0x30
+0x2421df190:  f3 03 00 aa   mov	x19, x0
+0x2421df194:  c8 f7 12 f0   adrp	x8, 0x2680da000
+0x2421df198:  14 d9 47 f9   ldr	x20, [x8, #0xfb0] ; _ptr.NSUserDefaults
+0x2421df19c:  55 d8 7a 95   bl	_objc_retain_x1_stub
+0x2421df1a0:  f5 03 00 aa   mov	x21, x0
+0x2421df1a4:  57 d8 7a 95   bl	_objc_retain_x19_stub
+0x2421df1a8:  f3 03 00 aa   mov	x19, x0
+0x2421df1ac:  e0 03 14 aa   mov	x0, x20
+0x2421df1b0:  1c 95 78 95   bl	0x248004620
+0x2421df1b4:  6f e9 7a 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421df1b8:  e0 07 00 f9   str	x0, [sp, #0x8]
+0x2421df1bc:  e2 03 13 aa   mov	x2, x19
+

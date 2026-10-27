@@ -1,0 +1,449 @@
+
+_$s16GenerativeModels17AvailabilityStoreO39forcedWaitlistStatusFromProfileOverride7payload11attestationAA0abC0V0fG0V5ValueOSg10Foundation4DataVSg_AQtFZ
+0x18727f854:  7f 23 03 d5   pacibsp
+0x18727f858:  e4 03 1e aa   mov	x4, lr
+0x18727f85c:  43 17 fe 97   bl	0x187205568
+0x18727f860:  fe 03 04 aa   mov	lr, x4
+0x18727f864:  fd 7b 05 a9   stp	fp, lr, [sp, #0x50]
+0x18727f868:  fd 43 01 91   add	fp, sp, #0x50
+0x18727f86c:  ff c3 00 d1   sub	sp, sp, #0x30
+0x18727f870:  f6 03 03 aa   mov	x22, x3
+0x18727f874:  f7 03 02 aa   mov	x23, x2
+0x18727f878:  f5 03 01 aa   mov	x21, x1
+0x18727f87c:  fb 03 00 aa   mov	x27, x0
+0x18727f880:  fa 03 08 aa   mov	x26, x8
+0x18727f884:  00 00 80 d2   mov	x0, #0
+0x18727f888:  62 f7 3a 94   bl	_$s2os6LoggerVMa_stub
+0x18727f88c:  bf 25 fe 97   bl	0x187208f88
+0x18727f890:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x18727f894:  30 1a c1 da   autda	x16, x17
+0x18727f898:  f1 03 10 aa   mov	x17, x16
+0x18727f89c:  f1 47 c1 da   xpacd	x17
+0x18727f8a0:  1f 02 11 eb   cmp	x16, x17
+0x18727f8a4:  40 00 00 54   b.eq	loc_18727f8ac ; ⤵ 0x8
+0x18727f8a8:  40 8e 38 d4   brk	#0xc472
+0x18727f8ac:  ; loc_18727f8ac
+0x18727f8ac:  a0 43 39 a9   stp	x0, x16, [fp, #-0x70]
+0x18727f8b0:  f0 03 08 aa   mov	x16, x8
+0x18727f8b4:  f1 03 09 aa   mov	x17, x9
+0x18727f8b8:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x18727f8bc:  30 1a c1 da   autda	x16, x17
+0x18727f8c0:  08 22 40 f9   ldr	x8, [x16, #0x40]
+0x18727f8c4:  e9 03 08 aa   mov	x9, x8
+0x18727f8c8:  d1 d5 30 b0   adrp	x17, 0x1e8d38000
+0x18727f8cc:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18727f8d0:  30 02 40 f9   ldr	x16, [x17]
+0x18727f8d4:  11 0a 3f d7   blraa	x16, x17
+0x18727f8d8:  fb 17 fe 97   bl	0x1872058c4
+0x18727f8dc:  3c 01 0c cb   sub	x28, x9, x12
+0x18727f8e0:  9f 03 00 91   mov	sp, x28
+0x18727f8e4:  e9 03 08 aa   mov	x9, x8
+0x18727f8e8:  d1 d5 30 b0   adrp	x17, 0x1e8d38000
+0x18727f8ec:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18727f8f0:  30 02 40 f9   ldr	x16, [x17]
+0x18727f8f4:  11 0a 3f d7   blraa	x16, x17
+0x18727f8f8:  e9 03 00 91   mov	x9, sp
+0x18727f8fc:  34 01 0c cb   sub	x20, x9, x12
+0x18727f900:  9f 02 00 91   mov	sp, x20
+0x18727f904:  e9 03 08 aa   mov	x9, x8
+0x18727f908:  d1 d5 30 b0   adrp	x17, 0x1e8d38000
+0x18727f90c:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18727f910:  30 02 40 f9   ldr	x16, [x17]
+0x18727f914:  11 0a 3f d7   blraa	x16, x17
+0x18727f918:  e9 03 00 91   mov	x9, sp
+0x18727f91c:  33 01 0c cb   sub	x19, x9, x12
+0x18727f920:  7f 02 00 91   mov	sp, x19
+0x18727f924:  e9 03 08 aa   mov	x9, x8
+0x18727f928:  d1 d5 30 b0   adrp	x17, 0x1e8d38000
+0x18727f92c:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18727f930:  30 02 40 f9   ldr	x16, [x17]
+0x18727f934:  11 0a 3f d7   blraa	x16, x17
+0x18727f938:  e9 03 00 91   mov	x9, sp
+0x18727f93c:  38 01 0c cb   sub	x24, x9, x12
+0x18727f940:  1f 03 00 91   mov	sp, x24
+0x18727f944:  e9 03 08 aa   mov	x9, x8
+0x18727f948:  d1 d5 30 b0   adrp	x17, 0x1e8d38000
+0x18727f94c:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18727f950:  30 02 40 f9   ldr	x16, [x17]
+0x18727f954:  11 0a 3f d7   blraa	x16, x17
+0x18727f958:  e9 03 00 91   mov	x9, sp
+0x18727f95c:  2d 01 0c cb   sub	x13, x9, x12
+0x18727f960:  bf 01 00 91   mov	sp, x13
+0x18727f964:  e9 03 08 aa   mov	x9, x8
+0x18727f968:  d1 d5 30 b0   adrp	x17, 0x1e8d38000
+0x18727f96c:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18727f970:  30 02 40 f9   ldr	x16, [x17]
+0x18727f974:  11 0a 3f d7   blraa	x16, x17
+0x18727f978:  e8 03 00 91   mov	x8, sp
+0x18727f97c:  19 01 0c cb   sub	x25, x8, x12
+0x18727f980:  3f 03 00 91   mov	sp, x25
+0x18727f984:  a8 fe 7c d3   lsr	x8, x21, #0x3c
+0x18727f988:  1f 39 00 f1   cmp	x8, #0xe
+0x18727f98c:  49 04 00 54   b.ls	loc_18727fa14 ; ⤵ 0x88
+0x18727f990:  75 22 fe 97   bl	0x187208364
+0x18727f994:  60 00 00 54   b.eq	loc_18727f9a0 ; ⤵ 0xc
+0x18727f998:  c1 24 fe 97   bl	0x187208c9c
+0x18727f99c:  0d 13 3b 94   bl	_swift_once_stub
+0x18727f9a0:  ; loc_18727f9a0
+0x18727f9a0:  97 7f fe 97   bl	0x18721f7fc
+0x18727f9a4:  b6 03 59 f8   ldur	x22, [fp, #-0x70]
+0x18727f9a8:  e0 03 16 aa   mov	x0, x22
+0x18727f9ac:  2b 2a fe 97   bl	0x18720a258
+0x18727f9b0:  b9 83 59 f8   ldur	x25, [fp, #-0x68]
+0x18727f9b4:  e8 03 19 aa   mov	x8, x25
+0x18727f9b8:  09 0d 41 f8   ldr	x9, [x8, #0x10]!
+0x18727f9bc:  e0 03 1c aa   mov	x0, x28
+0x18727f9c0:  e2 03 16 aa   mov	x2, x22
+0x18727f9c4:  f1 03 08 aa   mov	x17, x8
+0x18727f9c8:  51 77 fc f2   movk	x17, #0xe3ba, lsl #0x30
+0x18727f9cc:  31 09 3f d7   blraa	x9, x17
+0x18727f9d0:  f4 03 1c aa   mov	x20, x28
+0x18727f9d4:  03 f7 3a 94   bl	_$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg_stub
+0x18727f9d8:  f3 03 00 aa   mov	x19, x0
+0x18727f9dc:  dd fb 3a 94   bl	_$sSo13os_log_type_ta0A0E5errorABvgZ_stub
+0x18727f9e0:  0e 67 fe 97   bl	0x187219618
+0x18727f9e4:  60 07 00 34   cbz	w0, loc_18727fad0 ; ⤵ 0xec
+0x18727f9e8:  32 16 fe 97   bl	0x1872052b0
+0x18727f9ec:  cd 7d fe 97   bl	0x18721f120
+0x18727f9f0:  43 03 00 f0   adrp	x3, 0x1872ea000
+0x18727f9f4:  63 40 05 91   add	x3, x3, #0x150 ; "Forced waitlist profile override is set but payload is absent or not Data; rejecting"
+0x18727f9f8:  fb b6 fe 97   bl	0x18722d5e4
+0x18727f9fc:  a8 44 fe 97   bl	0x187210c9c
+0x18727fa00:  f0 e7 3a 94   bl	_objc_release_x19_stub
+0x18727fa04:  28 8f 40 f8   ldr	x8, [x25, #0x8]!
+0x18727fa08:  e0 03 1c aa   mov	x0, x28
+0x18727fa0c:  e1 03 16 aa   mov	x1, x22
+0x18727fa10:  2c 00 00 14   b	loc_18727fac0 ; ⤵ 0xb0
+0x18727fa14:  ; loc_18727fa14
+0x18727fa14:  c8 fe 7c d3   lsr	x8, x22, #0x3c
+0x18727fa18:  1f 39 00 f1   cmp	x8, #0xe
+0x18727fa1c:  29 06 00 54   b.ls	loc_18727fae0 ; ⤵ 0xc4
+0x18727fa20:  51 22 fe 97   bl	0x187208364
+0x18727fa24:  60 00 00 54   b.eq	loc_18727fa30 ; ⤵ 0xc
+0x18727fa28:  9d 24 fe 97   bl	0x187208c9c
+0x18727fa2c:  e9 12 3b 94   bl	_swift_once_stub
+0x18727fa30:  ; loc_18727fa30
+0x18727fa30:  73 7f fe 97   bl	0x18721f7fc
+0x18727fa34:  b7 03 59 f8   ldur	x23, [fp, #-0x70]
+0x18727fa38:  e0 03 17 aa   mov	x0, x23
+0x18727fa3c:  07 2a fe 97   bl	0x18720a258
+0x18727fa40:  b9 83 59 f8   ldur	x25, [fp, #-0x68]
+0x18727fa44:  e8 03 19 aa   mov	x8, x25
+0x18727fa48:  09 0d 41 f8   ldr	x9, [x8, #0x10]!
+0x18727fa4c:  e0 03 14 aa   mov	x0, x20
+0x18727fa50:  e2 03 17 aa   mov	x2, x23
+0x18727fa54:  f1 03 08 aa   mov	x17, x8
+0x18727fa58:  51 77 fc f2   movk	x17, #0xe3ba, lsl #0x30
+0x18727fa5c:  31 09 3f d7   blraa	x9, x17
+0x18727fa60:  e0 f6 3a 94   bl	_$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg_stub
+0x18727fa64:  f3 03 00 aa   mov	x19, x0
+0x18727fa68:  ba fb 3a 94   bl	_$sSo13os_log_type_ta0A0E5errorABvgZ_stub
+0x18727fa6c:  f5 03 00 aa   mov	x21, x0
+0x18727fa70:  01 1c 00 12   and	w1, w0, #0xff
+0x18727fa74:  e0 03 13 aa   mov	x0, x19
+0x18727fa78:  0e ef 3a 94   bl	_os_log_type_enabled_stub
+0x18727fa7c:  80 0f 00 34   cbz	w0, loc_18727fc6c ; ⤵ 0x1f0
+0x18727fa80:  0c 16 fe 97   bl	0x1872052b0
+0x18727fa84:  f6 03 00 aa   mov	x22, x0
+0x18727fa88:  68 26 fe 97   bl	0x187209428
+0x18727fa8c:  43 03 00 f0   adrp	x3, 0x1872ea000
+0x18727fa90:  63 c0 06 91   add	x3, x3, #0x1b0 ; "Forced waitlist profile override has no attestation; rejecting"
+0x18727fa94:  a2 1e 00 12   and	w2, w21, #0xff
+0x18727fa98:  e1 03 13 aa   mov	x1, x19
+0x18727fa9c:  e4 03 16 aa   mov	x4, x22
+0x18727faa0:  45 00 80 52   mov	w5, #0x2
+0x18727faa4:  b3 ea 3a 94   bl	__os_log_impl_stub
+0x18727faa8:  e0 03 16 aa   mov	x0, x22
+0x18727faac:  3f 25 fe 97   bl	0x187208fa8
+0x18727fab0:  c4 e7 3a 94   bl	_objc_release_x19_stub
+0x18727fab4:  28 8f 40 f8   ldr	x8, [x25, #0x8]!
+0x18727fab8:  e0 03 14 aa   mov	x0, x20
+0x18727fabc:  e1 03 17 aa   mov	x1, x23
+0x18727fac0:  ; loc_18727fac0
+0x18727fac0:  f1 03 19 aa   mov	x17, x25
+0x18727fac4:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x18727fac8:  11 09 3f d7   blraa	x8, x17
+0x18727facc:  6f 00 00 14   b	loc_18727fc88 ; ⤵ 0x1bc
+0x18727fad0:  ; loc_18727fad0
+0x18727fad0:  28 8f 40 f8   ldr	x8, [x25, #0x8]!
+0x18727fad4:  e0 03 1c aa   mov	x0, x28
+0x18727fad8:  e1 03 16 aa   mov	x1, x22
+0x18727fadc:  67 00 00 14   b	loc_18727fc78 ; ⤵ 0x19c
+0x18727fae0:  ; loc_18727fae0
+0x18727fae0:  ad 6b 38 a9   stp	x13, x26, [fp, #-0x80]
+0x18727fae4:  08 73 2e d0   adrp	x8, 0x1e40e1000
+0x18727fae8:  08 69 41 f9   ldr	x8, [x8, #0x2d0] ; data_1e40e12d0 (GenerativeModels/__DATA.__data)
+0x18727faec:  1f 05 00 b1   cmn	x8, #0x1
+0x18727faf0:  00 01 00 54   b.eq	loc_18727fb10 ; ⤵ 0x20
+0x18727faf4:  00 73 2e d0   adrp	x0, 0x1e40e1000
+0x18727faf8:  00 40 0b 91   add	x0, x0, #0x2d0 ; data_1e40e12d0 (GenerativeModels/__DATA.__data)
+0x18727fafc:  b0 00 00 b0   adrp	x16, 0x187294000
+0x18727fb00:  10 52 16 91   add	x16, x16, #0x594
+0x18727fb04:  f0 23 c1 da   paciza	x16
+0x18727fb08:  e1 03 10 aa   mov	x1, x16
+0x18727fb0c:  b1 12 3b 94   bl	_swift_once_stub
+0x18727fb10:  ; loc_18727fb10
+0x18727fb10:  08 73 2e d0   adrp	x8, 0x1e40e1000
+0x18727fb14:  14 65 41 f9   ldr	x20, [x8, #0x2c8] ; data_1e40e12c8 (GenerativeModels/__DATA.__data)
+0x18727fb18:  28 74 2c 90   adrp	x8, 0x1e0103000
+0x18727fb1c:  08 c1 45 f9   ldr	x8, [x8, #0xb80] ; _ptr._kSecKeyAlgorithmRSASignatureMessagePKCS1v15SHA256
+0x18727fb20:  1c 01 40 f9   ldr	x28, [x8]
+0x18727fb24:  fa 03 1b aa   mov	x26, x27
+0x18727fb28:  e0 03 1b aa   mov	x0, x27
+0x18727fb2c:  e1 03 15 aa   mov	x1, x21
+0x18727fb30:  fc 1a 3b 94   bl	_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF_stub
+0x18727fb34:  fb 03 00 aa   mov	x27, x0
+0x18727fb38:  e0 03 17 aa   mov	x0, x23
+0x18727fb3c:  e1 03 16 aa   mov	x1, x22
+0x18727fb40:  f8 1a 3b 94   bl	_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF_stub
+0x18727fb44:  f6 03 00 aa   mov	x22, x0
+0x18727fb48:  e0 03 14 aa   mov	x0, x20
+0x18727fb4c:  e1 03 1c aa   mov	x1, x28
+0x18727fb50:  e2 03 1b aa   mov	x2, x27
+0x18727fb54:  e3 03 16 aa   mov	x3, x22
+0x18727fb58:  04 00 80 d2   mov	x4, #0
+0x18727fb5c:  a1 22 3b 94   bl	_SecKeyVerifySignature_stub
+0x18727fb60:  f4 03 00 aa   mov	x20, x0
+0x18727fb64:  e7 0f 3b 94   bl	_objc_release_x27_stub
+0x18727fb68:  26 ee 3a 94   bl	_objc_release_x22_stub
+0x18727fb6c:  f4 09 00 34   cbz	w20, loc_18727fca8 ; ⤵ 0x13c
+0x18727fb70:  00 00 80 d2   mov	x0, #0
+0x18727fb74:  7f 19 3b 94   bl	_$s10Foundation11JSONDecoderCMa_stub
+0x18727fb78:  01 30 40 b9   ldr	w1, [x0, #0x30]
+0x18727fb7c:  02 68 40 79   ldrh	w2, [x0, #0x34]
+0x18727fb80:  60 11 3b 94   bl	_swift_allocObject_stub
+0x18727fb84:  f4 03 00 aa   mov	x20, x0
+0x18727fb88:  76 19 3b 94   bl	_$s10Foundation11JSONDecoderCACycfc_stub
+0x18727fb8c:  f4 03 00 aa   mov	x20, x0
+0x18727fb90:  00 73 2e b0   adrp	x0, 0x1e40e0000
+0x18727fb94:  00 00 08 91   add	x0, x0, #0x200 ; data_1e40e0200 (GenerativeModels/__DATA.__data)
+0x18727fb98:  e1 02 00 b0   adrp	x1, 0x1872dc000
+0x18727fb9c:  21 c0 2e 91   add	x1, x1, #0xbb0 ; "\xdaJ"
+0x18727fba0:  24 17 fe 97   bl	0x187205830
+0x18727fba4:  f3 03 00 aa   mov	x19, x0
+0x18727fba8:  f5 00 00 94   bl	0x18727ff7c
+0x18727fbac:  e4 03 00 aa   mov	x4, x0
+0x18727fbb0:  a8 47 01 d1   sub	x8, fp, #0x51
+0x18727fbb4:  e0 03 13 aa   mov	x0, x19
+0x18727fbb8:  e1 03 1a aa   mov	x1, x26
+0x18727fbbc:  e2 03 15 aa   mov	x2, x21
+0x18727fbc0:  e3 03 13 aa   mov	x3, x19
+0x18727fbc4:  15 00 80 d2   mov	x21, #0
+0x18727fbc8:  5e 19 3b 94   bl	_$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj_stub
+0x18727fbcc:  a1 12 3b 94   bl	_swift_release_x20_stub
+0x18727fbd0:  b6 5f 79 a9   ldp	x22, x23, [fp, #-0x70]
+0x18727fbd4:  15 0c 00 b4   cbz	x21, loc_18727fd54 ; ⤵ 0x180
+0x18727fbd8:  e0 03 15 aa   mov	x0, x21
+0x18727fbdc:  e5 11 3b 94   bl	_swift_errorRelease_stub
+0x18727fbe0:  ba 83 58 f8   ldur	x26, [fp, #-0x78]
+0x18727fbe4:  ; loc_18727fbe4
+0x18727fbe4:  e0 21 fe 97   bl	0x187208364
+0x18727fbe8:  60 00 00 54   b.eq	loc_18727fbf4 ; ⤵ 0xc
+0x18727fbec:  2c 24 fe 97   bl	0x187208c9c
+0x18727fbf0:  78 12 3b 94   bl	_swift_once_stub
+0x18727fbf4:  ; loc_18727fbf4
+0x18727fbf4:  02 7f fe 97   bl	0x18721f7fc
+0x18727fbf8:  e0 03 16 aa   mov	x0, x22
+0x18727fbfc:  97 29 fe 97   bl	0x18720a258
+0x18727fc00:  e8 03 17 aa   mov	x8, x23
+0x18727fc04:  09 0d 41 f8   ldr	x9, [x8, #0x10]!
+0x18727fc08:  e0 03 18 aa   mov	x0, x24
+0x18727fc0c:  e2 03 16 aa   mov	x2, x22
+0x18727fc10:  f1 03 08 aa   mov	x17, x8
+0x18727fc14:  51 77 fc f2   movk	x17, #0xe3ba, lsl #0x30
+0x18727fc18:  31 09 3f d7   blraa	x9, x17
+0x18727fc1c:  f4 03 18 aa   mov	x20, x24
+0x18727fc20:  70 f6 3a 94   bl	_$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg_stub
+0x18727fc24:  f3 03 00 aa   mov	x19, x0
+0x18727fc28:  4a fb 3a 94   bl	_$sSo13os_log_type_ta0A0E5errorABvgZ_stub
+0x18727fc2c:  7b 66 fe 97   bl	0x187219618
+0x18727fc30:  00 0d 00 34   cbz	w0, loc_18727fdd0 ; ⤵ 0x1a0
+0x18727fc34:  9f 15 fe 97   bl	0x1872052b0
+0x18727fc38:  3a 7d fe 97   bl	0x18721f120
+0x18727fc3c:  43 03 00 f0   adrp	x3, 0x1872ea000
+0x18727fc40:  63 c0 08 91   add	x3, x3, #0x230 ; "Forced waitlist profile override payload verified but is not a decodable WaitlistStatus.Value"
+0x18727fc44:  ; loc_18727fc44
+0x18727fc44:  68 b6 fe 97   bl	0x18722d5e4
+0x18727fc48:  15 44 fe 97   bl	0x187210c9c
+0x18727fc4c:  5d e7 3a 94   bl	_objc_release_x19_stub
+0x18727fc50:  e8 8e 40 f8   ldr	x8, [x23, #0x8]!
+0x18727fc54:  e0 03 18 aa   mov	x0, x24
+0x18727fc58:  e1 03 16 aa   mov	x1, x22
+0x18727fc5c:  f1 03 17 aa   mov	x17, x23
+0x18727fc60:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x18727fc64:  11 09 3f d7   blraa	x8, x17
+0x18727fc68:  08 00 00 14   b	loc_18727fc88 ; ⤵ 0x20
+0x18727fc6c:  ; loc_18727fc6c
+0x18727fc6c:  28 8f 40 f8   ldr	x8, [x25, #0x8]!
+0x18727fc70:  e0 03 14 aa   mov	x0, x20
+0x18727fc74:  e1 03 17 aa   mov	x1, x23
+0x18727fc78:  ; loc_18727fc78
+0x18727fc78:  f1 03 19 aa   mov	x17, x25
+0x18727fc7c:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x18727fc80:  11 09 3f d7   blraa	x8, x17
+0x18727fc84:  ; loc_18727fc84
+0x18727fc84:  4f e7 3a 94   bl	_objc_release_x19_stub
+0x18727fc88:  ; loc_18727fc88
+0x18727fc88:  68 00 80 52   mov	w8, #0x3
+0x18727fc8c:  ; loc_18727fc8c
+0x18727fc8c:  48 03 00 39   strb	w8, [x26]
+0x18727fc90:  bf 43 01 d1   sub	sp, fp, #0x50
+0x18727fc94:  fd 7b 45 a9   ldp	fp, lr, [sp, #0x50]
+0x18727fc98:  e0 03 1e aa   mov	x0, lr
+0x18727fc9c:  c0 27 fe 97   bl	0x187209b9c
+0x18727fca0:  fe 03 00 aa   mov	lr, x0
+0x18727fca4:  ff 0f 5f d6   retab
+0x18727fca8:  ; loc_18727fca8
+0x18727fca8:  af 21 fe 97   bl	0x187208364
+0x18727fcac:  ba df 78 a9   ldp	x26, x23, [fp, #-0x78]
+0x18727fcb0:  b8 83 59 f8   ldur	x24, [fp, #-0x68]
+0x18727fcb4:  60 00 00 54   b.eq	loc_18727fcc0 ; ⤵ 0xc
+0x18727fcb8:  f9 23 fe 97   bl	0x187208c9c
+0x18727fcbc:  45 12 3b 94   bl	_swift_once_stub
+0x18727fcc0:  ; loc_18727fcc0
+0x18727fcc0:  cf 7e fe 97   bl	0x18721f7fc
+0x18727fcc4:  e0 03 17 aa   mov	x0, x23
+0x18727fcc8:  64 29 fe 97   bl	0x18720a258
+0x18727fccc:  e8 03 18 aa   mov	x8, x24
+0x18727fcd0:  09 0d 41 f8   ldr	x9, [x8, #0x10]!
+0x18727fcd4:  e0 03 13 aa   mov	x0, x19
+0x18727fcd8:  e2 03 17 aa   mov	x2, x23
+0x18727fcdc:  f1 03 08 aa   mov	x17, x8
+0x18727fce0:  51 77 fc f2   movk	x17, #0xe3ba, lsl #0x30
+0x18727fce4:  31 09 3f d7   blraa	x9, x17
+0x18727fce8:  f4 03 13 aa   mov	x20, x19
+0x18727fcec:  3d f6 3a 94   bl	_$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg_stub
+0x18727fcf0:  f4 03 00 aa   mov	x20, x0
+0x18727fcf4:  17 fb 3a 94   bl	_$sSo13os_log_type_ta0A0E5errorABvgZ_stub
+0x18727fcf8:  f5 03 00 aa   mov	x21, x0
+0x18727fcfc:  82 16 fe 97   bl	0x187205704
+0x18727fd00:  60 07 00 34   cbz	w0, loc_18727fdec ; ⤵ 0xec
+0x18727fd04:  6b 15 fe 97   bl	0x1872052b0
+0x18727fd08:  f6 03 00 aa   mov	x22, x0
+0x18727fd0c:  c7 25 fe 97   bl	0x187209428
+0x18727fd10:  43 03 00 f0   adrp	x3, 0x1872ea000
+0x18727fd14:  63 c0 07 91   add	x3, x3, #0x1f0 ; "Forced waitlist profile override signature invalid; rejecting"
+0x18727fd18:  a2 1e 00 12   and	w2, w21, #0xff
+0x18727fd1c:  e1 03 14 aa   mov	x1, x20
+0x18727fd20:  e4 03 16 aa   mov	x4, x22
+0x18727fd24:  45 00 80 52   mov	w5, #0x2
+0x18727fd28:  12 ea 3a 94   bl	__os_log_impl_stub
+0x18727fd2c:  e0 03 16 aa   mov	x0, x22
+0x18727fd30:  9e 24 fe 97   bl	0x187208fa8
+0x18727fd34:  27 e7 3a 94   bl	_objc_release_x20_stub
+0x18727fd38:  08 8f 40 f8   ldr	x8, [x24, #0x8]!
+0x18727fd3c:  e0 03 13 aa   mov	x0, x19
+0x18727fd40:  e1 03 17 aa   mov	x1, x23
+0x18727fd44:  f1 03 18 aa   mov	x17, x24
+0x18727fd48:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x18727fd4c:  11 09 3f d7   blraa	x8, x17
+0x18727fd50:  ce ff ff 17   b	loc_18727fc88 ; ⤴ -0xc8
+0x18727fd54:  ; loc_18727fd54
+0x18727fd54:  a8 f3 5a 38   ldurb	w8, [fp, #-0x51]
+0x18727fd58:  ba 83 58 f8   ldur	x26, [fp, #-0x78]
+0x18727fd5c:  88 05 00 34   cbz	w8, loc_18727fe0c ; ⤵ 0xb0
+0x18727fd60:  1f 0d 00 71   cmp	w8, #0x3
+0x18727fd64:  00 f4 ff 54   b.eq	loc_18727fbe4 ; ⤴ -0x180
+0x18727fd68:  7f 21 fe 97   bl	0x187208364
+0x18727fd6c:  60 00 00 54   b.eq	loc_18727fd78 ; ⤵ 0xc
+0x18727fd70:  cb 23 fe 97   bl	0x187208c9c
+0x18727fd74:  17 12 3b 94   bl	_swift_once_stub
+0x18727fd78:  ; loc_18727fd78
+0x18727fd78:  a1 7e fe 97   bl	0x18721f7fc
+0x18727fd7c:  e0 03 16 aa   mov	x0, x22
+0x18727fd80:  36 29 fe 97   bl	0x18720a258
+0x18727fd84:  e8 03 17 aa   mov	x8, x23
+0x18727fd88:  09 0d 41 f8   ldr	x9, [x8, #0x10]!
+0x18727fd8c:  b8 03 58 f8   ldur	x24, [fp, #-0x80]
+0x18727fd90:  e0 03 18 aa   mov	x0, x24
+0x18727fd94:  e2 03 16 aa   mov	x2, x22
+0x18727fd98:  f1 03 08 aa   mov	x17, x8
+0x18727fd9c:  51 77 fc f2   movk	x17, #0xe3ba, lsl #0x30
+0x18727fda0:  31 09 3f d7   blraa	x9, x17
+0x18727fda4:  f4 03 18 aa   mov	x20, x24
+0x18727fda8:  0e f6 3a 94   bl	_$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg_stub
+0x18727fdac:  f3 03 00 aa   mov	x19, x0
+0x18727fdb0:  e0 fa 3a 94   bl	_$sSo13os_log_type_ta0A0E4infoABvgZ_stub
+0x18727fdb4:  19 66 fe 97   bl	0x187219618
+0x18727fdb8:  c0 00 00 34   cbz	w0, loc_18727fdd0 ; ⤵ 0x18
+0x18727fdbc:  3d 15 fe 97   bl	0x1872052b0
+0x18727fdc0:  d8 7c fe 97   bl	0x18721f120
+0x18727fdc4:  43 03 00 f0   adrp	x3, 0x1872ea000
+0x18727fdc8:  63 40 0a 91   add	x3, x3, #0x290 ; "Forced waitlist profile override verified but value is not .accepted; ignoring"
+0x18727fdcc:  9e ff ff 17   b	loc_18727fc44 ; ⤴ -0x188
+0x18727fdd0:  ; loc_18727fdd0
+0x18727fdd0:  e8 8e 40 f8   ldr	x8, [x23, #0x8]!
+0x18727fdd4:  e0 03 18 aa   mov	x0, x24
+0x18727fdd8:  e1 03 16 aa   mov	x1, x22
+0x18727fddc:  f1 03 17 aa   mov	x17, x23
+0x18727fde0:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x18727fde4:  11 09 3f d7   blraa	x8, x17
+0x18727fde8:  a7 ff ff 17   b	loc_18727fc84 ; ⤴ -0x164
+0x18727fdec:  ; loc_18727fdec
+0x18727fdec:  08 8f 40 f8   ldr	x8, [x24, #0x8]!
+0x18727fdf0:  e0 03 13 aa   mov	x0, x19
+0x18727fdf4:  e1 03 17 aa   mov	x1, x23
+0x18727fdf8:  f1 03 18 aa   mov	x17, x24
+0x18727fdfc:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x18727fe00:  11 09 3f d7   blraa	x8, x17
+0x18727fe04:  f3 e6 3a 94   bl	_objc_release_x20_stub
+0x18727fe08:  a0 ff ff 17   b	loc_18727fc88 ; ⤴ -0x180
+0x18727fe0c:  ; loc_18727fe0c
+0x18727fe0c:  56 21 fe 97   bl	0x187208364
+0x18727fe10:  60 00 00 54   b.eq	loc_18727fe1c ; ⤵ 0xc
+0x18727fe14:  a2 23 fe 97   bl	0x187208c9c
+0x18727fe18:  ee 11 3b 94   bl	_swift_once_stub
+0x18727fe1c:  ; loc_18727fe1c
+0x18727fe1c:  78 7e fe 97   bl	0x18721f7fc
+0x18727fe20:  e0 03 16 aa   mov	x0, x22
+0x18727fe24:  0d 29 fe 97   bl	0x18720a258
+0x18727fe28:  e8 03 17 aa   mov	x8, x23
+0x18727fe2c:  09 0d 41 f8   ldr	x9, [x8, #0x10]!
+0x18727fe30:  e0 03 19 aa   mov	x0, x25
+0x18727fe34:  e2 03 16 aa   mov	x2, x22
+0x18727fe38:  f1 03 08 aa   mov	x17, x8
+0x18727fe3c:  51 77 fc f2   movk	x17, #0xe3ba, lsl #0x30
+0x18727fe40:  31 09 3f d7   blraa	x9, x17
+0x18727fe44:  f4 03 19 aa   mov	x20, x25
+0x18727fe48:  e6 f5 3a 94   bl	_$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg_stub
+0x18727fe4c:  f3 03 00 aa   mov	x19, x0
+0x18727fe50:  b8 fa 3a 94   bl	_$sSo13os_log_type_ta0A0E4infoABvgZ_stub
+0x18727fe54:  f1 65 fe 97   bl	0x187219618
+0x18727fe58:  e0 01 00 34   cbz	w0, loc_18727fe94 ; ⤵ 0x3c
+0x18727fe5c:  15 15 fe 97   bl	0x1872052b0
+0x18727fe60:  b0 7c fe 97   bl	0x18721f120
+0x18727fe64:  43 03 00 f0   adrp	x3, 0x1872ea000
+0x18727fe68:  63 80 0b 91   add	x3, x3, #0x2e0 ; "Forced waitlist profile override verified; honoring .accepted"
+0x18727fe6c:  de b5 fe 97   bl	0x18722d5e4
+0x18727fe70:  8b 43 fe 97   bl	0x187210c9c
+0x18727fe74:  d3 e6 3a 94   bl	_objc_release_x19_stub
+0x18727fe78:  e8 8e 40 f8   ldr	x8, [x23, #0x8]!
+0x18727fe7c:  e0 03 19 aa   mov	x0, x25
+0x18727fe80:  e1 03 16 aa   mov	x1, x22
+0x18727fe84:  f1 03 17 aa   mov	x17, x23
+0x18727fe88:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x18727fe8c:  11 09 3f d7   blraa	x8, x17
+0x18727fe90:  08 00 00 14   b	loc_18727feb0 ; ⤵ 0x20
+0x18727fe94:  ; loc_18727fe94
+0x18727fe94:  e8 8e 40 f8   ldr	x8, [x23, #0x8]!
+0x18727fe98:  e0 03 19 aa   mov	x0, x25
+0x18727fe9c:  e1 03 16 aa   mov	x1, x22
+0x18727fea0:  f1 03 17 aa   mov	x17, x23
+0x18727fea4:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x18727fea8:  11 09 3f d7   blraa	x8, x17
+0x18727feac:  c5 e6 3a 94   bl	_objc_release_x19_stub
+0x18727feb0:  ; loc_18727feb0
+0x18727feb0:  08 00 80 52   mov	w8, #0
+0x18727feb4:  76 ff ff 17   b	loc_18727fc8c ; ⤴ -0x228
+0x18727feb8:  7f 23 03 d5   pacibsp
+0x18727febc:  fd 7b bf a9   stp	fp, lr, [sp, #-0x10]!
+0x18727fec0:  fd 03 00 91   mov	fp, sp
+0x18727fec4:  00 73 2e d0   adrp	x0, 0x1e40e1000
+0x18727fec8:  00 a0 04 91   add	x0, x0, #0x128 ; data_1e40e1128 (GenerativeModels/__DATA.__data)
+0x18727fecc:  a1 02 00 f0   adrp	x1, 0x1872d6000
+0x18727fed0:  21 80 37 91   add	x1, x1, #0xde0 ; "\xb8\xa8"
+0x18727fed4:  57 16 fe 97   bl	0x187205830
+0x18727fed8:  81 02 80 52   mov	w1, #0x14
+0x18727fedc:  e2 00 80 52   mov	w2, #0x7
+0x18727fee0:  88 10 3b 94   bl	_swift_allocObject_stub
+

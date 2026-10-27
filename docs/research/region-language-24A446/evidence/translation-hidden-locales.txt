@@ -1,0 +1,40 @@
+
+__LTPreferencesIncludeHiddenCallTranslationLocales
+0x2421e1bc8:  e8 f8 12 d0   adrp	x8, 0x2680ff000
+0x2421e1bcc:  08 89 47 f9   ldr	x8, [x8, #0xf10] ; _ptr._kLTDebugIncludeHiddenCallTranslationLocales
+0x2421e1bd0:  00 01 40 f9   ldr	x0, [x8]
+0x2421e1bd4:  01 00 80 52   mov	w1, #0
+0x2421e1bd8:  1b f5 ff 17   b	__LTPreferencesBooleanForKey
+
+__LTPreferencesServerSpeechSessionEndpointTimeout
+0x2421e1bdc:  7f 23 03 d5   pacibsp
+0x2421e1be0:  e9 23 bc 6d   stp	d9, d8, [sp, #-0x40]!
+0x2421e1be4:  f6 57 01 a9   stp	x22, x21, [sp, #0x10]
+0x2421e1be8:  f4 4f 02 a9   stp	x20, x19, [sp, #0x20]
+0x2421e1bec:  fd 7b 03 a9   stp	fp, lr, [sp, #0x30]
+0x2421e1bf0:  fd c3 00 91   add	fp, sp, #0x30
+0x2421e1bf4:  28 72 13 d0   adrp	x8, 0x269027000
+0x2421e1bf8:  00 c9 44 f9   ldr	x0, [x8, #0x990] ; _ptr._LTDConfigurationService
+0x2421e1bfc:  02 00 80 d2   mov	x2, #0
+0x2421e1c00:  03 00 80 d2   mov	x3, #0
+0x2421e1c04:  37 78 79 95   bl	0x24803fce0
+0x2421e1c08:  da de 7a 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421e1c0c:  f3 03 00 aa   mov	x19, x0
+0x2421e1c10:  14 8e 19 d0   adrp	x20, 0x2753a3000
+0x2421e1c14:  94 e2 0e 91   add	x20, x20, #0x3b8 ; _ptr.__NSCFConstantString
+0x2421e1c18:  e2 03 14 aa   mov	x2, x20
+0x2421e1c1c:  ad 9b 78 95   bl	0x248008ad0
+0x2421e1c20:  d4 de 7a 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421e1c24:  f5 03 00 aa   mov	x21, x0
+0x2421e1c28:  6a 7f 78 95   bl	0x2480019d0
+0x2421e1c2c:  08 1c a0 4e   mov	v8.16b, v0.16b
+0x2421e1c30:  80 cd 7a 95   bl	_objc_release_x21_stub
+0x2421e1c34:  e0 03 14 aa   mov	x0, x20
+0x2421e1c38:  00 1d a8 4e   mov	v0.16b, v8.16b
+0x2421e1c3c:  dc f4 ff 97   bl	__LTPreferencesDoubleForKey
+0x2421e1c40:  08 1c a0 4e   mov	v8.16b, v0.16b
+0x2421e1c44:  73 cd 7a 95   bl	_objc_release_x19_stub
+0x2421e1c48:  00 1d a8 4e   mov	v0.16b, v8.16b
+0x2421e1c4c:  fd 7b 43 a9   ldp	fp, lr, [sp, #0x30]
+0x2421e1c50:  f4 4f 42 a9   ldp	x20, x19, [sp, #0x20]
+

@@ -1,0 +1,35 @@
+
++[TUEligibilityChecker isCallRecordingEligible]
+0x19e8375d8:  88 29 21 b0   adrp	x8, 0x1e0d68000
+0x19e8375dc:  00 ed 40 f9   ldr	x0, [x8, #0x1d8] ; _ptr.TUEligibilityChecker
+0x19e8375e0:  a2 03 80 52   mov	w2, #0x1d
+0x19e8375e4:  03 c1 61 14   b	0x1a00a79f0
+
+_TUCallRecordingEnabledMDMProfile
+0x19e8375e8:  7f 23 03 d5   pacibsp
+0x19e8375ec:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x19e8375f0:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x19e8375f4:  fd 43 00 91   add	fp, sp, #0x10
+0x19e8375f8:  e8 c7 20 d0   adrp	x8, 0x1e0135000
+0x19e8375fc:  00 b5 46 f9   ldr	x0, [x8, #0xd68] ; _ptr.MCProfileConnection
+0x19e837600:  b4 65 5f 94   bl	0x1a0010cd0
+0x19e837604:  0b 00 63 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e837608:  f3 03 00 aa   mov	x19, x0
+0x19e83760c:  65 c0 61 94   bl	0x1a00a77a0
+0x19e837610:  f4 03 00 aa   mov	x20, x0
+0x19e837614:  6b 00 63 94   bl	_objc_release_x19_stub
+0x19e837618:  e0 03 14 aa   mov	x0, x20
+0x19e83761c:  fd 7b 41 a9   ldp	fp, lr, [sp, #0x10]
+0x19e837620:  f4 4f c2 a8   ldp	x20, x19, [sp], #0x20
+0x19e837624:  ff 0f 5f d6   retab
+
+-[TUCall isRecording]
+0x19e837628:  7f 23 03 d5   pacibsp
+0x19e83762c:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x19e837630:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x19e837634:  fd 43 00 91   add	fp, sp, #0x10
+0x19e837638:  f4 03 00 aa   mov	x20, x0
+0x19e83763c:  b5 ce 61 94   bl	0x1a00ab110
+0x19e837640:  fc ff 62 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e837644:  f3 03 00 aa   mov	x19, x0
+

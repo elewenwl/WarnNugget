@@ -1,0 +1,31 @@
+{
+  "internal_install_MobileGestalt_key": "InternalBuild",
+  "supported_locales_config_key": "LanguagePairs",
+  "0x26930f158": "IncludeHiddenCallTranslationLocales",
+  "0x26930f160": "IncludeAIOnlyLanguagesInAllTasks",
+  "0x2753d5d18": [
+    "0x802dab8466f09570",
+    "0xb",
+    "0x100000e9026ee8"
+  ],
+  "0x2753d5d30": [
+    "0x802dab8466f09570",
+    "0xb",
+    "0x100000e9026f40"
+  ],
+  "0x2753d5d48": [
+    "0x802dab8466f09570",
+    "0xb",
+    "0x100000e9026f98"
+  ],
+  "0x2753d5d60": [
+    "0x802dab8466f09570",
+    "0xb",
+    "0x100000e9026ff0"
+  ],
+  "0x2753d5d78": [
+    "0x802dab8466f09570",
+    "0xe",
+    "0x100000e9027048"
+  ]
+}

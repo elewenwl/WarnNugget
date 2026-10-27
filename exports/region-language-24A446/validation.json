@@ -1,0 +1,62 @@
+{
+  "RegionLanguage-Experimental-24A446.batter": {
+    "schema": 1,
+    "package": "RegionLanguage-Experimental-24A446.batter",
+    "valid": true,
+    "files": 33,
+    "unpacked_bytes": 237560,
+    "descriptors": 0,
+    "families": [],
+    "issues": [
+      {
+        "level": "info",
+        "code": "tweak_write",
+        "message": "Tweak \"nickel-call-recording\" writes /var/containers/Data/SystemGroup/com.apple.eligibilityd/Library/Caches/NeverRestore/eligibility_overrides.data.",
+        "path": "RegionLanguage/config.json"
+      },
+      {
+        "level": "info",
+        "code": "tweak_write",
+        "message": "Tweak \"hidden-call-locales\" writes /var/Managed Preferences/mobile/com.apple.translationd.plist.",
+        "path": "RegionLanguage/config.json"
+      },
+      {
+        "level": "info",
+        "code": "tweak_write",
+        "message": "Tweak \"ai-languages-all-tasks\" writes /var/Managed Preferences/mobile/com.apple.translationd.plist.",
+        "path": "RegionLanguage/config.json"
+      }
+    ],
+    "target_ios": "27.0.1",
+    "compatibility": "unknown",
+    "issues_truncated": false,
+    "note": "Static inspection only. Device/model compatibility and rendering effects are not verified."
+  },
+  "RegionLanguage-Reset-24A446.batter": {
+    "schema": 1,
+    "package": "RegionLanguage-Reset-24A446.batter",
+    "valid": true,
+    "files": 33,
+    "unpacked_bytes": 236388,
+    "descriptors": 0,
+    "families": [],
+    "issues": [
+      {
+        "level": "info",
+        "code": "tweak_write",
+        "message": "Tweak \"clear-all-eligibility\" writes /var/containers/Data/SystemGroup/com.apple.eligibilityd/Library/Caches/NeverRestore/eligibility_overrides.data.",
+        "path": "RegionLanguage/config.json"
+      },
+      {
+        "level": "info",
+        "code": "tweak_write",
+        "message": "Tweak \"translation-defaults\" writes /var/Managed Preferences/mobile/com.apple.translationd.plist.",
+        "path": "RegionLanguage/config.json"
+      }
+    ],
+    "target_ios": "27.0.1",
+    "compatibility": "unknown",
+    "issues_truncated": false,
+    "note": "Static inspection only. Device/model compatibility and rendering effects are not verified."
+  }
+}

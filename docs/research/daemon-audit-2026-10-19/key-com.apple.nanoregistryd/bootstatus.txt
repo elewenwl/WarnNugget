@@ -1,0 +1,1 @@
+b'Monitoring boot status for GoldenNugget-Daemon-Audit (362457BA-2C1E-49CE-B6FB-DC7B1FEBD053).\n[2026-10-19 19:01:26 +0000] Status=1, isTerminal=NO, Elapsed=00:02.\n\tWaiting on BackBoard\n\n'

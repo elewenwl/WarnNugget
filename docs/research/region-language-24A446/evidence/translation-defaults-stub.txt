@@ -1,0 +1,6 @@
+0x248004620:  41 18 d7 90   adrp	x1, 0x1f630c000
+0x248004624:  21 68 37 91   add	x1, x1, #0xdda ; standardUserDefaults
+0x248004628:  76 f0 ff 17   b	_objc_msgSend
+0x24800462c:  20 00 20 d4   brk	#0x1
+0x248004630:  e1 a1 d6 d0   adrp	x1, 0x1f5442000
+

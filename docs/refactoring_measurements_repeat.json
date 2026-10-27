@@ -1,0 +1,28 @@
+{
+  "environment": {
+    "python": "3.15.0",
+    "platform": "macOS-26.7.1-x86_64-i386-64bit-Mach-O"
+  },
+  "method": "median of 3 warm calls; traced Python allocations measured separately; synthetic data",
+  "baseline_commit": "0d94371173e96d3778d6ed14ce83456a0ee2cd98",
+  "baseline": "Git source for animation and template traversal; old five-reader CAML driver with the same current helper functions",
+  "caml_1500_layers": {
+    "before_ms": 141.042,
+    "after_ms": 99.386
+  },
+  "animation_200_tracks_600_keys": {
+    "before_ms": 6.697,
+    "after_ms": 0.993
+  },
+  "template_payloads": {
+    "files": 3,
+    "bytes": 25165824,
+    "before_peak_mib": 24.128,
+    "after_peak_mib": 0.128
+  },
+  "afc_inventory_100000_entries": {
+    "before_peak_mib": 49.878,
+    "after_peak_mib": 15.737
+  },
+  "limits": "No USB/apply timing, full frame painting or total process RSS. AFC marker/local indexes and decoded native Qt memory are outside the inventory allocation probe."
+}

@@ -1,0 +1,157 @@
+=== registry 投递通道总览（按 FileLocation）===
+globalPreferences            n=109 managed=YES  /var/Managed Preferences/mobile/.GlobalPreferences.plist
+springboard                  n=13  managed=YES  /var/Managed Preferences/mobile/com.apple.springboard.plist
+backboardd                   n=2   managed=YES  /var/Managed Preferences/mobile/com.apple.backboardd.plist
+pasteboard                   n=2   managed=YES  /var/Managed Preferences/mobile/com.apple.Pasteboard.plist
+footnote                     n=1   managed=no   /var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/SharedDeviceConfiguration.plist
+nanoregistry                 n=1   managed=no   /var/mobile/Library/Preferences/com.apple.NanoRegistry.plist
+airdrop                      n=1   managed=YES  /var/Managed Preferences/mobile/com.apple.sharingd.plist
+uikit                        n=1   managed=YES  /var/Managed Preferences/mobile/com.apple.UIKit.plist
+appStore                     n=1   managed=YES  /var/Managed Preferences/mobile/com.apple.AppStore.plist
+notes                        n=1   managed=YES  /var/Managed Preferences/mobile/com.apple.mobilenotes.plist
+coreMotion                   n=1   managed=YES  /var/Managed Preferences/mobile/com.apple.CoreMotion.plist
+
+=== 全局域（GP / Managed .GlobalPreferences）通道的条目 ===
+  ForceSolariumFallback              SolariumForceFallback
+  IgnoreSolariumLinkedOnCheck        com.apple.SwiftUI.IgnoreSolariumLinkedOnCheck
+  ForceSolariumIntelligence          SolariumForceIntelligence
+  ForceEnhancedSpeculars             SolariumForceEnhancedSpeculars
+  UISolariumFallback                 UISolariumForceFallback
+  IgnoreSolariumHardwareCheck        com.apple.SwiftUI.IgnoreSolariumHardwareCheck
+  IgnoreSolariumOptOut               com.apple.SwiftUI.IgnoreSolariumOptOut
+  DisallowGlassButtons               SBDisallowGlassButtons
+  DisallowGlassLockScreen            SBDisallowGlassLockScreen
+  DisableSpecularEverywhere          SBDisableSpecularEverywhere
+  NoLiquidClock                      SBDisallowGlassTime
+  NoLiquidDock                       SBDisableGlassDock
+  DisableSpecularMotion              SBDisableSpecularEverywhereUsingLSSAssertion
+  DisableOuterRefraction             SolariumDisableOuterRefraction
+  DisableSolariumHDR                 SolariumAllowHDR
+  DisableWidgetSpecular              SBDisableWidgetSpecular
+  DisableDockSpecular                SBDisableDockSpecular
+  DisableFolderSpecular              SBDisableFolderSpecular
+  ExcludeClearGlassShadows           SBExcludeAllClearGlassShadows
+  ExcludeDockShadow                  SBExcludeDockShadow
+  ExcludeSearchShadow                SBExcludeSearchShadow
+  UseFlatIconsEverywhere             SBUseFlatIconsEverywhere
+  GlassContainerLogging              com.apple.SwiftUI.GlassContainerLogging
+  FlexiGlassMacOS                    com.apple.SwiftUI.FlexiGlassMacOS
+  FlexiGlassMacOSPointer             com.apple.SwiftUI.FlexiGlassMacOSPointer
+  InvisibilitySuppressesGlass        com.apple.UIKit.InvisibilitySuppressesGlass
+  EnableGlassEffectBridgeLayers      EnableGlassEffectBridgeLayers
+  EnableGaussianGlassEffectBridgeLayers EnableGaussianGlassEffectBridgeLayers
+  UnifiedSystemBackgroundColorsEnabled UnifiedSystemBackgroundColorsEnabled
+  UnaryGlassContainerEnabled         UnaryGlassContainerEnabled
+  EnableSolariumCompactChrome        EnableSolariumCompactChrome
+  DisableSolariumCompactChrome       DisableSolariumCompactChrome
+  SolariumIncreasedDiffusion         SolariumIncreasedDiffusion
+  SolariumUseDisplayAngle            SolariumUseDisplayAngle
+  SolariumTintMask                   SolariumTintMask
+  SolariumBackgroundFilter           SolariumBackgroundFilter
+  SolariumHighlightWhite             SolariumHighlightWhite
+  SolariumLiveTuning                 SolariumLiveTuning
+  SolariumHierarchicalStyle          SolariumHierarchicalStyle
+  GlassHierarchicalStyle             GlassHierarchicalStyle
+  GlassVisualDebug                   GlassVisualDebug
+  GlassVisualWarnings                GlassVisualWarnings
+  BlurFillExperiment                 blurFillExperiment
+  AdaptiveGlassHysteresisDarkRange   AdaptiveGlassHysteresisDarkRangeArray
+  AdaptiveGlassHysteresisLightRange  AdaptiveGlassHysteresisLightRangeArray
+  CalistogaLargeRefraction           CalistogaLargeRefraction
+  CalistogaRegularClearer            CalistogaRegularClearer
+  CalistogaBackdropMarginIncludesBlur CalistogaBackdropMarginIncludesBlur
+  CalistogaAllowLumaTracking         CalistogaAllowLumaTracking
+  CalistogaSidebarAccentOpacity      CalistogaSidebarAccentOpacity
+  CalistogaPerceptualBackdropScale   CalistogaPerceptualBackdropScale
+  CalistogaKeyboardGlass             CalistogaKeyboardGlass
+  CalistogaCameraGlass               CalistogaCameraGlass
+  FloatingContentViewSpecularHighlightOpacity UISolariumFloatingContentViewSpecularHighlightOpacity
+  FloatingContentViewUnfocusedBorderOpacity UISolariumFloatingContentViewUnfocusedBorderOpacity
+  FloatingContentViewUnfocusedBorderWidth UISolariumFloatingContentViewUnfocusedBorderWidth
+  FloatingContentViewEnableBackgroundFills UISolariumFloatingContentViewEnableBackgroundFills
+  FloatingContentViewDebugBackgroundFills UISolariumFloatingContentViewDebugBackgroundFills
+  FloatingContentViewPunchoutShadow  UISolariumFloatingContentViewPunchoutShadow
+  FloatingContentViewModifyTransformMode UISolariumFloatingContentViewModifyTransformMode
+  FloatingContentViewOverrideRotationX UISolariumFloatingContentViewOverrideRotationX
+  FloatingContentViewOverrideRotationY UISolariumFloatingContentViewOverrideRotationY
+  FloatingContentViewOverrideTranslationX UISolariumFloatingContentViewOverrideTranslationX
+  FloatingContentViewOverrideTranslationY UISolariumFloatingContentViewOverrideTranslationY
+  FloatingContentViewModifyRotationStrength UISolariumFloatingContentViewModifyRotationStrength
+  FloatingContentViewModifyTranslationStrength UISolariumFloatingContentViewModifyTranslationStrength
+  FocusSpecularHighlightMaxSize      UISolariumFocusSpecularHighlightMaxSize
+  FocusSpecularHighlightScaleFactor  UISolariumFocusSpecularHighlightScaleFactor
+  FocusSpecularHighlightSensitivity  UISolariumFocusSpecularHighlightSensitivity
+  FocusSpecularHighlightNormalizedPositionX UISolariumFocusSpecularHighlightNormalizedPositionX
+  FocusSpecularHighlightNormalizedPositionY UISolariumFocusSpecularHighlightNormalizedPositionY
+  NewStackedImageRenderingEnabled    UISolariumNewStackedImageRenderingEnabled
+  NewStackedImageFiltersEnabled      UISolariumNewStackedImageFiltersEnabled
+  NewStackedImage3DTransformsEnabled UISolariumNewStackedImage3DTransformsEnabled
+  NewStackedImage3DTransformedGlassLayer UISolariumNewStackedImage3DTransformedGlassLayer
+  NewStackedImageSpecularEnabled     UISolariumNewStackedImageSpecularEnabled
+  NewStackedImageSpecularOpacity     UISolariumNewStackedImageSpecularOpacity
+  NewStackedImageRadiosityEnabled    UISolariumNewStackedImageRadiosityEnabled
+  NewStackedImageForceAdjustMotionForSize UISolariumNewStackedImageForceAdjustMotionForSize
+  NewStackedImageForceDefaultScaleSizeIncrease UISolariumNewStackedImageForceDefaultScaleSizeIncrease
+  NewStackedImageInnerParallaxScale  UISolariumNewStackedImageInnerParallaxScale
+  NewStackedImageAsymmetricScale     UISolariumNewStackedImageAsymmetricScale
+  NewStackedImageProgressiveScale    UISolariumNewStackedImageProgressiveScale
+  NewStackedImageAdditionalTranslation UISolariumNewStackedImageAdditionalTranslation
+  NewStackedImageFocusedAdditionalScaleAmount UISolariumNewStackedImageFocusedAdditionalScaleAmount
+  StackedImageContainerDefaultMaxDepth UISolariumStackedImageContainerDefaultMaxDepth
+  StackedImageContainerDefaultRotationX UISolariumStackedImageContainerDefaultRotationX
+  StackedImageContainerDefaultRotationY UISolariumStackedImageContainerDefaultRotationY
+  StackedImageContainerDefaultTranslationX UISolariumStackedImageContainerDefaultTranslationX
+  StackedImageContainerDefaultTranslationY UISolariumStackedImageContainerDefaultTranslationY
+  StackedImageContainerModifyMaxDepthStrength UISolariumStackedImageContainerModifyMaxDepthStrength
+  StackedImageContainerModifyRotationStrength UISolariumStackedImageContainerModifyRotationStrength
+  StackedImageContainerModifyTranslationStrength UISolariumStackedImageContainerModifyTranslationStrength
+  StackedImageContainerModifyInnerParallaxScaleStrength UISolariumStackedImageContainerModifyInnerParallaxScaleStrength
+  StackedImageContainerModifyTransformMinWidth UISolariumStackedImageContainerModifyTransformMinWidth
+  StackedImageContainerModifyTransformMaxWidth UISolariumStackedImageContainerModifyTransformMaxWidth
+  StackedImageContainerModifyTransformMinHeight UISolariumStackedImageContainerModifyTransformMinHeight
+  StackedImageContainerModifyTransformMaxHeight UISolariumStackedImageContainerModifyTransformMaxHeight
+  SBBuildNumber                      UIStatusBarShowBuildVersion
+  RTL                                NSForceRightToLeftWritingDirection
+  LTR                                NSForceLeftToRightWritingDirection
+  SBIconVisibility                   SBIconVisibility
+  iMessageDiagnosticsEnabled         iMessageDiagnosticsEnabled
+  IDSDiagnosticsEnabled              IDSDiagnosticsEnabled
+  VCDiagnosticsEnabled               VCDiagnosticsEnabled
+  AccessoryDeveloperEnabled          AccessoryDeveloperEnabled
+  DisableSecondsHand                 SBDisableClockIconSecondsHand
+  DisableSearchingWebsites           SBSearchDisabledDomains
+  ShowButtonHints                    SBHardwareButtonHintDropletsAlwaysVisibleInSnapshots
+  合计 109
+
+=== SB* key 的通道归属 ===
+  SBDisallowGlassButtons                                         globalPreferences
+  SBDisallowGlassLockScreen                                      globalPreferences
+  SBDisableSpecularEverywhere                                    globalPreferences
+  SBDisallowGlassTime                                            globalPreferences
+  SBDisableGlassDock                                             globalPreferences
+  SBDisableSpecularEverywhereUsingLSSAssertion                   globalPreferences
+  SBDisableWidgetSpecular                                        globalPreferences
+  SBDisableDockSpecular                                          globalPreferences
+  SBDisableFolderSpecular                                        globalPreferences
+  SBExcludeAllClearGlassShadows                                  globalPreferences
+  SBExcludeDockShadow                                            globalPreferences
+  SBExcludeSearchShadow                                          globalPreferences
+  SBUseFlatIconsEverywhere                                       globalPreferences
+  SBDontLockAfterCrash                                           springboard
+  SBDontDimOrLockOnAC                                            springboard
+  SBHideLowPowerAlerts                                           springboard
+  SBHideACPower                                                  springboard
+  SBNeverBreadcrumb                                              springboard
+  SBShowSupervisionTextOnLockScreen                              springboard
+  SBExtendedDisplayOverrideSupportForAirPlayAndDontFileRadars    springboard
+  SBMinimumLockscreenIdleTime                                    springboard
+  SBAlwaysShowSystemApertureInSnapshots                          springboard
+  SBSuppressDynamicIslandCompletely                              springboard
+  SBShowAuthenticationEngineeringUI                              springboard
+  SBDisableParallax                                              springboard
+  SBHomeScreenShowsSearchAffordance                              springboard
+  UIStatusBarShowBuildVersion                                    globalPreferences
+  SBIconVisibility                                               globalPreferences
+  SBDisableClockIconSecondsHand                                  globalPreferences
+  SBSearchDisabledDomains                                        globalPreferences
+  SBHardwareButtonHintDropletsAlwaysVisibleInSnapshots           globalPreferences

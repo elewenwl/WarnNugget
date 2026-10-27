@@ -1,0 +1,851 @@
+0x18c06cdd4:  7f 23 03 d5   pacibsp
+0x18c06cdd8:  fc 6f ba a9   stp	x28, x27, [sp, #-0x60]!
+0x18c06cddc:  fa 67 01 a9   stp	x26, x25, [sp, #0x10]
+0x18c06cde0:  f8 5f 02 a9   stp	x24, x23, [sp, #0x20]
+0x18c06cde4:  f6 57 03 a9   stp	x22, x21, [sp, #0x30]
+0x18c06cde8:  f4 4f 04 a9   stp	x20, x19, [sp, #0x40]
+0x18c06cdec:  fd 7b 05 a9   stp	fp, lr, [sp, #0x50]
+0x18c06cdf0:  fd 43 01 91   add	fp, sp, #0x50
+0x18c06cdf4:  ff 83 00 d1   sub	sp, sp, #0x20
+0x18c06cdf8:  f3 03 14 aa   mov	x19, x20
+0x18c06cdfc:  20 1b 2c f0   adrp	x0, 0x1e43d3000
+0x18c06ce00:  00 a0 01 91   add	x0, x0, #0x68 ; data_1e43d3068 (ChronoServices/__DATA.__data)
+0x18c06ce04:  21 01 00 90   adrp	x1, 0x18c090000
+0x18c06ce08:  21 00 32 91   add	x1, x1, #0xc80
+0x18c06ce0c:  8a 4f fc 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x18c06ce10:  10 8c 5f f8   ldr	x16, [x0, #-0x8]!
+0x18c06ce14:  f1 03 00 aa   mov	x17, x0
+0x18c06ce18:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x18c06ce1c:  30 1a c1 da   autda	x16, x17
+0x18c06ce20:  08 22 40 f9   ldr	x8, [x16, #0x40]
+0x18c06ce24:  e9 03 08 aa   mov	x9, x8
+0x18c06ce28:  71 66 2e 90   adrp	x17, 0x1e8d38000
+0x18c06ce2c:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18c06ce30:  30 02 40 f9   ldr	x16, [x17]
+0x18c06ce34:  11 0a 3f d7   blraa	x16, x17
+0x18c06ce38:  e9 03 00 91   mov	x9, sp
+0x18c06ce3c:  0a 3d 00 91   add	x10, x8, #0xf
+0x18c06ce40:  4c ed 7c 92   and	x12, x10, #0xfffffffffffffff0
+0x18c06ce44:  29 01 0c cb   sub	x9, x9, x12
+0x18c06ce48:  a9 03 1a f8   stur	x9, [fp, #-0x60]
+0x18c06ce4c:  3f 01 00 91   mov	sp, x9
+0x18c06ce50:  e9 03 08 aa   mov	x9, x8
+0x18c06ce54:  71 66 2e 90   adrp	x17, 0x1e8d38000
+0x18c06ce58:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18c06ce5c:  30 02 40 f9   ldr	x16, [x17]
+0x18c06ce60:  11 0a 3f d7   blraa	x16, x17
+0x18c06ce64:  e8 03 00 91   mov	x8, sp
+0x18c06ce68:  15 01 0c cb   sub	x21, x8, x12
+0x18c06ce6c:  bf 02 00 91   mov	sp, x21
+0x18c06ce70:  20 1b 2c f0   adrp	x0, 0x1e43d3000
+0x18c06ce74:  00 20 04 91   add	x0, x0, #0x108 ; data_1e43d3108 (ChronoServices/__DATA.__data)
+0x18c06ce78:  21 01 00 90   adrp	x1, 0x18c090000
+0x18c06ce7c:  21 40 29 91   add	x1, x1, #0xa50
+0x18c06ce80:  6d 4f fc 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x18c06ce84:  10 8c 5f f8   ldr	x16, [x0, #-0x8]!
+0x18c06ce88:  f1 03 00 aa   mov	x17, x0
+0x18c06ce8c:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x18c06ce90:  30 1a c1 da   autda	x16, x17
+0x18c06ce94:  08 22 40 f9   ldr	x8, [x16, #0x40]
+0x18c06ce98:  e9 03 08 aa   mov	x9, x8
+0x18c06ce9c:  71 66 2e 90   adrp	x17, 0x1e8d38000
+0x18c06cea0:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18c06cea4:  30 02 40 f9   ldr	x16, [x17]
+0x18c06cea8:  11 0a 3f d7   blraa	x16, x17
+0x18c06ceac:  e9 03 00 91   mov	x9, sp
+0x18c06ceb0:  0a 3d 00 91   add	x10, x8, #0xf
+0x18c06ceb4:  4c ed 7c 92   and	x12, x10, #0xfffffffffffffff0
+0x18c06ceb8:  3c 01 0c cb   sub	x28, x9, x12
+0x18c06cebc:  9f 03 00 91   mov	sp, x28
+0x18c06cec0:  e9 03 08 aa   mov	x9, x8
+0x18c06cec4:  71 66 2e 90   adrp	x17, 0x1e8d38000
+0x18c06cec8:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18c06cecc:  30 02 40 f9   ldr	x16, [x17]
+0x18c06ced0:  11 0a 3f d7   blraa	x16, x17
+0x18c06ced4:  e8 03 00 91   mov	x8, sp
+0x18c06ced8:  18 01 0c cb   sub	x24, x8, x12
+0x18c06cedc:  1f 03 00 91   mov	sp, x24
+0x18c06cee0:  a8 01 00 b0   adrp	x8, 0x18c0a1000
+0x18c06cee4:  08 81 36 91   add	x8, x8, #0xda0 ; "com.apple.chronod"
+0x18c06cee8:  1b 81 00 d1   sub	x27, x8, #0x20
+0x18c06ceec:  a8 01 00 b0   adrp	x8, 0x18c0a1000
+0x18c06cef0:  08 01 37 91   add	x8, x8, #0xdc0 ; "showComplicationDataWhenPasscodeLocked"
+0x18c06cef4:  1a 81 00 d1   sub	x26, x8, #0x20
+0x18c06cef8:  b7 01 00 90   adrp	x23, 0x18c0a0000
+0x18c06cefc:  f7 82 26 91   add	x23, x23, #0x9a0 ; "com.apple.chrono"
+0x18c06cf00:  e0 03 17 aa   mov	x0, x23
+0x18c06cf04:  97 00 02 95   bl	_os_variant_has_internal_ui_stub
+0x18c06cf08:  f4 03 00 aa   mov	x20, x0
+0x18c06cf0c:  20 1b 2c d0   adrp	x0, 0x1e43d2000
+0x18c06cf10:  00 e0 3b 91   add	x0, x0, #0xef8 ; data_1e43d2ef8 (ChronoServices/__DATA.__data)
+0x18c06cf14:  21 01 00 90   adrp	x1, 0x18c090000
+0x18c06cf18:  21 20 32 91   add	x1, x1, #0xc88
+0x18c06cf1c:  46 4f fc 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x18c06cf20:  f6 03 00 aa   mov	x22, x0
+0x18c06cf24:  21 0c 80 52   mov	w1, #0x61
+0x18c06cf28:  e2 00 80 52   mov	w2, #0x7
+0x18c06cf2c:  09 7f 01 95   bl	_swift_allocObject_stub
+0x18c06cf30:  e5 03 00 aa   mov	x5, x0
+0x18c06cf34:  39 02 80 d2   mov	x25, #0x11
+0x18c06cf38:  19 00 fa f2   movk	x25, #0xd000, lsl #0x30
+0x18c06cf3c:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06cf40:  22 57 00 91   add	x2, x25, #0x15
+0x18c06cf44:  43 03 41 b2   orr	x3, x26, #0x8000000000000000
+0x18c06cf48:  20 02 80 d2   mov	x0, #0x11
+0x18c06cf4c:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06cf50:  24 00 80 52   mov	w4, #0x1
+0x18c06cf54:  e6 03 14 aa   mov	x6, x20
+0x18c06cf58:  f4 03 05 aa   mov	x20, x5
+0x18c06cf5c:  45 00 80 52   mov	w5, #0x2
+0x18c06cf60:  83 e9 ff 97   bl	0x18c06756c
+0x18c06cf64:  60 0a 00 f9   str	x0, [x19, #0x10]
+0x18c06cf68:  a8 01 00 b0   adrp	x8, 0x18c0a1000
+0x18c06cf6c:  08 c1 37 91   add	x8, x8, #0xdf0 ; "showLiveActivitiesWhenPasscodeLocked"
+0x18c06cf70:  1a 81 00 d1   sub	x26, x8, #0x20
+0x18c06cf74:  e0 03 17 aa   mov	x0, x23
+0x18c06cf78:  7a 00 02 95   bl	_os_variant_has_internal_ui_stub
+0x18c06cf7c:  f4 03 00 aa   mov	x20, x0
+0x18c06cf80:  e0 03 16 aa   mov	x0, x22
+0x18c06cf84:  21 0c 80 52   mov	w1, #0x61
+0x18c06cf88:  e2 00 80 52   mov	w2, #0x7
+0x18c06cf8c:  f1 7e 01 95   bl	_swift_allocObject_stub
+0x18c06cf90:  e5 03 00 aa   mov	x5, x0
+0x18c06cf94:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06cf98:  22 4f 00 91   add	x2, x25, #0x13
+0x18c06cf9c:  43 03 41 b2   orr	x3, x26, #0x8000000000000000
+0x18c06cfa0:  20 02 80 d2   mov	x0, #0x11
+0x18c06cfa4:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06cfa8:  24 00 80 52   mov	w4, #0x1
+0x18c06cfac:  e6 03 14 aa   mov	x6, x20
+0x18c06cfb0:  f4 03 05 aa   mov	x20, x5
+0x18c06cfb4:  45 00 80 52   mov	w5, #0x2
+0x18c06cfb8:  6d e9 ff 97   bl	0x18c06756c
+0x18c06cfbc:  60 0e 00 f9   str	x0, [x19, #0x18]
+0x18c06cfc0:  a8 01 00 b0   adrp	x8, 0x18c0a1000
+0x18c06cfc4:  08 81 38 91   add	x8, x8, #0xe20 ; "com.apple.duetexpertd"
+0x18c06cfc8:  1a 81 00 d1   sub	x26, x8, #0x20
+0x18c06cfcc:  a8 01 00 b0   adrp	x8, 0x18c0a1000
+0x18c06cfd0:  08 01 39 91   add	x8, x8, #0xe40 ; "widgetKitDeveloperModeEnabled"
+0x18c06cfd4:  19 81 00 d1   sub	x25, x8, #0x20
+0x18c06cfd8:  e0 03 17 aa   mov	x0, x23
+0x18c06cfdc:  61 00 02 95   bl	_os_variant_has_internal_ui_stub
+0x18c06cfe0:  f4 03 00 aa   mov	x20, x0
+0x18c06cfe4:  e0 03 16 aa   mov	x0, x22
+0x18c06cfe8:  21 0c 80 52   mov	w1, #0x61
+0x18c06cfec:  e2 00 80 52   mov	w2, #0x7
+0x18c06cff0:  d8 7e 01 95   bl	_swift_allocObject_stub
+0x18c06cff4:  e7 03 00 aa   mov	x7, x0
+0x18c06cff8:  28 02 80 d2   mov	x8, #0x11
+0x18c06cffc:  08 00 fa f2   movk	x8, #0xd000, lsl #0x30
+0x18c06d000:  00 01 7e b2   orr	x0, x8, #0x4
+0x18c06d004:  41 03 41 b2   orr	x1, x26, #0x8000000000000000
+0x18c06d008:  02 05 7e b2   orr	x2, x8, #0xc
+0x18c06d00c:  3a 02 80 d2   mov	x26, #0x11
+0x18c06d010:  1a 00 fa f2   movk	x26, #0xd000, lsl #0x30
+0x18c06d014:  23 03 41 b2   orr	x3, x25, #0x8000000000000000
+0x18c06d018:  04 00 80 52   mov	w4, #0
+0x18c06d01c:  e6 03 14 aa   mov	x6, x20
+0x18c06d020:  45 00 80 52   mov	w5, #0x2
+0x18c06d024:  f4 03 07 aa   mov	x20, x7
+0x18c06d028:  51 e9 ff 97   bl	0x18c06756c
+0x18c06d02c:  60 12 00 f9   str	x0, [x19, #0x20]
+0x18c06d030:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d034:  08 81 39 91   add	x8, x8, #0xe60 ; "remoteWidgetsEnabled"
+0x18c06d038:  19 81 00 d1   sub	x25, x8, #0x20
+0x18c06d03c:  e0 03 17 aa   mov	x0, x23
+0x18c06d040:  48 00 02 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d044:  f4 03 00 aa   mov	x20, x0
+0x18c06d048:  e0 03 16 aa   mov	x0, x22
+0x18c06d04c:  21 0c 80 52   mov	w1, #0x61
+0x18c06d050:  e2 00 80 52   mov	w2, #0x7
+0x18c06d054:  bf 7e 01 95   bl	_swift_allocObject_stub
+0x18c06d058:  e5 03 00 aa   mov	x5, x0
+0x18c06d05c:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d060:  42 0f 00 91   add	x2, x26, #0x3
+0x18c06d064:  23 03 41 b2   orr	x3, x25, #0x8000000000000000
+0x18c06d068:  20 02 80 d2   mov	x0, #0x11
+0x18c06d06c:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d070:  24 00 80 52   mov	w4, #0x1
+0x18c06d074:  e6 03 14 aa   mov	x6, x20
+0x18c06d078:  f4 03 05 aa   mov	x20, x5
+0x18c06d07c:  45 00 80 52   mov	w5, #0x2
+0x18c06d080:  3b e9 ff 97   bl	0x18c06756c
+0x18c06d084:  60 16 00 f9   str	x0, [x19, #0x28]
+0x18c06d088:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d08c:  08 01 3a 91   add	x8, x8, #0xe80 ; "hasMigratedRemoteWidgetsEnabledState"
+0x18c06d090:  19 81 00 d1   sub	x25, x8, #0x20
+0x18c06d094:  e0 03 17 aa   mov	x0, x23
+0x18c06d098:  32 00 02 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d09c:  f4 03 00 aa   mov	x20, x0
+0x18c06d0a0:  e0 03 16 aa   mov	x0, x22
+0x18c06d0a4:  21 0c 80 52   mov	w1, #0x61
+0x18c06d0a8:  e2 00 80 52   mov	w2, #0x7
+0x18c06d0ac:  a9 7e 01 95   bl	_swift_allocObject_stub
+0x18c06d0b0:  e7 03 00 aa   mov	x7, x0
+0x18c06d0b4:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d0b8:  42 4f 00 91   add	x2, x26, #0x13
+0x18c06d0bc:  23 03 41 b2   orr	x3, x25, #0x8000000000000000
+0x18c06d0c0:  20 02 80 d2   mov	x0, #0x11
+0x18c06d0c4:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d0c8:  04 00 80 52   mov	w4, #0
+0x18c06d0cc:  e6 03 14 aa   mov	x6, x20
+0x18c06d0d0:  45 00 80 52   mov	w5, #0x2
+0x18c06d0d4:  f4 03 07 aa   mov	x20, x7
+0x18c06d0d8:  25 e9 ff 97   bl	0x18c06756c
+0x18c06d0dc:  60 1a 00 f9   str	x0, [x19, #0x30]
+0x18c06d0e0:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d0e4:  08 c1 3a 91   add	x8, x8, #0xeb0 ; "replicateAllVisibleControls"
+0x18c06d0e8:  19 81 00 d1   sub	x25, x8, #0x20
+0x18c06d0ec:  e0 03 17 aa   mov	x0, x23
+0x18c06d0f0:  1c 00 02 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d0f4:  f4 03 00 aa   mov	x20, x0
+0x18c06d0f8:  e0 03 16 aa   mov	x0, x22
+0x18c06d0fc:  21 0c 80 52   mov	w1, #0x61
+0x18c06d100:  e2 00 80 52   mov	w2, #0x7
+0x18c06d104:  93 7e 01 95   bl	_swift_allocObject_stub
+0x18c06d108:  e7 03 00 aa   mov	x7, x0
+0x18c06d10c:  48 01 80 52   mov	w8, #0xa
+0x18c06d110:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d114:  42 03 08 aa   orr	x2, x26, x8
+0x18c06d118:  23 03 41 b2   orr	x3, x25, #0x8000000000000000
+0x18c06d11c:  20 02 80 d2   mov	x0, #0x11
+0x18c06d120:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d124:  04 00 80 52   mov	w4, #0
+0x18c06d128:  e6 03 14 aa   mov	x6, x20
+0x18c06d12c:  45 00 80 52   mov	w5, #0x2
+0x18c06d130:  f4 03 07 aa   mov	x20, x7
+0x18c06d134:  0e e9 ff 97   bl	0x18c06756c
+0x18c06d138:  60 1e 00 f9   str	x0, [x19, #0x38]
+0x18c06d13c:  e0 03 17 aa   mov	x0, x23
+0x18c06d140:  08 00 02 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d144:  f4 03 00 aa   mov	x20, x0
+0x18c06d148:  20 1b 2c b0   adrp	x0, 0x1e43d2000
+0x18c06d14c:  00 a0 3b 91   add	x0, x0, #0xee8 ; data_1e43d2ee8 (ChronoServices/__DATA.__data)
+0x18c06d150:  01 01 00 f0   adrp	x1, 0x18c090000
+0x18c06d154:  21 40 32 91   add	x1, x1, #0xc90
+0x18c06d158:  b7 4e fc 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x18c06d15c:  a0 83 1a f8   stur	x0, [fp, #-0x58]
+0x18c06d160:  41 10 80 52   mov	w1, #0x82
+0x18c06d164:  e2 00 80 52   mov	w2, #0x7
+0x18c06d168:  7a 7e 01 95   bl	_swift_allocObject_stub
+0x18c06d16c:  e8 03 00 aa   mov	x8, x0
+0x18c06d170:  f4 0f 1f 38   strb	w20, [sp, #-0x10]!
+0x18c06d174:  62 ae 8c d2   mov	x2, #0x6573
+0x18c06d178:  62 ec ad f2   movk	x2, #0x6f63, lsl #0x10
+0x18c06d17c:  c2 8d cc f2   movk	x2, #0x646e, lsl #0x20
+0x18c06d180:  02 29 ec f2   movk	x2, #0x6148, lsl #0x30
+0x18c06d184:  c3 8d 8c d2   mov	x3, #0x646e
+0x18c06d188:  c3 08 aa f2   movk	x3, #0x5046, lsl #0x10
+0x18c06d18c:  63 0a c0 f2   movk	x3, #0x53, lsl #0x20
+0x18c06d190:  03 a0 fd f2   movk	x3, #0xed00, lsl #0x30
+0x18c06d194:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d198:  20 02 80 d2   mov	x0, #0x11
+0x18c06d19c:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d1a0:  04 00 80 d2   mov	x4, #0
+0x18c06d1a4:  25 00 80 52   mov	w5, #0x1
+0x18c06d1a8:  06 00 80 d2   mov	x6, #0
+0x18c06d1ac:  07 20 80 52   mov	w7, #0x100
+0x18c06d1b0:  f4 03 08 aa   mov	x20, x8
+0x18c06d1b4:  08 e8 ff 97   bl	0x18c0671d4
+0x18c06d1b8:  ff 43 00 91   add	sp, sp, #0x10
+0x18c06d1bc:  60 22 00 f9   str	x0, [x19, #0x40]
+0x18c06d1c0:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d1c4:  08 41 3b 91   add	x8, x8, #0xed0 ; "lastEffectiveSignificantTimeChange"
+0x18c06d1c8:  08 81 00 d1   sub	x8, x8, #0x20
+0x18c06d1cc:  a8 83 19 f8   stur	x8, [fp, #-0x68]
+0x18c06d1d0:  00 00 80 d2   mov	x0, #0
+0x18c06d1d4:  2f 62 01 95   bl	_$s10Foundation4DateVMa_stub
+0x18c06d1d8:  e3 03 00 aa   mov	x3, x0
+0x18c06d1dc:  e8 03 00 aa   mov	x8, x0
+0x18c06d1e0:  10 8d 5f f8   ldr	x16, [x8, #-0x8]!
+0x18c06d1e4:  f1 03 08 aa   mov	x17, x8
+0x18c06d1e8:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x18c06d1ec:  30 1a c1 da   autda	x16, x17
+0x18c06d1f0:  08 8e 43 f8   ldr	x8, [x16, #0x38]!
+0x18c06d1f4:  e0 03 18 aa   mov	x0, x24
+0x18c06d1f8:  21 00 80 52   mov	w1, #0x1
+0x18c06d1fc:  22 00 80 52   mov	w2, #0x1
+0x18c06d200:  30 1a f4 f2   movk	x16, #0xa0d1, lsl #0x30
+0x18c06d204:  10 09 3f d7   blraa	x8, x16
+0x18c06d208:  20 1b 2c d0   adrp	x0, 0x1e43d3000
+0x18c06d20c:  00 40 04 91   add	x0, x0, #0x110 ; data_1e43d3110 (ChronoServices/__DATA.__data)
+0x18c06d210:  01 01 00 f0   adrp	x1, 0x18c090000
+0x18c06d214:  21 60 32 91   add	x1, x1, #0xc98
+0x18c06d218:  87 4e fc 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x18c06d21c:  e3 03 00 aa   mov	x3, x0
+0x18c06d220:  e8 03 00 aa   mov	x8, x0
+0x18c06d224:  10 8d 5f f8   ldr	x16, [x8, #-0x8]!
+0x18c06d228:  f1 03 08 aa   mov	x17, x8
+0x18c06d22c:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x18c06d230:  30 1a c1 da   autda	x16, x17
+0x18c06d234:  08 8e 43 f8   ldr	x8, [x16, #0x38]!
+0x18c06d238:  e0 03 15 aa   mov	x0, x21
+0x18c06d23c:  21 00 80 52   mov	w1, #0x1
+0x18c06d240:  22 00 80 52   mov	w2, #0x1
+0x18c06d244:  30 1a f4 f2   movk	x16, #0xa0d1, lsl #0x30
+0x18c06d248:  10 09 3f d7   blraa	x8, x16
+0x18c06d24c:  e0 03 18 aa   mov	x0, x24
+0x18c06d250:  fa 03 1c aa   mov	x26, x28
+0x18c06d254:  e1 03 1c aa   mov	x1, x28
+0x18c06d258:  22 1b 2c d0   adrp	x2, 0x1e43d3000
+0x18c06d25c:  42 20 04 91   add	x2, x2, #0x108 ; data_1e43d3108 (ChronoServices/__DATA.__data)
+0x18c06d260:  03 01 00 f0   adrp	x3, 0x18c090000
+0x18c06d264:  63 40 29 91   add	x3, x3, #0xa50
+0x18c06d268:  4b 5b fe 97   bl	0x18c003f94
+0x18c06d26c:  e0 03 15 aa   mov	x0, x21
+0x18c06d270:  bc 03 5a f8   ldur	x28, [fp, #-0x60]
+0x18c06d274:  e1 03 1c aa   mov	x1, x28
+0x18c06d278:  39 1b 2c d0   adrp	x25, 0x1e43d3000
+0x18c06d27c:  39 a3 01 91   add	x25, x25, #0x68 ; data_1e43d3068 (ChronoServices/__DATA.__data)
+0x18c06d280:  e2 03 19 aa   mov	x2, x25
+0x18c06d284:  17 01 00 f0   adrp	x23, 0x18c090000
+0x18c06d288:  f7 02 32 91   add	x23, x23, #0xc80
+0x18c06d28c:  e3 03 17 aa   mov	x3, x23
+0x18c06d290:  41 5b fe 97   bl	0x18c003f94
+0x18c06d294:  80 01 00 f0   adrp	x0, 0x18c0a0000
+0x18c06d298:  00 80 26 91   add	x0, x0, #0x9a0 ; "com.apple.chrono"
+0x18c06d29c:  b1 ff 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d2a0:  f4 03 00 aa   mov	x20, x0
+0x18c06d2a4:  20 1b 2c b0   adrp	x0, 0x1e43d2000
+0x18c06d2a8:  00 60 3c 91   add	x0, x0, #0xf18 ; data_1e43d2f18 (ChronoServices/__DATA.__data)
+0x18c06d2ac:  01 01 00 f0   adrp	x1, 0x18c090000
+0x18c06d2b0:  21 80 32 91   add	x1, x1, #0xca0
+0x18c06d2b4:  60 4e fc 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x18c06d2b8:  01 30 40 b9   ldr	w1, [x0, #0x30]
+0x18c06d2bc:  02 68 40 79   ldrh	w2, [x0, #0x34]
+0x18c06d2c0:  24 7e 01 95   bl	_swift_allocObject_stub
+0x18c06d2c4:  e7 03 00 aa   mov	x7, x0
+0x18c06d2c8:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d2cc:  28 02 80 d2   mov	x8, #0x11
+0x18c06d2d0:  08 00 fa f2   movk	x8, #0xd000, lsl #0x30
+0x18c06d2d4:  02 45 00 91   add	x2, x8, #0x11
+0x18c06d2d8:  a8 83 59 f8   ldur	x8, [fp, #-0x68]
+0x18c06d2dc:  03 01 41 b2   orr	x3, x8, #0x8000000000000000
+0x18c06d2e0:  20 02 80 d2   mov	x0, #0x11
+0x18c06d2e4:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d2e8:  e4 03 1a aa   mov	x4, x26
+0x18c06d2ec:  e5 03 1c aa   mov	x5, x28
+0x18c06d2f0:  e6 03 14 aa   mov	x6, x20
+0x18c06d2f4:  f4 03 07 aa   mov	x20, x7
+0x18c06d2f8:  54 e6 ff 97   bl	0x18c066c48
+0x18c06d2fc:  f4 03 00 aa   mov	x20, x0
+0x18c06d300:  e0 03 15 aa   mov	x0, x21
+0x18c06d304:  e1 03 19 aa   mov	x1, x25
+0x18c06d308:  e2 03 17 aa   mov	x2, x23
+0x18c06d30c:  34 33 fe 97   bl	0x18bff9fdc
+0x18c06d310:  e0 03 18 aa   mov	x0, x24
+0x18c06d314:  21 1b 2c d0   adrp	x1, 0x1e43d3000
+0x18c06d318:  21 20 04 91   add	x1, x1, #0x108 ; data_1e43d3108 (ChronoServices/__DATA.__data)
+0x18c06d31c:  02 01 00 f0   adrp	x2, 0x18c090000
+0x18c06d320:  42 40 29 91   add	x2, x2, #0xa50
+0x18c06d324:  2e 33 fe 97   bl	0x18bff9fdc
+0x18c06d328:  74 26 00 f9   str	x20, [x19, #0x48]
+0x18c06d32c:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d330:  08 01 3c 91   add	x8, x8, #0xf00 ; "effectiveRemoteWidgetsEnabled"
+0x18c06d334:  17 81 00 d1   sub	x23, x8, #0x20
+0x18c06d338:  95 01 00 f0   adrp	x21, 0x18c0a0000
+0x18c06d33c:  b5 82 26 91   add	x21, x21, #0x9a0 ; "com.apple.chrono"
+0x18c06d340:  e0 03 15 aa   mov	x0, x21
+0x18c06d344:  87 ff 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d348:  f4 03 00 aa   mov	x20, x0
+0x18c06d34c:  e0 03 16 aa   mov	x0, x22
+0x18c06d350:  21 0c 80 52   mov	w1, #0x61
+0x18c06d354:  e2 00 80 52   mov	w2, #0x7
+0x18c06d358:  fe 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d35c:  e5 03 00 aa   mov	x5, x0
+0x18c06d360:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d364:  39 02 80 d2   mov	x25, #0x11
+0x18c06d368:  19 00 fa f2   movk	x25, #0xd000, lsl #0x30
+0x18c06d36c:  22 07 7e b2   orr	x2, x25, #0xc
+0x18c06d370:  e3 02 41 b2   orr	x3, x23, #0x8000000000000000
+0x18c06d374:  20 02 80 d2   mov	x0, #0x11
+0x18c06d378:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d37c:  24 00 80 52   mov	w4, #0x1
+0x18c06d380:  e6 03 14 aa   mov	x6, x20
+0x18c06d384:  f4 03 05 aa   mov	x20, x5
+0x18c06d388:  45 00 80 52   mov	w5, #0x2
+0x18c06d38c:  78 e8 ff 97   bl	0x18c06756c
+0x18c06d390:  60 2a 00 f9   str	x0, [x19, #0x50]
+0x18c06d394:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d398:  08 81 3c 91   add	x8, x8, #0xf20 ; "ChronodTaskServiceMaxPoolSize"
+0x18c06d39c:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d3a0:  e0 03 15 aa   mov	x0, x21
+0x18c06d3a4:  6f ff 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d3a8:  f4 03 00 aa   mov	x20, x0
+0x18c06d3ac:  20 1b 2c b0   adrp	x0, 0x1e43d2000
+0x18c06d3b0:  00 60 3b 91   add	x0, x0, #0xed8 ; data_1e43d2ed8 (ChronoServices/__DATA.__data)
+0x18c06d3b4:  01 01 00 f0   adrp	x1, 0x18c090000
+0x18c06d3b8:  21 a0 32 91   add	x1, x1, #0xca8
+0x18c06d3bc:  1e 4e fc 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x18c06d3c0:  f7 03 00 aa   mov	x23, x0
+0x18c06d3c4:  21 0f 80 52   mov	w1, #0x79
+0x18c06d3c8:  e2 00 80 52   mov	w2, #0x7
+0x18c06d3cc:  e1 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d3d0:  e8 03 00 aa   mov	x8, x0
+0x18c06d3d4:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d3d8:  22 07 7e b2   orr	x2, x25, #0xc
+0x18c06d3dc:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d3e0:  20 02 80 d2   mov	x0, #0x11
+0x18c06d3e4:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d3e8:  05 00 80 d2   mov	x5, #0
+0x18c06d3ec:  e7 03 14 aa   mov	x7, x20
+0x18c06d3f0:  a4 00 80 52   mov	w4, #0x5
+0x18c06d3f4:  26 00 80 52   mov	w6, #0x1
+0x18c06d3f8:  f4 03 08 aa   mov	x20, x8
+0x18c06d3fc:  33 e5 ff 97   bl	0x18c0668c8
+0x18c06d400:  60 2e 00 f9   str	x0, [x19, #0x58]
+0x18c06d404:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d408:  08 01 3d 91   add	x8, x8, #0xf40 ; "taskServiceWatchdogTimeoutInSeconds"
+0x18c06d40c:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d410:  e0 03 15 aa   mov	x0, x21
+0x18c06d414:  53 ff 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d418:  f4 03 00 aa   mov	x20, x0
+0x18c06d41c:  e0 03 17 aa   mov	x0, x23
+0x18c06d420:  21 0f 80 52   mov	w1, #0x79
+0x18c06d424:  e2 00 80 52   mov	w2, #0x7
+0x18c06d428:  ca 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d42c:  e8 03 00 aa   mov	x8, x0
+0x18c06d430:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d434:  22 4b 00 91   add	x2, x25, #0x12
+0x18c06d438:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d43c:  20 02 80 d2   mov	x0, #0x11
+0x18c06d440:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d444:  05 00 80 d2   mov	x5, #0
+0x18c06d448:  e7 03 14 aa   mov	x7, x20
+0x18c06d44c:  04 0f 80 52   mov	w4, #0x78
+0x18c06d450:  26 00 80 52   mov	w6, #0x1
+0x18c06d454:  f4 03 08 aa   mov	x20, x8
+0x18c06d458:  1c e5 ff 97   bl	0x18c0668c8
+0x18c06d45c:  60 32 00 f9   str	x0, [x19, #0x60]
+0x18c06d460:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d464:  08 c1 3d 91   add	x8, x8, #0xf70 ; "appIntentActivityInterval"
+0x18c06d468:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d46c:  e0 03 15 aa   mov	x0, x21
+0x18c06d470:  3c ff 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d474:  f4 03 00 aa   mov	x20, x0
+0x18c06d478:  20 1b 2c b0   adrp	x0, 0x1e43d2000
+0x18c06d47c:  00 c0 3b 91   add	x0, x0, #0xef0 ; data_1e43d2ef0 (ChronoServices/__DATA.__data)
+0x18c06d480:  01 01 00 f0   adrp	x1, 0x18c090000
+0x18c06d484:  21 c0 32 91   add	x1, x1, #0xcb0
+0x18c06d488:  eb 4d fc 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x18c06d48c:  f7 03 00 aa   mov	x23, x0
+0x18c06d490:  a0 03 1a f8   stur	x0, [fp, #-0x60]
+0x18c06d494:  21 0f 80 52   mov	w1, #0x79
+0x18c06d498:  e2 00 80 52   mov	w2, #0x7
+0x18c06d49c:  ad 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d4a0:  e7 03 00 aa   mov	x7, x0
+0x18c06d4a4:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d4a8:  22 03 7d b2   orr	x2, x25, #0x8
+0x18c06d4ac:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d4b0:  00 10 61 1e   fmov	d0, #3.00000000
+0x18c06d4b4:  20 02 80 d2   mov	x0, #0x11
+0x18c06d4b8:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d4bc:  04 00 80 d2   mov	x4, #0
+0x18c06d4c0:  25 00 80 52   mov	w5, #0x1
+0x18c06d4c4:  e6 03 14 aa   mov	x6, x20
+0x18c06d4c8:  f4 03 07 aa   mov	x20, x7
+0x18c06d4cc:  1c e4 ff 97   bl	0x18c06653c
+0x18c06d4d0:  60 36 00 f9   str	x0, [x19, #0x68]
+0x18c06d4d4:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d4d8:  08 41 3e 91   add	x8, x8, #0xf90 ; "debugSnapshottingViews"
+0x18c06d4dc:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d4e0:  e0 03 15 aa   mov	x0, x21
+0x18c06d4e4:  1f ff 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d4e8:  f4 03 00 aa   mov	x20, x0
+0x18c06d4ec:  e0 03 16 aa   mov	x0, x22
+0x18c06d4f0:  21 0c 80 52   mov	w1, #0x61
+0x18c06d4f4:  e2 00 80 52   mov	w2, #0x7
+0x18c06d4f8:  96 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d4fc:  e7 03 00 aa   mov	x7, x0
+0x18c06d500:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d504:  22 17 00 91   add	x2, x25, #0x5
+0x18c06d508:  3c 02 80 d2   mov	x28, #0x11
+0x18c06d50c:  1c 00 fa f2   movk	x28, #0xd000, lsl #0x30
+0x18c06d510:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d514:  20 02 80 d2   mov	x0, #0x11
+0x18c06d518:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d51c:  04 00 80 52   mov	w4, #0
+0x18c06d520:  e6 03 14 aa   mov	x6, x20
+0x18c06d524:  45 00 80 52   mov	w5, #0x2
+0x18c06d528:  f4 03 07 aa   mov	x20, x7
+0x18c06d52c:  10 e8 ff 97   bl	0x18c06756c
+0x18c06d530:  60 3a 00 f9   str	x0, [x19, #0x70]
+0x18c06d534:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d538:  08 c1 3e 91   add	x8, x8, #0xfb0 ; "debugAnimationsPaused"
+0x18c06d53c:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d540:  e0 03 15 aa   mov	x0, x21
+0x18c06d544:  07 ff 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d548:  f4 03 00 aa   mov	x20, x0
+0x18c06d54c:  e0 03 16 aa   mov	x0, x22
+0x18c06d550:  21 0c 80 52   mov	w1, #0x61
+0x18c06d554:  e2 00 80 52   mov	w2, #0x7
+0x18c06d558:  7e 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d55c:  e7 03 00 aa   mov	x7, x0
+0x18c06d560:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d564:  82 03 7e b2   orr	x2, x28, #0x4
+0x18c06d568:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d56c:  20 02 80 d2   mov	x0, #0x11
+0x18c06d570:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d574:  04 00 80 52   mov	w4, #0
+0x18c06d578:  e6 03 14 aa   mov	x6, x20
+0x18c06d57c:  45 00 80 52   mov	w5, #0x2
+0x18c06d580:  f4 03 07 aa   mov	x20, x7
+0x18c06d584:  fa e7 ff 97   bl	0x18c06756c
+0x18c06d588:  60 3e 00 f9   str	x0, [x19, #0x78]
+0x18c06d58c:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d590:  08 41 3f 91   add	x8, x8, #0xfd0 ; "debugPlaceholderViews"
+0x18c06d594:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d598:  e0 03 15 aa   mov	x0, x21
+0x18c06d59c:  f1 fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d5a0:  f4 03 00 aa   mov	x20, x0
+0x18c06d5a4:  e0 03 16 aa   mov	x0, x22
+0x18c06d5a8:  21 0c 80 52   mov	w1, #0x61
+0x18c06d5ac:  e2 00 80 52   mov	w2, #0x7
+0x18c06d5b0:  68 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d5b4:  e7 03 00 aa   mov	x7, x0
+0x18c06d5b8:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d5bc:  82 03 7e b2   orr	x2, x28, #0x4
+0x18c06d5c0:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d5c4:  20 02 80 d2   mov	x0, #0x11
+0x18c06d5c8:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d5cc:  04 00 80 52   mov	w4, #0
+0x18c06d5d0:  e6 03 14 aa   mov	x6, x20
+0x18c06d5d4:  45 00 80 52   mov	w5, #0x2
+0x18c06d5d8:  f4 03 07 aa   mov	x20, x7
+0x18c06d5dc:  e4 e7 ff 97   bl	0x18c06756c
+0x18c06d5e0:  60 42 00 f9   str	x0, [x19, #0x80]
+0x18c06d5e4:  a8 01 00 90   adrp	x8, 0x18c0a1000
+0x18c06d5e8:  08 c1 3f 91   add	x8, x8, #0xff0 ; "debugAlwaysOnDisplay"
+0x18c06d5ec:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d5f0:  e0 03 15 aa   mov	x0, x21
+0x18c06d5f4:  db fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d5f8:  f4 03 00 aa   mov	x20, x0
+0x18c06d5fc:  e0 03 16 aa   mov	x0, x22
+0x18c06d600:  21 0c 80 52   mov	w1, #0x61
+0x18c06d604:  e2 00 80 52   mov	w2, #0x7
+0x18c06d608:  52 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d60c:  e7 03 00 aa   mov	x7, x0
+0x18c06d610:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d614:  82 0f 00 91   add	x2, x28, #0x3
+0x18c06d618:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d61c:  20 02 80 d2   mov	x0, #0x11
+0x18c06d620:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d624:  04 00 80 52   mov	w4, #0
+0x18c06d628:  e6 03 14 aa   mov	x6, x20
+0x18c06d62c:  45 00 80 52   mov	w5, #0x2
+0x18c06d630:  f4 03 07 aa   mov	x20, x7
+0x18c06d634:  ce e7 ff 97   bl	0x18c06756c
+0x18c06d638:  60 46 00 f9   str	x0, [x19, #0x88]
+0x18c06d63c:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d640:  08 41 00 91   add	x8, x8, #0x10 ; "EnableDebugLabels"
+0x18c06d644:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d648:  e0 03 15 aa   mov	x0, x21
+0x18c06d64c:  c5 fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d650:  f4 03 00 aa   mov	x20, x0
+0x18c06d654:  e0 03 16 aa   mov	x0, x22
+0x18c06d658:  21 0c 80 52   mov	w1, #0x61
+0x18c06d65c:  e2 00 80 52   mov	w2, #0x7
+0x18c06d660:  3c 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d664:  e7 03 00 aa   mov	x7, x0
+0x18c06d668:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d66c:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d670:  20 02 80 d2   mov	x0, #0x11
+0x18c06d674:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d678:  22 02 80 d2   mov	x2, #0x11
+0x18c06d67c:  02 00 fa f2   movk	x2, #0xd000, lsl #0x30
+0x18c06d680:  04 00 80 52   mov	w4, #0
+0x18c06d684:  e6 03 14 aa   mov	x6, x20
+0x18c06d688:  45 00 80 52   mov	w5, #0x2
+0x18c06d68c:  f4 03 07 aa   mov	x20, x7
+0x18c06d690:  b7 e7 ff 97   bl	0x18c06756c
+0x18c06d694:  60 4a 00 f9   str	x0, [x19, #0x90]
+0x18c06d698:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d69c:  08 c1 00 91   add	x8, x8, #0x30 ; "EnableDebugLabelsVerbose"
+0x18c06d6a0:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d6a4:  e0 03 15 aa   mov	x0, x21
+0x18c06d6a8:  ae fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d6ac:  f4 03 00 aa   mov	x20, x0
+0x18c06d6b0:  e0 03 16 aa   mov	x0, x22
+0x18c06d6b4:  21 0c 80 52   mov	w1, #0x61
+0x18c06d6b8:  e2 00 80 52   mov	w2, #0x7
+0x18c06d6bc:  25 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d6c0:  e7 03 00 aa   mov	x7, x0
+0x18c06d6c4:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d6c8:  82 1f 00 91   add	x2, x28, #0x7
+0x18c06d6cc:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d6d0:  20 02 80 d2   mov	x0, #0x11
+0x18c06d6d4:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d6d8:  04 00 80 52   mov	w4, #0
+0x18c06d6dc:  e6 03 14 aa   mov	x6, x20
+0x18c06d6e0:  45 00 80 52   mov	w5, #0x2
+0x18c06d6e4:  f4 03 07 aa   mov	x20, x7
+0x18c06d6e8:  a1 e7 ff 97   bl	0x18c06756c
+0x18c06d6ec:  60 4e 00 f9   str	x0, [x19, #0x98]
+0x18c06d6f0:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d6f4:  08 41 01 91   add	x8, x8, #0x50 ; "disableAnimations"
+0x18c06d6f8:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d6fc:  e0 03 15 aa   mov	x0, x21
+0x18c06d700:  98 fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d704:  f4 03 00 aa   mov	x20, x0
+0x18c06d708:  e0 03 16 aa   mov	x0, x22
+0x18c06d70c:  21 0c 80 52   mov	w1, #0x61
+0x18c06d710:  e2 00 80 52   mov	w2, #0x7
+0x18c06d714:  0f 7d 01 95   bl	_swift_allocObject_stub
+0x18c06d718:  e7 03 00 aa   mov	x7, x0
+0x18c06d71c:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d720:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d724:  20 02 80 d2   mov	x0, #0x11
+0x18c06d728:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d72c:  22 02 80 d2   mov	x2, #0x11
+0x18c06d730:  02 00 fa f2   movk	x2, #0xd000, lsl #0x30
+0x18c06d734:  04 00 80 52   mov	w4, #0
+0x18c06d738:  e6 03 14 aa   mov	x6, x20
+0x18c06d73c:  45 00 80 52   mov	w5, #0x2
+0x18c06d740:  f4 03 07 aa   mov	x20, x7
+0x18c06d744:  8a e7 ff 97   bl	0x18c06756c
+0x18c06d748:  60 52 00 f9   str	x0, [x19, #0xa0]
+0x18c06d74c:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d750:  08 c1 01 91   add	x8, x8, #0x70 ; "DisableLiveActivities"
+0x18c06d754:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d758:  e0 03 15 aa   mov	x0, x21
+0x18c06d75c:  81 fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d760:  f4 03 00 aa   mov	x20, x0
+0x18c06d764:  e0 03 16 aa   mov	x0, x22
+0x18c06d768:  21 0c 80 52   mov	w1, #0x61
+0x18c06d76c:  e2 00 80 52   mov	w2, #0x7
+0x18c06d770:  f8 7c 01 95   bl	_swift_allocObject_stub
+0x18c06d774:  e7 03 00 aa   mov	x7, x0
+0x18c06d778:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d77c:  82 03 7e b2   orr	x2, x28, #0x4
+0x18c06d780:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d784:  20 02 80 d2   mov	x0, #0x11
+0x18c06d788:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d78c:  04 00 80 52   mov	w4, #0
+0x18c06d790:  e6 03 14 aa   mov	x6, x20
+0x18c06d794:  45 00 80 52   mov	w5, #0x2
+0x18c06d798:  f4 03 07 aa   mov	x20, x7
+0x18c06d79c:  74 e7 ff 97   bl	0x18c06756c
+0x18c06d7a0:  60 56 00 f9   str	x0, [x19, #0xa8]
+0x18c06d7a4:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d7a8:  08 41 02 91   add	x8, x8, #0x90 ; "DisableSnapshots"
+0x18c06d7ac:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d7b0:  e0 03 15 aa   mov	x0, x21
+0x18c06d7b4:  6b fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d7b8:  f4 03 00 aa   mov	x20, x0
+0x18c06d7bc:  e0 03 16 aa   mov	x0, x22
+0x18c06d7c0:  21 0c 80 52   mov	w1, #0x61
+0x18c06d7c4:  e2 00 80 52   mov	w2, #0x7
+0x18c06d7c8:  e2 7c 01 95   bl	_swift_allocObject_stub
+0x18c06d7cc:  e7 03 00 aa   mov	x7, x0
+0x18c06d7d0:  99 07 00 d1   sub	x25, x28, #0x1
+0x18c06d7d4:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d7d8:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d7dc:  20 02 80 d2   mov	x0, #0x11
+0x18c06d7e0:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d7e4:  e2 03 19 aa   mov	x2, x25
+0x18c06d7e8:  04 00 80 52   mov	w4, #0
+0x18c06d7ec:  45 00 80 52   mov	w5, #0x2
+0x18c06d7f0:  e6 03 14 aa   mov	x6, x20
+0x18c06d7f4:  f4 03 07 aa   mov	x20, x7
+0x18c06d7f8:  5d e7 ff 97   bl	0x18c06756c
+0x18c06d7fc:  60 5a 00 f9   str	x0, [x19, #0xb0]
+0x18c06d800:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d804:  08 c1 02 91   add	x8, x8, #0xb0 ; "snapshotExpiration"
+0x18c06d808:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d80c:  e0 03 15 aa   mov	x0, x21
+0x18c06d810:  54 fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d814:  f4 03 00 aa   mov	x20, x0
+0x18c06d818:  ba 83 5a f8   ldur	x26, [fp, #-0x58]
+0x18c06d81c:  e0 03 1a aa   mov	x0, x26
+0x18c06d820:  41 10 80 52   mov	w1, #0x82
+0x18c06d824:  e2 00 80 52   mov	w2, #0x7
+0x18c06d828:  ca 7c 01 95   bl	_swift_allocObject_stub
+0x18c06d82c:  e8 03 00 aa   mov	x8, x0
+0x18c06d830:  f4 0f 1f 38   strb	w20, [sp, #-0x10]!
+0x18c06d834:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d838:  82 07 00 91   add	x2, x28, #0x1
+0x18c06d83c:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d840:  20 02 80 d2   mov	x0, #0x11
+0x18c06d844:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d848:  04 00 80 d2   mov	x4, #0
+0x18c06d84c:  25 00 80 52   mov	w5, #0x1
+0x18c06d850:  06 00 80 d2   mov	x6, #0
+0x18c06d854:  07 20 80 52   mov	w7, #0x100
+0x18c06d858:  f4 03 08 aa   mov	x20, x8
+0x18c06d85c:  5e e6 ff 97   bl	0x18c0671d4
+0x18c06d860:  ff 43 00 91   add	sp, sp, #0x10
+0x18c06d864:  60 5e 00 f9   str	x0, [x19, #0xb8]
+0x18c06d868:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d86c:  08 41 03 91   add	x8, x8, #0xd0 ; "DisablePlaceholders"
+0x18c06d870:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d874:  e0 03 15 aa   mov	x0, x21
+0x18c06d878:  3a fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d87c:  f4 03 00 aa   mov	x20, x0
+0x18c06d880:  e0 03 16 aa   mov	x0, x22
+0x18c06d884:  21 0c 80 52   mov	w1, #0x61
+0x18c06d888:  e2 00 80 52   mov	w2, #0x7
+0x18c06d88c:  b1 7c 01 95   bl	_swift_allocObject_stub
+0x18c06d890:  e7 03 00 aa   mov	x7, x0
+0x18c06d894:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d898:  82 03 7f b2   orr	x2, x28, #0x2
+0x18c06d89c:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d8a0:  20 02 80 d2   mov	x0, #0x11
+0x18c06d8a4:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d8a8:  04 00 80 52   mov	w4, #0
+0x18c06d8ac:  e6 03 14 aa   mov	x6, x20
+0x18c06d8b0:  45 00 80 52   mov	w5, #0x2
+0x18c06d8b4:  f4 03 07 aa   mov	x20, x7
+0x18c06d8b8:  2d e7 ff 97   bl	0x18c06756c
+0x18c06d8bc:  60 62 00 f9   str	x0, [x19, #0xc0]
+0x18c06d8c0:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d8c4:  08 c1 03 91   add	x8, x8, #0xf0 ; "DisableTimelines"
+0x18c06d8c8:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d8cc:  e0 03 15 aa   mov	x0, x21
+0x18c06d8d0:  24 fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d8d4:  f4 03 00 aa   mov	x20, x0
+0x18c06d8d8:  e0 03 16 aa   mov	x0, x22
+0x18c06d8dc:  21 0c 80 52   mov	w1, #0x61
+0x18c06d8e0:  e2 00 80 52   mov	w2, #0x7
+0x18c06d8e4:  9b 7c 01 95   bl	_swift_allocObject_stub
+0x18c06d8e8:  e7 03 00 aa   mov	x7, x0
+0x18c06d8ec:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d8f0:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d8f4:  20 02 80 d2   mov	x0, #0x11
+0x18c06d8f8:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d8fc:  e2 03 19 aa   mov	x2, x25
+0x18c06d900:  04 00 80 52   mov	w4, #0
+0x18c06d904:  45 00 80 52   mov	w5, #0x2
+0x18c06d908:  e6 03 14 aa   mov	x6, x20
+0x18c06d90c:  f4 03 07 aa   mov	x20, x7
+0x18c06d910:  17 e7 ff 97   bl	0x18c06756c
+0x18c06d914:  60 66 00 f9   str	x0, [x19, #0xc8]
+0x18c06d918:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d91c:  08 41 04 91   add	x8, x8, #0x110 ; "DisableArchiveReaper"
+0x18c06d920:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d924:  e0 03 15 aa   mov	x0, x21
+0x18c06d928:  0e fe 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d92c:  f4 03 00 aa   mov	x20, x0
+0x18c06d930:  e0 03 16 aa   mov	x0, x22
+0x18c06d934:  21 0c 80 52   mov	w1, #0x61
+0x18c06d938:  e2 00 80 52   mov	w2, #0x7
+0x18c06d93c:  85 7c 01 95   bl	_swift_allocObject_stub
+0x18c06d940:  e7 03 00 aa   mov	x7, x0
+0x18c06d944:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d948:  82 0f 00 91   add	x2, x28, #0x3
+0x18c06d94c:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d950:  20 02 80 d2   mov	x0, #0x11
+0x18c06d954:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d958:  04 00 80 52   mov	w4, #0
+0x18c06d95c:  e6 03 14 aa   mov	x6, x20
+0x18c06d960:  45 00 80 52   mov	w5, #0x2
+0x18c06d964:  f4 03 07 aa   mov	x20, x7
+0x18c06d968:  01 e7 ff 97   bl	0x18c06756c
+0x18c06d96c:  60 6a 00 f9   str	x0, [x19, #0xd0]
+0x18c06d970:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06d974:  08 c1 04 91   add	x8, x8, #0x130 ; "LayerSnapshotter_USE_CAML"
+0x18c06d978:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06d97c:  e0 03 15 aa   mov	x0, x21
+0x18c06d980:  f8 fd 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d984:  f4 03 00 aa   mov	x20, x0
+0x18c06d988:  e0 03 16 aa   mov	x0, x22
+0x18c06d98c:  21 0c 80 52   mov	w1, #0x61
+0x18c06d990:  e2 00 80 52   mov	w2, #0x7
+0x18c06d994:  6f 7c 01 95   bl	_swift_allocObject_stub
+0x18c06d998:  e7 03 00 aa   mov	x7, x0
+0x18c06d99c:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06d9a0:  82 03 7d b2   orr	x2, x28, #0x8
+0x18c06d9a4:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06d9a8:  20 02 80 d2   mov	x0, #0x11
+0x18c06d9ac:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06d9b0:  04 00 80 52   mov	w4, #0
+0x18c06d9b4:  e6 03 14 aa   mov	x6, x20
+0x18c06d9b8:  45 00 80 52   mov	w5, #0x2
+0x18c06d9bc:  f4 03 07 aa   mov	x20, x7
+0x18c06d9c0:  eb e6 ff 97   bl	0x18c06756c
+0x18c06d9c4:  60 6e 00 f9   str	x0, [x19, #0xd8]
+0x18c06d9c8:  e0 03 15 aa   mov	x0, x21
+0x18c06d9cc:  e5 fd 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06d9d0:  f4 03 00 aa   mov	x20, x0
+0x18c06d9d4:  e0 03 16 aa   mov	x0, x22
+0x18c06d9d8:  21 0c 80 52   mov	w1, #0x61
+0x18c06d9dc:  e2 00 80 52   mov	w2, #0x7
+0x18c06d9e0:  5c 7c 01 95   bl	_swift_allocObject_stub
+0x18c06d9e4:  e7 03 00 aa   mov	x7, x0
+0x18c06d9e8:  82 a8 8c d2   mov	x2, #0x6544
+0x18c06d9ec:  82 2d ac f2   movk	x2, #0x616c, lsl #0x10
+0x18c06d9f0:  22 6f ca f2   movk	x2, #0x5379, lsl #0x20
+0x18c06d9f4:  82 2e ec f2   movk	x2, #0x6174, lsl #0x30
+0x18c06d9f8:  43 8e 8e d2   mov	x3, #0x7472
+0x18c06d9fc:  a3 0e ae f2   movk	x3, #0x7075, lsl #0x10
+0x18c06da00:  03 80 fd f2   movk	x3, #0xec00, lsl #0x30
+0x18c06da04:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06da08:  20 02 80 d2   mov	x0, #0x11
+0x18c06da0c:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06da10:  04 00 80 52   mov	w4, #0
+0x18c06da14:  45 00 80 52   mov	w5, #0x2
+0x18c06da18:  e6 03 14 aa   mov	x6, x20
+0x18c06da1c:  f4 03 07 aa   mov	x20, x7
+0x18c06da20:  d3 e6 ff 97   bl	0x18c06756c
+0x18c06da24:  60 72 00 f9   str	x0, [x19, #0xe0]
+0x18c06da28:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06da2c:  08 41 05 91   add	x8, x8, #0x150 ; "DelayRendererStartup"
+0x18c06da30:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06da34:  e0 03 15 aa   mov	x0, x21
+0x18c06da38:  ca fd 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06da3c:  f4 03 00 aa   mov	x20, x0
+0x18c06da40:  e0 03 16 aa   mov	x0, x22
+0x18c06da44:  21 0c 80 52   mov	w1, #0x61
+0x18c06da48:  e2 00 80 52   mov	w2, #0x7
+0x18c06da4c:  41 7c 01 95   bl	_swift_allocObject_stub
+0x18c06da50:  e7 03 00 aa   mov	x7, x0
+0x18c06da54:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06da58:  82 0f 00 91   add	x2, x28, #0x3
+0x18c06da5c:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06da60:  20 02 80 d2   mov	x0, #0x11
+0x18c06da64:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06da68:  04 00 80 52   mov	w4, #0
+0x18c06da6c:  e6 03 14 aa   mov	x6, x20
+0x18c06da70:  45 00 80 52   mov	w5, #0x2
+0x18c06da74:  f4 03 07 aa   mov	x20, x7
+0x18c06da78:  bd e6 ff 97   bl	0x18c06756c
+0x18c06da7c:  60 76 00 f9   str	x0, [x19, #0xe8]
+0x18c06da80:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06da84:  08 c1 05 91   add	x8, x8, #0x170 ; "simulateSystemDataMigration"
+0x18c06da88:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06da8c:  e0 03 15 aa   mov	x0, x21
+0x18c06da90:  b4 fd 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06da94:  f4 03 00 aa   mov	x20, x0
+0x18c06da98:  e0 03 16 aa   mov	x0, x22
+0x18c06da9c:  21 0c 80 52   mov	w1, #0x61
+0x18c06daa0:  e2 00 80 52   mov	w2, #0x7
+0x18c06daa4:  2b 7c 01 95   bl	_swift_allocObject_stub
+0x18c06daa8:  e7 03 00 aa   mov	x7, x0
+0x18c06daac:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06dab0:  48 01 80 52   mov	w8, #0xa
+0x18c06dab4:  82 03 08 aa   orr	x2, x28, x8
+0x18c06dab8:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06dabc:  20 02 80 d2   mov	x0, #0x11
+0x18c06dac0:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+0x18c06dac4:  04 00 80 52   mov	w4, #0
+0x18c06dac8:  e6 03 14 aa   mov	x6, x20
+0x18c06dacc:  45 00 80 52   mov	w5, #0x2
+0x18c06dad0:  f4 03 07 aa   mov	x20, x7
+0x18c06dad4:  a6 e6 ff 97   bl	0x18c06756c
+0x18c06dad8:  60 7a 00 f9   str	x0, [x19, #0xf0]
+0x18c06dadc:  a8 01 00 b0   adrp	x8, 0x18c0a2000
+0x18c06dae0:  08 41 06 91   add	x8, x8, #0x190 ; "simulateMemoryWarning"
+0x18c06dae4:  18 81 00 d1   sub	x24, x8, #0x20
+0x18c06dae8:  e0 03 15 aa   mov	x0, x21
+0x18c06daec:  9d fd 01 95   bl	_os_variant_has_internal_ui_stub
+0x18c06daf0:  f4 03 00 aa   mov	x20, x0
+0x18c06daf4:  e0 03 16 aa   mov	x0, x22
+0x18c06daf8:  21 0c 80 52   mov	w1, #0x61
+0x18c06dafc:  e2 00 80 52   mov	w2, #0x7
+0x18c06db00:  14 7c 01 95   bl	_swift_allocObject_stub
+0x18c06db04:  e7 03 00 aa   mov	x7, x0
+0x18c06db08:  61 03 41 b2   orr	x1, x27, #0x8000000000000000
+0x18c06db0c:  82 03 7e b2   orr	x2, x28, #0x4
+0x18c06db10:  03 03 41 b2   orr	x3, x24, #0x8000000000000000
+0x18c06db14:  20 02 80 d2   mov	x0, #0x11
+0x18c06db18:  00 00 fa f2   movk	x0, #0xd000, lsl #0x30
+

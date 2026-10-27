@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-23",
+  "scope": "offline probes; no device I/O or persistent settings writes",
+  "checks": [
+    {
+      "id": "caml_parse_count",
+      "result": true,
+      "calls": 5
+    },
+    {
+      "id": "pb_saved_items_alias",
+      "result": true,
+      "saved_items": [],
+      "aliases_staged": true
+    },
+    {
+      "id": "unknown_encryption_becomes_false",
+      "result": true,
+      "actual": false
+    },
+    {
+      "id": "unavailable_manifest_becomes_empty_list",
+      "result": true,
+      "actual": [],
+      "mode": "original function body, Path dependency only"
+    },
+    {
+      "id": "same_size_log_rotation_stale",
+      "result": true,
+      "actual_buffer": "OLD RECORD\n",
+      "actual_file": "NEW RECORD\n",
+      "mode": "original method body, no QWidget"
+    },
+    {
+      "id": "same_count_app_refresh_keyerror",
+      "result": true,
+      "exception": "'new.app'",
+      "mode": "original method body, widget adapter"
+    }
+  ]
+}

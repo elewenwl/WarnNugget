@@ -1,0 +1,349 @@
+{
+  "name": "combined-present",
+  "keys": [
+    "com.apple.UsageTrackingAgent",
+    "com.apple.aslmanager",
+    "com.apple.assistant_service",
+    "com.apple.assistantd",
+    "com.apple.assistivetouchd",
+    "com.apple.corespotlightservice",
+    "com.apple.coresymbolicationd",
+    "com.apple.devicecheckd",
+    "com.apple.diagnosticd",
+    "com.apple.diagnosticextensionsd",
+    "com.apple.familycircled",
+    "com.apple.feedbackd",
+    "com.apple.followupd",
+    "com.apple.gamed",
+    "com.apple.geod",
+    "com.apple.healthd",
+    "com.apple.itunescloudd",
+    "com.apple.locationd",
+    "com.apple.logd",
+    "com.apple.logd_helper",
+    "com.apple.logd_reporter",
+    "com.apple.mediaremoted",
+    "com.apple.nanoregistryd",
+    "com.apple.nanotimekitcompaniond",
+    "com.apple.newsd",
+    "com.apple.parsecd",
+    "com.apple.passd",
+    "com.apple.rtcreportingd",
+    "com.apple.searchd",
+    "com.apple.shazamd",
+    "com.apple.spotlightknowledged",
+    "com.apple.spotlightknowledged.updater",
+    "com.apple.syslogd",
+    "com.apple.tipsd",
+    "com.apple.triald",
+    "com.apple.videosubscriptionsd",
+    "com.apple.voiced"
+  ],
+  "started": 1792437913.606533,
+  "shutdown": {
+    "code": 0,
+    "out": "",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\n"
+  },
+  "boot": {
+    "code": 0,
+    "out": "",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\n"
+  },
+  "bootstatus": {
+    "code": -1,
+    "out": "Monitoring boot status for GoldenNugget-Daemon-Audit (362457BA-2C1E-49CE-B6FB-DC7B1FEBD053).\n[2026-10-19 19:26:05 +0000] Status=1, isTerminal=NO, Elapsed=00:01.\n\tWaiting on BackBoard\n\n",
+    "err": "timeout"
+  },
+  "disabled": {
+    "com.apple.diagnosticd": true,
+    "com.apple.logd": true,
+    "com.apple.logd_helper": true,
+    "com.apple.UsageTrackingAgent": true,
+    "com.apple.aslmanager": true,
+    "com.apple.assistant_service": true,
+    "com.apple.assistantd": true,
+    "com.apple.assistivetouchd": true,
+    "com.apple.corespotlightservice": true,
+    "com.apple.coresymbolicationd": true,
+    "com.apple.devicecheckd": true,
+    "com.apple.diagnosticextensionsd": true,
+    "com.apple.familycircled": true,
+    "com.apple.feedbackd": true,
+    "com.apple.followupd": true,
+    "com.apple.gamed": true,
+    "com.apple.geod": true,
+    "com.apple.healthd": true,
+    "com.apple.itunescloudd": true,
+    "com.apple.locationd": true,
+    "com.apple.logd_reporter": true,
+    "com.apple.mediaremoted": true,
+    "com.apple.nanoregistryd": true,
+    "com.apple.nanotimekitcompaniond": true,
+    "com.apple.newsd": true,
+    "com.apple.parsecd": true,
+    "com.apple.passd": true,
+    "com.apple.rtcreportingd": true,
+    "com.apple.searchd": true,
+    "com.apple.shazamd": true,
+    "com.apple.spotlightknowledged": true,
+    "com.apple.spotlightknowledged.updater": true,
+    "com.apple.syslogd": true,
+    "com.apple.tipsd": true,
+    "com.apple.triald": true,
+    "com.apple.videosubscriptionsd": true,
+    "com.apple.voiced": true
+  },
+  "target_jobs": {
+    "com.apple.UsageTrackingAgent": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.UsageTrackingAgent\" in domain for uid: 501\n"
+    },
+    "com.apple.aslmanager": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.aslmanager\" in domain for uid: 501\n"
+    },
+    "com.apple.assistant_service": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.assistant_service\" in domain for uid: 501\n"
+    },
+    "com.apple.assistantd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.assistantd\" in domain for uid: 501\n"
+    },
+    "com.apple.assistivetouchd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.assistivetouchd\" in domain for uid: 501\n"
+    },
+    "com.apple.corespotlightservice": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.corespotlightservice\" in domain for uid: 501\n"
+    },
+    "com.apple.coresymbolicationd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.coresymbolicationd\" in domain for uid: 501\n"
+    },
+    "com.apple.devicecheckd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.devicecheckd\" in domain for uid: 501\n"
+    },
+    "com.apple.diagnosticd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.diagnosticd\" in domain for system\n"
+    },
+    "com.apple.diagnosticextensionsd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.diagnosticextensionsd\" in domain for uid: 501\n"
+    },
+    "com.apple.familycircled": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.familycircled\" in domain for uid: 501\n"
+    },
+    "com.apple.feedbackd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.feedbackd\" in domain for uid: 501\n"
+    },
+    "com.apple.followupd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.followupd\" in domain for uid: 501\n"
+    },
+    "com.apple.gamed": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.gamed\" in domain for uid: 501\n"
+    },
+    "com.apple.geod": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.geod\" in domain for uid: 501\n"
+    },
+    "com.apple.healthd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.healthd\" in domain for uid: 501\n"
+    },
+    "com.apple.itunescloudd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.itunescloudd\" in domain for uid: 501\n"
+    },
+    "com.apple.locationd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.locationd\" in domain for uid: 501\n"
+    },
+    "com.apple.logd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.logd\" in domain for system\n"
+    },
+    "com.apple.logd_helper": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.logd_helper\" in domain for system\n"
+    },
+    "com.apple.logd_reporter": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.logd_reporter\" in domain for uid: 501\n"
+    },
+    "com.apple.mediaremoted": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.mediaremoted\" in domain for uid: 501\n"
+    },
+    "com.apple.nanoregistryd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.nanoregistryd\" in domain for uid: 501\n"
+    },
+    "com.apple.nanotimekitcompaniond": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.nanotimekitcompaniond\" in domain for uid: 501\n"
+    },
+    "com.apple.newsd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.newsd\" in domain for uid: 501\n"
+    },
+    "com.apple.parsecd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.parsecd\" in domain for uid: 501\n"
+    },
+    "com.apple.passd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.passd\" in domain for uid: 501\n"
+    },
+    "com.apple.rtcreportingd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.rtcreportingd\" in domain for uid: 501\n"
+    },
+    "com.apple.searchd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.searchd\" in domain for uid: 501\n"
+    },
+    "com.apple.shazamd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.shazamd\" in domain for uid: 501\n"
+    },
+    "com.apple.spotlightknowledged": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.spotlightknowledged\" in domain for uid: 501\n"
+    },
+    "com.apple.spotlightknowledged.updater": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.spotlightknowledged.updater\" in domain for uid: 501\n"
+    },
+    "com.apple.syslogd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.syslogd\" in domain for uid: 501\n"
+    },
+    "com.apple.tipsd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.tipsd\" in domain for uid: 501\n"
+    },
+    "com.apple.triald": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.triald\" in domain for uid: 501\n"
+    },
+    "com.apple.videosubscriptionsd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.videosubscriptionsd\" in domain for uid: 501\n"
+    },
+    "com.apple.voiced": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.voiced\" in domain for uid: 501\n"
+    }
+  },
+  "samples": [
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "73619",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "73635",
+        "runs": "1",
+        "state": "running"
+      }
+    },
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "73619",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "73635",
+        "runs": "1",
+        "state": "running"
+      }
+    },
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "73619",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "73635",
+        "runs": "1",
+        "state": "running"
+      }
+    },
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "73619",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "73635",
+        "runs": "1",
+        "state": "running"
+      }
+    }
+  ],
+  "screenshot": {
+    "code": 0,
+    "out": "",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nDetected file type from extension: PNG\nNote: No display specified. Defaulting to display: 0CEF100D-D3AC-4C66-A54A-6BE40D1ADCB5 (screenID: 1, name: LCD)\nWrote screenshot to: /Users/awesomenull/Projects/GoldenNugget/docs/research/daemon-audit-2026-10-19/combined-present/screen.png\n"
+  },
+  "verdict": "needs_investigation",
+  "duration": 252.7
+}

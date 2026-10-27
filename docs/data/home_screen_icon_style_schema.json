@@ -1,0 +1,108 @@
+{
+ "note": "主屏图标外观的真实存储：PosterBoard poster 配置内的 PRPosterHomeScreenCustomizationConfiguration",
+ "sim": [
+  {
+   "config": "versions",
+   "data": {
+    "_iconUserInterfaceStyleType": "clear",
+    "_iconUserInterfaceStyleVariant": "light",
+    "_iconTintSource": "wallpaperSuggestion",
+    "_iconUserInterfaceSize": "SMALL",
+    "_dimmed": true,
+    "_tintStyleClass": [
+     107
+    ],
+    "_hue": 103,
+    "_sat": 106,
+    "_lum": 105,
+    "_lumValue": 104
+   }
+  }
+ ],
+ "device": [
+  {
+   "config": "4870F28A-4A44-435A-A5ED-18D494D46A49",
+   "data": {
+    "_iconUserInterfaceStyleType": "color",
+    "_iconUserInterfaceStyleVariant": "dark",
+    "_iconTintSource": "wallpaperSuggestion",
+    "_iconUserInterfaceSize": "SMALL",
+    "_dimmed": true,
+    "_tintStyleClass": [
+     108
+    ],
+    "_hue": 104,
+    "_sat": 107,
+    "_lum": 106,
+    "_lumValue": 105
+   }
+  },
+  {
+   "config": "95D1A969-F470-4E73-8B56-E88EF49CAC7B",
+   "data": {
+    "_iconUserInterfaceStyleType": "color",
+    "_iconUserInterfaceStyleVariant": "dark",
+    "_iconTintSource": "none",
+    "_iconUserInterfaceSize": "SMALL",
+    "_dimmed": true,
+    "_tintStyleClass": [
+     107
+    ],
+    "_hue": 103,
+    "_sat": 106,
+    "_lum": 105,
+    "_lumValue": 104
+   }
+  },
+  {
+   "config": "003885AF-0C38-4CE9-B503-473AFB8933DE",
+   "data": {
+    "_iconUserInterfaceStyleType": "color",
+    "_iconUserInterfaceStyleVariant": "light",
+    "_iconTintSource": "wallpaperSuggestion",
+    "_iconUserInterfaceSize": "SMALL",
+    "_dimmed": false,
+    "_tintStyleClass": [
+     108
+    ],
+    "_hue": 104,
+    "_sat": 107,
+    "_lum": 106,
+    "_lumValue": 105
+   }
+  },
+  {
+   "config": "03270BBE-A941-46B6-B0F0-F5DB2CEE709C",
+   "data": null
+  },
+  {
+   "config": "9EE2A68F-FBAF-4C26-BCB6-E352C2EC16A2",
+   "data": null
+  },
+  {
+   "config": "4F668E91-99D1-4068-9537-7C449515B792",
+   "data": null
+  },
+  {
+   "config": "D9AE6959-9A38-4314-BEDD-33F20B02AE15",
+   "data": null
+  },
+  {
+   "config": "98762412-CA1A-4892-8979-BAB284270227",
+   "data": {
+    "_iconUserInterfaceStyleType": "color",
+    "_iconUserInterfaceStyleVariant": "dark",
+    "_iconTintSource": "wallpaperSuggestion",
+    "_iconUserInterfaceSize": "SMALL",
+    "_dimmed": true,
+    "_tintStyleClass": [
+     107
+    ],
+    "_hue": 103,
+    "_sat": 106,
+    "_lum": 105,
+    "_lumValue": 104
+   }
+  }
+ ]
+}

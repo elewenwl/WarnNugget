@@ -1,0 +1,215 @@
+
+_TUCallRecordingActivatable
+0x19e8372dc:  7f 23 03 d5   pacibsp
+0x19e8372e0:  fa 67 bb a9   stp	x26, x25, [sp, #-0x50]!
+0x19e8372e4:  f8 5f 01 a9   stp	x24, x23, [sp, #0x10]
+0x19e8372e8:  f6 57 02 a9   stp	x22, x21, [sp, #0x20]
+0x19e8372ec:  f4 4f 03 a9   stp	x20, x19, [sp, #0x30]
+0x19e8372f0:  fd 7b 04 a9   stp	fp, lr, [sp, #0x40]
+0x19e8372f4:  fd 03 01 91   add	fp, sp, #0x40
+0x19e8372f8:  66 01 63 94   bl	_objc_retain_x0_stub
+0x19e8372fc:  f3 03 00 aa   mov	x19, x0
+0x19e837300:  a0 00 00 b5   cbnz	x0, loc_19e837314 ; ⤵ 0x14
+0x19e837304:  88 29 21 b0   adrp	x8, 0x1e0d68000
+0x19e837308:  00 f9 40 f9   ldr	x0, [x8, #0x1f0] ; _ptr.TUFeatureFlags
+0x19e83730c:  ad 00 63 94   bl	_objc_alloc_init_stub
+0x19e837310:  f3 03 00 aa   mov	x19, x0
+0x19e837314:  ; loc_19e837314
+0x19e837314:  79 c7 20 90   adrp	x25, 0x1e0123000
+0x19e837318:  20 f3 44 f9   ldr	x0, [x25, #0x9e0] ; _ptr.FTDeviceSupport
+0x19e83731c:  2d cb 5f 94   bl	0x1a0029fd0
+0x19e837320:  c4 00 63 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e837324:  f4 03 00 aa   mov	x20, x0
+0x19e837328:  ca 75 5f 94   bl	0x1a0014a50
+0x19e83732c:  1f 08 00 f1   cmp	x0, #0x2
+0x19e837330:  61 00 00 54   b.ne	loc_19e83733c ; ⤵ 0xc
+0x19e837334:  3a 00 80 52   mov	w26, #0x1
+0x19e837338:  30 00 00 14   b	loc_19e8373f8 ; ⤵ 0xc0
+0x19e83733c:  ; loc_19e83733c
+0x19e83733c:  e0 03 13 aa   mov	x0, x19
+0x19e837340:  98 bc 61 94   bl	0x1a00a65a0
+0x19e837344:  f6 03 00 aa   mov	x22, x0
+0x19e837348:  40 01 00 34   cbz	w0, loc_19e837370 ; ⤵ 0x28
+0x19e83734c:  20 f3 44 f9   ldr	x0, [x25, #0x9e0]
+0x19e837350:  20 cb 5f 94   bl	0x1a0029fd0
+0x19e837354:  b7 00 63 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e837358:  f5 03 00 aa   mov	x21, x0
+0x19e83735c:  bd 75 5f 94   bl	0x1a0014a50
+0x19e837360:  1f 10 00 f1   cmp	x0, #0x4
+0x19e837364:  61 00 00 54   b.ne	loc_19e837370 ; ⤵ 0xc
+0x19e837368:  3a 00 80 52   mov	w26, #0x1
+0x19e83736c:  22 00 00 14   b	loc_19e8373f4 ; ⤵ 0x88
+0x19e837370:  ; loc_19e837370
+0x19e837370:  e0 03 13 aa   mov	x0, x19
+0x19e837374:  f3 c8 61 94   bl	0x1a00a9740
+0x19e837378:  f8 03 00 aa   mov	x24, x0
+0x19e83737c:  80 01 00 34   cbz	w0, loc_19e8373ac ; ⤵ 0x30
+0x19e837380:  20 f3 44 f9   ldr	x0, [x25, #0x9e0]
+0x19e837384:  13 cb 5f 94   bl	0x1a0029fd0
+0x19e837388:  aa 00 63 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e83738c:  f7 03 00 aa   mov	x23, x0
+0x19e837390:  b0 75 5f 94   bl	0x1a0014a50
+0x19e837394:  1f 04 00 f1   cmp	x0, #0x1
+0x19e837398:  41 01 00 54   b.ne	loc_19e8373c0 ; ⤵ 0x28
+0x19e83739c:  1d 01 63 94   bl	_objc_release_x23_stub
+0x19e8373a0:  3a 00 80 52   mov	w26, #0x1
+0x19e8373a4:  96 02 00 37   tbnz	w22, #0, loc_19e8373f4 ; ⤵ 0x50
+0x19e8373a8:  14 00 00 14   b	loc_19e8373f8 ; ⤵ 0x50
+0x19e8373ac:  ; loc_19e8373ac
+0x19e8373ac:  e0 03 13 aa   mov	x0, x19
+0x19e8373b0:  14 e3 61 94   bl	0x1a00b0000
+0x19e8373b4:  c0 00 00 35   cbnz	w0, loc_19e8373cc ; ⤵ 0x18
+0x19e8373b8:  1a 00 80 52   mov	w26, #0
+0x19e8373bc:  0d 00 00 14   b	loc_19e8373f0 ; ⤵ 0x34
+0x19e8373c0:  ; loc_19e8373c0
+0x19e8373c0:  e0 03 13 aa   mov	x0, x19
+0x19e8373c4:  0f e3 61 94   bl	0x1a00b0000
+0x19e8373c8:  00 06 00 36   tbz	w0, #0, loc_19e837488 ; ⤵ 0xc0
+0x19e8373cc:  ; loc_19e8373cc
+0x19e8373cc:  20 f3 44 f9   ldr	x0, [x25, #0x9e0]
+0x19e8373d0:  00 cb 5f 94   bl	0x1a0029fd0
+0x19e8373d4:  97 00 63 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e8373d8:  f9 03 00 aa   mov	x25, x0
+0x19e8373dc:  9d 75 5f 94   bl	0x1a0014a50
+0x19e8373e0:  1f 24 00 f1   cmp	x0, #0x9
+0x19e8373e4:  fa 17 9f 1a   cset	w26, eq
+0x19e8373e8:  12 01 63 94   bl	_objc_release_x25_stub
+0x19e8373ec:  18 05 00 35   cbnz	w24, loc_19e83748c ; ⤵ 0xa0
+0x19e8373f0:  ; loc_19e8373f0
+0x19e8373f0:  56 00 00 34   cbz	w22, loc_19e8373f8 ; ⤵ 0x8
+0x19e8373f4:  ; loc_19e8373f4
+0x19e8373f4:  ff 00 63 94   bl	_objc_release_x21_stub
+0x19e8373f8:  ; loc_19e8373f8
+0x19e8373f8:  fa 00 63 94   bl	_objc_release_x20_stub
+0x19e8373fc:  68 c7 20 90   adrp	x8, 0x1e0123000
+0x19e837400:  00 01 45 f9   ldr	x0, [x8, #0xa00] ; _ptr.FTServerBag
+0x19e837404:  f3 ca 5f 94   bl	0x1a0029fd0
+0x19e837408:  8a 00 63 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e83740c:  f4 03 00 aa   mov	x20, x0
+0x19e837410:  40 38 26 f0   adrp	x0, 0x1eaf42000
+0x19e837414:  00 80 00 91   add	x0, x0, #0x20 ; _ptr.__NSCFConstantString
+0x19e837418:  e1 03 14 aa   mov	x1, x20
+0x19e83741c:  96 2e ff 97   bl	_booleanValueForKeyInServerBag
+0x19e837420:  00 02 00 37   tbnz	w0, #0, loc_19e837460 ; ⤵ 0x40
+0x19e837424:  00 00 80 d2   mov	x0, #0
+0x19e837428:  1c 00 00 94   bl	_TUIsTTSAvailable
+0x19e83742c:  a0 01 00 34   cbz	w0, loc_19e837460 ; ⤵ 0x34
+0x19e837430:  88 29 21 b0   adrp	x8, 0x1e0d68000
+0x19e837434:  00 ed 40 f9   ldr	x0, [x8, #0x1d8] ; _ptr.TUEligibilityChecker
+0x19e837438:  e2 c0 61 94   bl	0x1a00a77c0
+0x19e83743c:  08 00 1a 0a   and	w8, w0, w26
+0x19e837440:  1f 05 00 71   cmp	w8, #0x1
+0x19e837444:  e1 00 00 54   b.ne	loc_19e837460 ; ⤵ 0x1c
+0x19e837448:  e0 03 13 aa   mov	x0, x19
+0x19e83744c:  69 b0 61 94   bl	0x1a00a35f0
+0x19e837450:  80 00 00 34   cbz	w0, loc_19e837460 ; ⤵ 0x10
+0x19e837454:  65 00 00 94   bl	_TUCallRecordingEnabledMDMProfile
+0x19e837458:  f5 03 00 aa   mov	x21, x0
+0x19e83745c:  02 00 00 14   b	loc_19e837464 ; ⤵ 0x8
+0x19e837460:  ; loc_19e837460
+0x19e837460:  15 00 80 52   mov	w21, #0
+0x19e837464:  ; loc_19e837464
+0x19e837464:  df 00 63 94   bl	_objc_release_x20_stub
+0x19e837468:  d6 00 63 94   bl	_objc_release_x19_stub
+0x19e83746c:  e0 03 15 aa   mov	x0, x21
+0x19e837470:  fd 7b 44 a9   ldp	fp, lr, [sp, #0x40]
+0x19e837474:  f4 4f 43 a9   ldp	x20, x19, [sp, #0x30]
+0x19e837478:  f6 57 42 a9   ldp	x22, x21, [sp, #0x20]
+0x19e83747c:  f8 5f 41 a9   ldp	x24, x23, [sp, #0x10]
+0x19e837480:  fa 67 c5 a8   ldp	x26, x25, [sp], #0x50
+0x19e837484:  ff 0f 5f d6   retab
+0x19e837488:  ; loc_19e837488
+0x19e837488:  1a 00 80 52   mov	w26, #0
+0x19e83748c:  ; loc_19e83748c
+0x19e83748c:  e1 00 63 94   bl	_objc_release_x23_stub
+0x19e837490:  36 fb 07 37   tbnz	w22, #0, loc_19e8373f4 ; ⤴ -0x9c
+0x19e837494:  d9 ff ff 17   b	loc_19e8373f8 ; ⤴ -0x9c
+
+_TUIsTTSAvailable
+0x19e837498:  7f 23 03 d5   pacibsp
+0x19e83749c:  f6 57 bd a9   stp	x22, x21, [sp, #-0x30]!
+0x19e8374a0:  f4 4f 01 a9   stp	x20, x19, [sp, #0x10]
+0x19e8374a4:  fd 7b 02 a9   stp	fp, lr, [sp, #0x20]
+0x19e8374a8:  fd 83 00 91   add	fp, sp, #0x20
+0x19e8374ac:  f9 00 63 94   bl	_objc_retain_x0_stub
+0x19e8374b0:  f8 00 63 94   bl	_objc_retain_x0_stub
+0x19e8374b4:  f3 03 00 aa   mov	x19, x0
+0x19e8374b8:  f5 03 00 aa   mov	x21, x0
+0x19e8374bc:  80 00 00 b5   cbnz	x0, loc_19e8374cc ; ⤵ 0x10
+0x19e8374c0:  b0 57 ff 97   bl	_TUCurrentLocaleIdentifier
+0x19e8374c4:  5b 00 63 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e8374c8:  f5 03 00 aa   mov	x21, x0
+0x19e8374cc:  ; loc_19e8374cc
+0x19e8374cc:  e0 03 15 aa   mov	x0, x21
+0x19e8374d0:  20 00 00 94   bl	_TUMapTTSLanguageIdentifier
+0x19e8374d4:  57 00 63 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e8374d8:  f4 03 00 aa   mov	x20, x0
+0x19e8374dc:  c5 00 63 94   bl	_objc_release_x21_stub
+0x19e8374e0:  40 38 26 f0   adrp	x0, 0x1eaf42000
+0x19e8374e4:  00 00 03 91   add	x0, x0, #0xc0 ; _ptr.__NSCFConstantString
+0x19e8374e8:  41 38 26 f0   adrp	x1, 0x1eaf42000
+0x19e8374ec:  21 80 03 91   add	x1, x1, #0xe0 ; _ptr.__NSCFConstantString
+0x19e8374f0:  f4 99 63 94   bl	_CUTWeakLinkClass_stub
+0x19e8374f4:  e2 03 14 aa   mov	x2, x20
+0x19e8374f8:  9e b9 61 94   bl	0x1a00a5b70
+0x19e8374fc:  4d 00 63 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x19e837500:  f5 03 00 aa   mov	x21, x0
+0x19e837504:  42 38 26 f0   adrp	x2, 0x1eaf42000
+0x19e837508:  42 00 04 91   add	x2, x2, #0x100 ; _ptr.__NSCFConstantString
+0x19e83750c:  f5 47 5f 94   bl	0x1a00094e0
+0x19e837510:  e0 00 00 34   cbz	w0, loc_19e83752c ; ⤵ 0x1c
+0x19e837514:  42 38 26 f0   adrp	x2, 0x1eaf42000
+0x19e837518:  42 80 04 91   add	x2, x2, #0x120 ; _ptr.__NSCFConstantString
+0x19e83751c:  e0 03 14 aa   mov	x0, x20
+0x19e837520:  44 40 5f 94   bl	0x1a0007630
+0x19e837524:  f6 03 00 aa   mov	x22, x0
+0x19e837528:  02 00 00 14   b	loc_19e837530 ; ⤵ 0x8
+0x19e83752c:  ; loc_19e83752c
+0x19e83752c:  36 00 80 52   mov	w22, #0x1
+0x19e837530:  ; loc_19e837530
+0x19e837530:  b0 00 63 94   bl	_objc_release_x21_stub
+0x19e837534:  ab 00 63 94   bl	_objc_release_x20_stub
+0x19e837538:  a2 00 63 94   bl	_objc_release_x19_stub
+0x19e83753c:  e0 03 16 aa   mov	x0, x22
+0x19e837540:  fd 7b 42 a9   ldp	fp, lr, [sp, #0x20]
+0x19e837544:  f4 4f 41 a9   ldp	x20, x19, [sp, #0x10]
+0x19e837548:  f6 57 c3 a8   ldp	x22, x21, [sp], #0x30
+0x19e83754c:  ff 0f 5f d6   retab
+
+_TUMapTTSLanguageIdentifier
+0x19e837550:  7f 23 03 d5   pacibsp
+0x19e837554:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x19e837558:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x19e83755c:  fd 43 00 91   add	fp, sp, #0x10
+0x19e837560:  cc 00 63 94   bl	_objc_retain_x0_stub
+0x19e837564:  cb 00 63 94   bl	_objc_retain_x0_stub
+0x19e837568:  f3 03 00 aa   mov	x19, x0
+0x19e83756c:  f4 03 00 aa   mov	x20, x0
+0x19e837570:  42 38 26 f0   adrp	x2, 0x1eaf42000
+0x19e837574:  42 00 01 91   add	x2, x2, #0x40 ; _ptr.__NSCFConstantString
+0x19e837578:  da 47 5f 94   bl	0x1a00094e0
+0x19e83757c:  60 01 00 37   tbnz	w0, #0, loc_19e8375a8 ; ⤵ 0x2c
+0x19e837580:  42 38 26 f0   adrp	x2, 0x1eaf42000
+0x19e837584:  42 80 01 91   add	x2, x2, #0x60 ; _ptr.__NSCFConstantString
+0x19e837588:  e0 03 14 aa   mov	x0, x20
+0x19e83758c:  d5 47 5f 94   bl	0x1a00094e0
+0x19e837590:  c0 00 00 37   tbnz	w0, #0, loc_19e8375a8 ; ⤵ 0x18
+0x19e837594:  42 38 26 f0   adrp	x2, 0x1eaf42000
+0x19e837598:  42 00 02 91   add	x2, x2, #0x80 ; _ptr.__NSCFConstantString
+0x19e83759c:  e0 03 14 aa   mov	x0, x20
+0x19e8375a0:  d0 47 5f 94   bl	0x1a00094e0
+0x19e8375a4:  80 00 00 34   cbz	w0, loc_19e8375b4 ; ⤵ 0x10
+0x19e8375a8:  ; loc_19e8375a8
+0x19e8375a8:  86 00 63 94   bl	_objc_release_x19_stub
+0x19e8375ac:  54 38 26 f0   adrp	x20, 0x1eaf42000
+0x19e8375b0:  94 82 02 91   add	x20, x20, #0xa0 ; _ptr.__NSCFConstantString
+0x19e8375b4:  ; loc_19e8375b4
+0x19e8375b4:  83 00 63 94   bl	_objc_release_x19_stub
+0x19e8375b8:  e0 03 14 aa   mov	x0, x20
+0x19e8375bc:  fd 7b 41 a9   ldp	fp, lr, [sp, #0x10]
+0x19e8375c0:  f4 4f c2 a8   ldp	x20, x19, [sp], #0x20
+0x19e8375c4:  ff 23 03 d5   autibsp
+0x19e8375c8:  d0 07 1e ca   eor	x16, lr, lr, lsl #0x1
+0x19e8375cc:  50 00 f0 b6   tbz	x16, #0x3e, loc_19e8375d4 ; ⤵ 0x8
+0x19e8375d0:  20 8e 38 d4   brk	#0xc471
+

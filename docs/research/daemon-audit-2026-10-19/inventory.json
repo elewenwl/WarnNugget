@@ -1,0 +1,348 @@
+{
+  "device": "362457BA-2C1E-49CE-B6FB-DC7B1FEBD053",
+  "runtime": "iOS 26.5 (23F77), x86_64",
+  "groups": {
+    "thermalmonitord": [
+      "com.apple.thermalmonitord"
+    ],
+    "OTA": [
+      "com.apple.mobile.softwareupdated",
+      "com.apple.OTATaskingAgent",
+      "com.apple.softwareupdateservicesd",
+      "com.apple.mobile.NRDUpdated"
+    ],
+    "UsageTrackingAgent": [
+      "com.apple.UsageTrackingAgent"
+    ],
+    "GameCenter": [
+      "com.apple.gamed"
+    ],
+    "CrashReports": [
+      "com.apple.ReportCrash",
+      "com.apple.ReportCrash.Jetsam",
+      "com.apple.ReportMemoryException",
+      "com.apple.OTACrashCopier",
+      "com.apple.aslmanager",
+      "com.apple.coresymbolicationd",
+      "com.apple.crash_mover",
+      "com.apple.crashreportcopymobile",
+      "com.apple.DumpBasebandCrash",
+      "com.apple.DumpPanic",
+      "com.apple.logd",
+      "com.apple.logd.admin",
+      "com.apple.logd.events",
+      "com.apple.logd.watchdog",
+      "com.apple.logd_helper",
+      "com.apple.logd_reporter",
+      "com.apple.logd_reporter.report_statistics",
+      "com.apple.system.logger",
+      "com.apple.hangreporter",
+      "com.apple.hangtracerd",
+      "com.apple.spindump",
+      "com.apple.tailspind",
+      "com.apple.syslogd",
+      "com.apple.signpost.signpost_reporter",
+      "com.apple.pluginkit.pkreporter",
+      "com.apple.ProxiedCrashCopier",
+      "com.apple.ProxiedCrashCopier.ProxyingDevice",
+      "com.apple.ReportSystemMemory"
+    ],
+    "Diagnostics": [
+      "com.apple.diagnosticd",
+      "com.apple.diagnosticextensionsd",
+      "com.apple.diagnosticservicesd",
+      "com.apple.diagnosticspushd",
+      "com.apple.symptomsd-diag",
+      "com.apple.sysdiagnose",
+      "com.apple.sysdiagnose.darwinos",
+      "com.apple.sysdiagnose_helper"
+    ],
+    "ATWAKEUP": [
+      "com.apple.atc.atwakeup"
+    ],
+    "Tips": [
+      "com.apple.tipsd"
+    ],
+    "VPN": [
+      "com.apple.racoon"
+    ],
+    "Location": [
+      "com.apple.locationd"
+    ],
+    "ChineseLAN": [
+      "com.apple.wapic",
+      "com.apple.wifi.wapic"
+    ],
+    "HealthKit": [
+      "com.apple.healthd"
+    ],
+    "AirPrint": [
+      "com.apple.printd"
+    ],
+    "AssistiveTouch": [
+      "com.apple.assistivetouchd"
+    ],
+    "iCloud": [
+      "com.apple.itunescloudd"
+    ],
+    "InternetTethering": [
+      "com.apple.MobileInternetSharing"
+    ],
+    "PassBook": [
+      "com.apple.passd"
+    ],
+    "Spotlight": [
+      "com.apple.searchd",
+      "com.apple.corespotlightservice",
+      "com.apple.spotlightknowledged",
+      "com.apple.spotlightknowledged.updater",
+      "com.apple.spotlight.IndexAgent"
+    ],
+    "VoiceControl": [
+      "com.apple.assistant_service",
+      "com.apple.assistantd",
+      "com.apple.voiced"
+    ],
+    "NanoTimeKit": [
+      "com.apple.nanotimekitcompaniond"
+    ],
+    "FollowUp": [
+      "com.apple.followupd"
+    ],
+    "AppleAds": [
+      "com.apple.promotedcontentd",
+      "com.apple.adprivacyd",
+      "com.apple.adservicesd"
+    ],
+    "News": [
+      "com.apple.newsd"
+    ],
+    "FamilySharing": [
+      "com.apple.familycircled",
+      "com.apple.familynotificationd"
+    ],
+    "VideoSubscriptions": [
+      "com.apple.videosubscriptionsd"
+    ],
+    "WebBookmarks": [
+      "com.apple.webbookmarksd"
+    ],
+    "AppleWatchNano": [
+      "com.apple.nanoregistryd",
+      "com.apple.nanomediacontrold",
+      "com.apple.nanopreferencesd"
+    ],
+    "Feedback": [
+      "com.apple.feedbackd"
+    ],
+    "WifiLogging": [
+      "com.apple.wifilogd"
+    ],
+    "Maps": [
+      "com.apple.geod"
+    ],
+    "SafariSuggestions": [
+      "com.apple.parsecd"
+    ],
+    "Shazam": [
+      "com.apple.shazamd"
+    ],
+    "SettingsStats": [
+      "com.apple.settings-statsd"
+    ],
+    "Reminders": [
+      "com.apple.reminderd"
+    ],
+    "AirPlay": [
+      "com.apple.airplay"
+    ],
+    "GameKitService": [
+      "com.apple.gamekitservice"
+    ],
+    "Sidecar": [
+      "com.apple.sidecarcore"
+    ],
+    "SpeechRecognition": [
+      "com.apple.speechrecognition"
+    ],
+    "Translate": [
+      "com.apple.translated"
+    ],
+    "MockLocation": [
+      "com.apple.mocksynclocationd"
+    ],
+    "DeviceCheck": [
+      "com.apple.devicecheckd"
+    ],
+    "WifiAnalytics": [
+      "com.apple.wifianalyticsd"
+    ],
+    "AnalyticsHelper": [
+      "com.apple.analyticsd",
+      "com.apple.analyticsd.admin",
+      "com.apple.analyticsd.events"
+    ],
+    "AudioAnalytics": [
+      "com.apple.audioanalyticsd"
+    ],
+    "EcosystemAnalytics": [
+      "com.apple.ecosystemanalyticsd"
+    ],
+    "CallAnalytics": [
+      "com.apple.rtcreportingd"
+    ],
+    "CoreDuet": [
+      "com.apple.coreduetd"
+    ],
+    "Insight": [
+      "com.apple.insightd"
+    ],
+    "Metrics": [
+      "com.apple.metricsd"
+    ],
+    "MediaExperience": [
+      "com.apple.mediaremoted"
+    ],
+    "Symptomsd": [
+      "com.apple.symptomsd",
+      "com.apple.symptomsd-app"
+    ],
+    "StatisticalDiagnostic": [
+      "com.apple.StatisticalDiagnosticService"
+    ],
+    "WirelessDiagnostics": [
+      "com.apple.wirelessdiagnostics"
+    ],
+    "DuetHeuristic": [
+      "com.apple.DuetHeuristic-BM",
+      "com.apple.DuetHeuristic-BM.Baseband"
+    ],
+    "DuetExpert": [
+      "com.apple.duetexpertd"
+    ],
+    "Decisiond": [
+      "com.apple.decisiond"
+    ],
+    "Triald": [
+      "com.apple.triald"
+    ],
+    "Sociald": [
+      "com.apple.sociald"
+    ]
+  },
+  "services": {
+    "com.apple.UsageTrackingAgent": "user/501",
+    "com.apple.aslmanager": "user/501",
+    "com.apple.assistant_service": "user/501",
+    "com.apple.assistantd": "user/501",
+    "com.apple.assistivetouchd": "user/501",
+    "com.apple.corespotlightservice": "user/501",
+    "com.apple.coresymbolicationd": "user/501",
+    "com.apple.devicecheckd": "user/501",
+    "com.apple.diagnosticd": "system",
+    "com.apple.diagnosticextensionsd": "user/501",
+    "com.apple.familycircled": "user/501",
+    "com.apple.feedbackd": "user/501",
+    "com.apple.followupd": "user/501",
+    "com.apple.gamed": "user/501",
+    "com.apple.geod": "user/501",
+    "com.apple.healthd": "user/501",
+    "com.apple.itunescloudd": "user/501",
+    "com.apple.locationd": "user/501",
+    "com.apple.logd": "system",
+    "com.apple.logd_helper": "system",
+    "com.apple.logd_reporter": "user/501",
+    "com.apple.mediaremoted": "user/501",
+    "com.apple.nanoregistryd": "user/501",
+    "com.apple.nanotimekitcompaniond": "user/501",
+    "com.apple.newsd": "user/501",
+    "com.apple.parsecd": "user/501",
+    "com.apple.passd": "user/501",
+    "com.apple.rtcreportingd": "user/501",
+    "com.apple.searchd": "user/501",
+    "com.apple.shazamd": "user/501",
+    "com.apple.spotlightknowledged": "user/501",
+    "com.apple.spotlightknowledged.updater": "user/501",
+    "com.apple.syslogd": "user/501",
+    "com.apple.tipsd": "user/501",
+    "com.apple.triald": "user/501",
+    "com.apple.videosubscriptionsd": "user/501",
+    "com.apple.voiced": "user/501"
+  },
+  "absent": [
+    "com.apple.DuetHeuristic-BM",
+    "com.apple.DuetHeuristic-BM.Baseband",
+    "com.apple.DumpBasebandCrash",
+    "com.apple.DumpPanic",
+    "com.apple.MobileInternetSharing",
+    "com.apple.OTACrashCopier",
+    "com.apple.OTATaskingAgent",
+    "com.apple.ProxiedCrashCopier",
+    "com.apple.ProxiedCrashCopier.ProxyingDevice",
+    "com.apple.ReportCrash",
+    "com.apple.ReportCrash.Jetsam",
+    "com.apple.ReportMemoryException",
+    "com.apple.ReportSystemMemory",
+    "com.apple.StatisticalDiagnosticService",
+    "com.apple.adprivacyd",
+    "com.apple.adservicesd",
+    "com.apple.airplay",
+    "com.apple.analyticsd",
+    "com.apple.analyticsd.admin",
+    "com.apple.analyticsd.events",
+    "com.apple.atc.atwakeup",
+    "com.apple.audioanalyticsd",
+    "com.apple.coreduetd",
+    "com.apple.crash_mover",
+    "com.apple.crashreportcopymobile",
+    "com.apple.decisiond",
+    "com.apple.diagnosticservicesd",
+    "com.apple.diagnosticspushd",
+    "com.apple.duetexpertd",
+    "com.apple.ecosystemanalyticsd",
+    "com.apple.familynotificationd",
+    "com.apple.gamekitservice",
+    "com.apple.hangreporter",
+    "com.apple.hangtracerd",
+    "com.apple.insightd",
+    "com.apple.logd.admin",
+    "com.apple.logd.events",
+    "com.apple.logd.watchdog",
+    "com.apple.logd_reporter.report_statistics",
+    "com.apple.metricsd",
+    "com.apple.mobile.NRDUpdated",
+    "com.apple.mobile.softwareupdated",
+    "com.apple.mocksynclocationd",
+    "com.apple.nanomediacontrold",
+    "com.apple.nanopreferencesd",
+    "com.apple.pluginkit.pkreporter",
+    "com.apple.printd",
+    "com.apple.promotedcontentd",
+    "com.apple.racoon",
+    "com.apple.reminderd",
+    "com.apple.settings-statsd",
+    "com.apple.sidecarcore",
+    "com.apple.signpost.signpost_reporter",
+    "com.apple.sociald",
+    "com.apple.softwareupdateservicesd",
+    "com.apple.speechrecognition",
+    "com.apple.spindump",
+    "com.apple.spotlight.IndexAgent",
+    "com.apple.symptomsd",
+    "com.apple.symptomsd-app",
+    "com.apple.symptomsd-diag",
+    "com.apple.sysdiagnose",
+    "com.apple.sysdiagnose.darwinos",
+    "com.apple.sysdiagnose_helper",
+    "com.apple.system.logger",
+    "com.apple.tailspind",
+    "com.apple.thermalmonitord",
+    "com.apple.translated",
+    "com.apple.wapic",
+    "com.apple.webbookmarksd",
+    "com.apple.wifi.wapic",
+    "com.apple.wifianalyticsd",
+    "com.apple.wifilogd",
+    "com.apple.wirelessdiagnostics"
+  ]
+}

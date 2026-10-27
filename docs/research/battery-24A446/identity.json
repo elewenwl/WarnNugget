@@ -1,0 +1,20 @@
+{
+  "type": "IPSW",
+  "version": "27.0.1",
+  "build": "24A446",
+  "os": "Production",
+  "devices": [
+    {
+      "name": "iPhone 15",
+      "product": "iPhone15,4",
+      "board": "D37AP",
+      "timestamp": "26 Sep 2026 07:02:25 PDT",
+      "cpu": "CPU: A16 Bionic (ARMv8.6-A), ID: t8120"
+    }
+  ],
+  "analysis_tool": "ipsw 3.1.738 (MacPorts)",
+  "analysis_date": "2026-10-23",
+  "evidence_type": "static disassembly; no device execution or energy measurements",
+  "cache": "/Users/awesomenull/Projects/reversing/artifacts/24A446__iPhone15,4/dyld_shared_cache_arm64e",
+  "dyld_uuid": "A757941A-CCAB-3181-9C03-10AE25FEA7B2"
+}

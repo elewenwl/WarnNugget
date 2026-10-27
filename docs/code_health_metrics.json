@@ -1,0 +1,2386 @@
+{
+  "scope": {
+    "files": 238,
+    "lines": 54211,
+    "functions": 2490,
+    "excluded": [
+      "src/qt/resources_rc.py",
+      "src/qt/mainwindow_ui.py"
+    ]
+  },
+  "largest_files": [
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "lines": 1870,
+      "functions": 95,
+      "max_decisions": 24
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "lines": 1654,
+      "functions": 41,
+      "max_decisions": 75
+    },
+    {
+      "file": "src/restore/protective.py",
+      "lines": 1633,
+      "functions": 55,
+      "max_decisions": 20
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "lines": 1330,
+      "functions": 51,
+      "max_decisions": 40
+    },
+    {
+      "file": "src/restore/restore.py",
+      "lines": 1295,
+      "functions": 16,
+      "max_decisions": 92
+    },
+    {
+      "file": "src/gui/ios/settings.py",
+      "lines": 1252,
+      "functions": 66,
+      "max_decisions": 25
+    },
+    {
+      "file": "src/gui/ios/home.py",
+      "lines": 1171,
+      "functions": 64,
+      "max_decisions": 15
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_converter.py",
+      "lines": 1170,
+      "functions": 49,
+      "max_decisions": 21
+    },
+    {
+      "file": "src/tweaks/registry.py",
+      "lines": 1120,
+      "functions": 12,
+      "max_decisions": 4
+    },
+    {
+      "file": "src/gui/ios/posterboard.py",
+      "lines": 1003,
+      "functions": 48,
+      "max_decisions": 10
+    },
+    {
+      "file": "src/restore/afc_media.py",
+      "lines": 968,
+      "functions": 39,
+      "max_decisions": 24
+    },
+    {
+      "file": "src/gui/theme/styles.py",
+      "lines": 947,
+      "functions": 0,
+      "max_decisions": 0
+    },
+    {
+      "file": "src/gui/ios/daemons.py",
+      "lines": 918,
+      "functions": 36,
+      "max_decisions": 15
+    },
+    {
+      "file": "src/gui/dialogs/wallpaper_downloader.py",
+      "lines": 915,
+      "functions": 52,
+      "max_decisions": 15
+    },
+    {
+      "file": "src/controllers/ca/caml.py",
+      "lines": 893,
+      "functions": 35,
+      "max_decisions": 57
+    },
+    {
+      "file": "src/gui/ios/preset_menu.py",
+      "lines": 830,
+      "functions": 38,
+      "max_decisions": 16
+    },
+    {
+      "file": "src/gui/ios/device_twin.py",
+      "lines": 775,
+      "functions": 42,
+      "max_decisions": 25
+    },
+    {
+      "file": "src/gui/ios/tweaks.py",
+      "lines": 732,
+      "functions": 40,
+      "max_decisions": 32
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "lines": 687,
+      "functions": 24,
+      "max_decisions": 19
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_rebuild.py",
+      "lines": 654,
+      "functions": 17,
+      "max_decisions": 23
+    },
+    {
+      "file": "awesomeui/widgets.py",
+      "lines": 642,
+      "functions": 52,
+      "max_decisions": 9
+    },
+    {
+      "file": "src/gui/thread_workers/apply_worker.py",
+      "lines": 635,
+      "functions": 34,
+      "max_decisions": 15
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_tweak.py",
+      "lines": 619,
+      "functions": 19,
+      "max_decisions": 33
+    },
+    {
+      "file": "src/gui/dialogs/preset_catalog.py",
+      "lines": 614,
+      "functions": 41,
+      "max_decisions": 20
+    },
+    {
+      "file": "src/controllers/preset_manager.py",
+      "lines": 595,
+      "functions": 28,
+      "max_decisions": 39
+    },
+    {
+      "file": "awesomeui/controls.py",
+      "lines": 583,
+      "functions": 58,
+      "max_decisions": 7
+    },
+    {
+      "file": "src/gui/ios/passcode_theme.py",
+      "lines": 581,
+      "functions": 28,
+      "max_decisions": 10
+    },
+    {
+      "file": "src/exceptions/crash_handler.py",
+      "lines": 556,
+      "functions": 28,
+      "max_decisions": 19
+    },
+    {
+      "file": "src/gui/ios/statusbar.py",
+      "lines": 546,
+      "functions": 23,
+      "max_decisions": 14
+    },
+    {
+      "file": "src/gui/main_window.py",
+      "lines": 506,
+      "functions": 7,
+      "max_decisions": 20
+    },
+    {
+      "file": "src/restore/inject.py",
+      "lines": 464,
+      "functions": 10,
+      "max_decisions": 17
+    },
+    {
+      "file": "src/tweaks/posterboard/template_file.py",
+      "lines": 450,
+      "functions": 12,
+      "max_decisions": 50
+    },
+    {
+      "file": "src/controllers/preset_catalog.py",
+      "lines": 449,
+      "functions": 29,
+      "max_decisions": 27
+    },
+    {
+      "file": "restore_cache.py",
+      "lines": 446,
+      "functions": 10,
+      "max_decisions": 22
+    },
+    {
+      "file": "src/tweaks/posterboard/community_tweaks.py",
+      "lines": 439,
+      "functions": 25,
+      "max_decisions": 20
+    }
+  ],
+  "largest_functions": [
+    {
+      "file": "src/restore/restore.py",
+      "name": "_restore_ios27",
+      "line": 478,
+      "lines": 562,
+      "decisions": 92,
+      "arguments": 16
+    },
+    {
+      "file": "src/gui/ios/tweaks.py",
+      "name": "_build_rows",
+      "line": 168,
+      "lines": 324,
+      "decisions": 32,
+      "arguments": 1
+    },
+    {
+      "file": "main_app.py",
+      "name": "main",
+      "line": 71,
+      "lines": 320,
+      "decisions": 26,
+      "arguments": 0
+    },
+    {
+      "file": "src/gui/ios/home.py",
+      "name": "__init__",
+      "line": 197,
+      "lines": 285,
+      "decisions": 1,
+      "arguments": 3
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "name": "_apply_tweak_pass",
+      "line": 1194,
+      "lines": 268,
+      "decisions": 75,
+      "arguments": 7
+    },
+    {
+      "file": "src/restore/restore.py",
+      "name": "restore_files",
+      "line": 1055,
+      "lines": 241,
+      "decisions": 44,
+      "arguments": 15
+    },
+    {
+      "file": "src/gui/main_window.py",
+      "name": "__init__",
+      "line": 106,
+      "lines": 233,
+      "decisions": 1,
+      "arguments": 3
+    },
+    {
+      "file": "src/gui/ios/settings.py",
+      "name": "__init__",
+      "line": 31,
+      "lines": 215,
+      "decisions": 2,
+      "arguments": 3
+    },
+    {
+      "file": "src/controllers/video_handler.py",
+      "name": "create_caml",
+      "line": 60,
+      "lines": 210,
+      "decisions": 9,
+      "arguments": 11
+    },
+    {
+      "file": "src/gui/ios/statusbar.py",
+      "name": "__init__",
+      "line": 37,
+      "lines": 202,
+      "decisions": 3,
+      "arguments": 3
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "name": "_apply_changes",
+      "line": 655,
+      "lines": 183,
+      "decisions": 72,
+      "arguments": 5
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_tweak.py",
+      "name": "apply_tweak",
+      "line": 437,
+      "lines": 183,
+      "decisions": 29,
+      "arguments": 7
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "name": "_build_protective_backup",
+      "line": 920,
+      "lines": 179,
+      "decisions": 17,
+      "arguments": 5
+    },
+    {
+      "file": "src/restore/protective.py",
+      "name": "perform_protective_backup",
+      "line": 793,
+      "lines": 178,
+      "decisions": 20,
+      "arguments": 10
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "name": "_reset_tweaks",
+      "line": 1484,
+      "lines": 171,
+      "decisions": 26,
+      "arguments": 6
+    },
+    {
+      "file": "src/tweaks/posterboard/template_file.py",
+      "name": "create_ui",
+      "line": 226,
+      "lines": 150,
+      "decisions": 15,
+      "arguments": 5
+    },
+    {
+      "file": "src/restore/restore.py",
+      "name": "_wait_for_device",
+      "line": 154,
+      "lines": 149,
+      "decisions": 19,
+      "arguments": 4
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "name": "sync",
+      "line": 334,
+      "lines": 146,
+      "decisions": 10,
+      "arguments": 3
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "name": "_get_devices",
+      "line": 202,
+      "lines": 146,
+      "decisions": 13,
+      "arguments": 3
+    },
+    {
+      "file": "src/restore/restore.py",
+      "name": "_restore_protective_backup",
+      "line": 330,
+      "lines": 146,
+      "decisions": 1,
+      "arguments": 7
+    },
+    {
+      "file": "src/tweaks/posterboard/pb_config_manager.py",
+      "name": "update_sqlite",
+      "line": 210,
+      "lines": 146,
+      "decisions": 14,
+      "arguments": 1
+    },
+    {
+      "file": "src/gui/dialogs/dialogs.py",
+      "name": "__init__",
+      "line": 50,
+      "lines": 136,
+      "decisions": 3,
+      "arguments": 2
+    },
+    {
+      "file": "src/gui/ios/daemons.py",
+      "name": "_build_rows",
+      "line": 279,
+      "lines": 136,
+      "decisions": 6,
+      "arguments": 3
+    },
+    {
+      "file": "src/restore/inject.py",
+      "name": "inject_files_into_backup",
+      "line": 333,
+      "lines": 130,
+      "decisions": 14,
+      "arguments": 5
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "name": "refresh_devices_finished",
+      "line": 284,
+      "lines": 127,
+      "decisions": 24,
+      "arguments": 1
+    },
+    {
+      "file": "src/gui/thread_workers/apply_worker.py",
+      "name": "_restore",
+      "line": 286,
+      "lines": 127,
+      "decisions": 13,
+      "arguments": 1
+    },
+    {
+      "file": "src/restore/protective.py",
+      "name": "extract_posterboard_db",
+      "line": 1342,
+      "lines": 127,
+      "decisions": 14,
+      "arguments": 3
+    },
+    {
+      "file": "src/tweaks/posterboard/template_file.py",
+      "name": "__init__",
+      "line": 48,
+      "lines": 126,
+      "decisions": 50,
+      "arguments": 3
+    },
+    {
+      "file": "src/controllers/ca/caml.py",
+      "name": "_parse_animations",
+      "line": 241,
+      "lines": 124,
+      "decisions": 57,
+      "arguments": 1
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "name": "write_files",
+      "line": 569,
+      "lines": 119,
+      "decisions": 19,
+      "arguments": 4
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_tweak.py",
+      "name": "recursive_add",
+      "line": 232,
+      "lines": 119,
+      "decisions": 33,
+      "arguments": 7
+    },
+    {
+      "file": "src/airlift/grappa.py",
+      "name": "_macos_token",
+      "line": 89,
+      "lines": 116,
+      "decisions": 16,
+      "arguments": 0
+    },
+    {
+      "file": "src/gui/dialogs/device_support.py",
+      "name": "__init__",
+      "line": 118,
+      "lines": 116,
+      "decisions": 21,
+      "arguments": 3
+    },
+    {
+      "file": "src/gui/dialogs/log_viewer.py",
+      "name": "__init__",
+      "line": 140,
+      "lines": 114,
+      "decisions": 2,
+      "arguments": 2
+    },
+    {
+      "file": "src/gui/ios/daemons.py",
+      "name": "__init__",
+      "line": 164,
+      "lines": 114,
+      "decisions": 4,
+      "arguments": 3
+    },
+    {
+      "file": "src/gui/ios/apply.py",
+      "name": "__init__",
+      "line": 15,
+      "lines": 111,
+      "decisions": 1,
+      "arguments": 3
+    },
+    {
+      "file": "src/gui/dialogs/wallpaper_downloader.py",
+      "name": "__init__",
+      "line": 190,
+      "lines": 110,
+      "decisions": 1,
+      "arguments": 3
+    },
+    {
+      "file": "restore_cache.py",
+      "name": "run",
+      "line": 297,
+      "lines": 109,
+      "decisions": 22,
+      "arguments": 1
+    },
+    {
+      "file": "src/gui/dialogs/preset_catalog.py",
+      "name": "__init__",
+      "line": 67,
+      "lines": 109,
+      "decisions": 7,
+      "arguments": 8
+    },
+    {
+      "file": "src/gui/ios/presets.py",
+      "name": "__init__",
+      "line": 24,
+      "lines": 109,
+      "decisions": 3,
+      "arguments": 3
+    },
+    {
+      "file": "src/controllers/apply_preview.py",
+      "name": "capture_preview",
+      "line": 78,
+      "lines": 107,
+      "decisions": 65,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/wallpaper_validation.py",
+      "name": "validate_wallpaper",
+      "line": 21,
+      "lines": 105,
+      "decisions": 50,
+      "arguments": 2
+    },
+    {
+      "file": "src/controllers/ca/animate.py",
+      "name": "interpolate_keyframe",
+      "line": 112,
+      "lines": 104,
+      "decisions": 46,
+      "arguments": 11
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "name": "_draw_layer",
+      "line": 695,
+      "lines": 103,
+      "decisions": 40,
+      "arguments": 7
+    },
+    {
+      "file": "src/gui/ios/components.py",
+      "name": "__init__",
+      "line": 198,
+      "lines": 103,
+      "decisions": 11,
+      "arguments": 12
+    }
+  ],
+  "most_branching_functions": [
+    {
+      "file": "src/restore/restore.py",
+      "name": "_restore_ios27",
+      "line": 478,
+      "lines": 562,
+      "decisions": 92,
+      "arguments": 16
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "name": "_apply_tweak_pass",
+      "line": 1194,
+      "lines": 268,
+      "decisions": 75,
+      "arguments": 7
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "name": "_apply_changes",
+      "line": 655,
+      "lines": 183,
+      "decisions": 72,
+      "arguments": 5
+    },
+    {
+      "file": "src/controllers/apply_preview.py",
+      "name": "capture_preview",
+      "line": 78,
+      "lines": 107,
+      "decisions": 65,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/ca/caml.py",
+      "name": "_parse_animations",
+      "line": 241,
+      "lines": 124,
+      "decisions": 57,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/wallpaper_validation.py",
+      "name": "validate_wallpaper",
+      "line": 21,
+      "lines": 105,
+      "decisions": 50,
+      "arguments": 2
+    },
+    {
+      "file": "src/tweaks/posterboard/template_file.py",
+      "name": "__init__",
+      "line": 48,
+      "lines": 126,
+      "decisions": 50,
+      "arguments": 3
+    },
+    {
+      "file": "src/controllers/ca/animate.py",
+      "name": "interpolate_keyframe",
+      "line": 112,
+      "lines": 104,
+      "decisions": 46,
+      "arguments": 11
+    },
+    {
+      "file": "src/controllers/ca/caml.py",
+      "name": "_parse_layer_base",
+      "line": 157,
+      "lines": 74,
+      "decisions": 45,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/ca/caml.py",
+      "name": "_parse_ca_video_layer",
+      "line": 391,
+      "lines": 81,
+      "decisions": 44,
+      "arguments": 1
+    },
+    {
+      "file": "src/restore/restore.py",
+      "name": "restore_files",
+      "line": 1055,
+      "lines": 241,
+      "decisions": 44,
+      "arguments": 15
+    },
+    {
+      "file": "src/controllers/ca/caml.py",
+      "name": "_parse_ca_emitter_layer",
+      "line": 527,
+      "lines": 64,
+      "decisions": 42,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "name": "_draw_layer",
+      "line": 695,
+      "lines": 103,
+      "decisions": 40,
+      "arguments": 7
+    },
+    {
+      "file": "src/controllers/preset_manager.py",
+      "name": "_valid_import_structure",
+      "line": 394,
+      "lines": 50,
+      "decisions": 39,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "name": "_apply_override_list",
+      "line": 164,
+      "lines": 41,
+      "decisions": 38,
+      "arguments": 3
+    },
+    {
+      "file": "src/gui/ios/compat.py",
+      "name": "compatibility_reasons",
+      "line": 42,
+      "lines": 52,
+      "decisions": 36,
+      "arguments": 5
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_tweak.py",
+      "name": "recursive_add",
+      "line": 232,
+      "lines": 119,
+      "decisions": 33,
+      "arguments": 7
+    },
+    {
+      "file": "src/controllers/ca/tendie.py",
+      "name": "load_tendie",
+      "line": 266,
+      "lines": 74,
+      "decisions": 32,
+      "arguments": 1
+    },
+    {
+      "file": "src/gui/dialogs/device_support.py",
+      "name": "support_report",
+      "line": 19,
+      "lines": 92,
+      "decisions": 32,
+      "arguments": 1
+    },
+    {
+      "file": "src/gui/ios/tweaks.py",
+      "name": "_build_rows",
+      "line": 168,
+      "lines": 324,
+      "decisions": 32,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/ca/caml.py",
+      "name": "parse_state_overrides",
+      "line": 732,
+      "lines": 68,
+      "decisions": 31,
+      "arguments": 1
+    },
+    {
+      "file": "src/gui/ios/statusbar_preview.py",
+      "name": "paint_status_bar",
+      "line": 188,
+      "lines": 88,
+      "decisions": 30,
+      "arguments": 5
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_tweak.py",
+      "name": "apply_tweak",
+      "line": 437,
+      "lines": 183,
+      "decisions": 29,
+      "arguments": 7
+    },
+    {
+      "file": "src/controllers/apply_plan.py",
+      "name": "build_apply_plan",
+      "line": 5,
+      "lines": 58,
+      "decisions": 28,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "name": "state_transition_spec",
+      "line": 258,
+      "lines": 38,
+      "decisions": 27,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/preset_catalog.py",
+      "name": "validate_template_row",
+      "line": 193,
+      "lines": 36,
+      "decisions": 27,
+      "arguments": 1
+    },
+    {
+      "file": "main_app.py",
+      "name": "main",
+      "line": 71,
+      "lines": 320,
+      "decisions": 26,
+      "arguments": 0
+    },
+    {
+      "file": "src/controllers/preset_bundle.py",
+      "name": "import_bundle",
+      "line": 83,
+      "lines": 53,
+      "decisions": 26,
+      "arguments": 3
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "name": "_reset_tweaks",
+      "line": 1484,
+      "lines": 171,
+      "decisions": 26,
+      "arguments": 6
+    },
+    {
+      "file": "src/controllers/tweak_conflicts.py",
+      "name": "find_conflicts",
+      "line": 27,
+      "lines": 45,
+      "decisions": 25,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/web_request_handler.py",
+      "name": "update_download_url",
+      "line": 56,
+      "lines": 24,
+      "decisions": 25,
+      "arguments": 0
+    },
+    {
+      "file": "src/gui/ios/device_twin.py",
+      "name": "build_state",
+      "line": 126,
+      "lines": 38,
+      "decisions": 25,
+      "arguments": 5
+    },
+    {
+      "file": "src/gui/ios/settings.py",
+      "name": "_refresh_history",
+      "line": 888,
+      "lines": 66,
+      "decisions": 25,
+      "arguments": 1
+    },
+    {
+      "file": "src/gui/ios/restore_progress.py",
+      "name": "_refresh_stage",
+      "line": 274,
+      "lines": 26,
+      "decisions": 24,
+      "arguments": 1
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "name": "refresh_devices_finished",
+      "line": 284,
+      "lines": 127,
+      "decisions": 24,
+      "arguments": 1
+    },
+    {
+      "file": "src/restore/afc_media.py",
+      "name": "verified_media_state",
+      "line": 165,
+      "lines": 42,
+      "decisions": 24,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/apply_history.py",
+      "name": "record_operation",
+      "line": 27,
+      "lines": 38,
+      "decisions": 23,
+      "arguments": 5
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_rebuild.py",
+      "name": "insert_into_clownfish",
+      "line": 381,
+      "lines": 99,
+      "decisions": 23,
+      "arguments": 4
+    },
+    {
+      "file": "restore_cache.py",
+      "name": "run",
+      "line": 297,
+      "lines": 109,
+      "decisions": 22,
+      "arguments": 1
+    },
+    {
+      "file": "src/controllers/ca/animate.py",
+      "name": "layer_animation_overrides",
+      "line": 218,
+      "lines": 46,
+      "decisions": 22,
+      "arguments": 3
+    }
+  ],
+  "literal_mutable_defaults": [],
+  "bare_except": [],
+  "silent_broad_except": [
+    {
+      "file": "apply_wallpaper.py",
+      "line": 139,
+      "type": "Exception",
+      "body": "return ''"
+    },
+    {
+      "file": "compile.py",
+      "line": 173,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "main_app.py",
+      "line": 42,
+      "type": "Exception",
+      "body": "return (None, None)"
+    },
+    {
+      "file": "main_app.py",
+      "line": 67,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "restore_cache.py",
+      "line": 404,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "restore_cache.py",
+      "line": 276,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "skip_setup.py",
+      "line": 25,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "line": 246,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "line": 486,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "line": 514,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "line": 496,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "line": 502,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "line": 507,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/airlift/__init__.py",
+      "line": 565,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/cli/cmd_backup.py",
+      "line": 68,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/cli/cmd_preset.py",
+      "line": 30,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/cli/common.py",
+      "line": 59,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "line": 330,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "line": 394,
+      "type": "Exception",
+      "body": "return img"
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "line": 451,
+      "type": "Exception",
+      "body": "return img"
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "line": 444,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "line": 615,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/controllers/ca/tendie.py",
+      "line": 253,
+      "type": "Exception",
+      "body": "return m.group(0)"
+    },
+    {
+      "file": "src/controllers/device_icons.py",
+      "line": 76,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/controllers/hotload.py",
+      "line": 108,
+      "type": "Exception",
+      "body": "return True"
+    },
+    {
+      "file": "src/controllers/hotload.py",
+      "line": 117,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/controllers/hotload.py",
+      "line": 168,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/controllers/hotload.py",
+      "line": 189,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/controllers/hotload.py",
+      "line": 205,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/controllers/hotload.py",
+      "line": 245,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/controllers/hotload.py",
+      "line": 278,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/controllers/nugget_logger.py",
+      "line": 137,
+      "type": "Exception",
+      "body": "return ''"
+    },
+    {
+      "file": "src/controllers/preset_manager.py",
+      "line": 103,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/controllers/preset_manager.py",
+      "line": 126,
+      "type": "Exception",
+      "body": "return []"
+    },
+    {
+      "file": "src/controllers/tendie_preview.py",
+      "line": 154,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "src/controllers/tendie_preview.py",
+      "line": 186,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "src/controllers/translator.py",
+      "line": 95,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/controllers/translator.py",
+      "line": 89,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/controllers/wallpaper_api.py",
+      "line": 225,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/devicemanagement/constants.py",
+      "line": 25,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "line": 396,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "line": 260,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "line": 245,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/devicemanagement/session.py",
+      "line": 51,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/exceptions/crash_handler.py",
+      "line": 76,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/exceptions/crash_handler.py",
+      "line": 140,
+      "type": "Exception",
+      "body": "return ''"
+    },
+    {
+      "file": "src/exceptions/crash_handler.py",
+      "line": 486,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/exceptions/crash_handler.py",
+      "line": 517,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/exceptions/crash_handler.py",
+      "line": 525,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/exceptions/crash_handler.py",
+      "line": 555,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/exceptions/crash_handler.py",
+      "line": 361,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/dialogs/app_list_dialog.py",
+      "line": 136,
+      "type": "Exception",
+      "body": "return"
+    },
+    {
+      "file": "src/gui/dialogs/app_list_dialog.py",
+      "line": 60,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/dialogs/app_list_dialog.py",
+      "line": 115,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/dialogs/app_list_dialog.py",
+      "line": 124,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/gui/dialogs/tendie_preview_dialog.py",
+      "line": 184,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/gui/dialogs/wallpaper_downloader.py",
+      "line": 381,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "src/gui/dialogs/wallpaper_downloader.py",
+      "line": 865,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "src/gui/dialogs/wallpaper_downloader.py",
+      "line": 164,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/dialogs/wallpaper_downloader.py",
+      "line": 425,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/gui/dialogs/wallpaper_downloader.py",
+      "line": 139,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/device_preview.py",
+      "line": 69,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/device_preview.py",
+      "line": 98,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/device_twin.py",
+      "line": 175,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "src/gui/ios/home.py",
+      "line": 1130,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/passcode_theme.py",
+      "line": 74,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/passcode_theme.py",
+      "line": 436,
+      "type": "Exception",
+      "body": "return ''"
+    },
+    {
+      "file": "src/gui/ios/passcode_theme.py",
+      "line": 457,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/passcode_theme.py",
+      "line": 555,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/posterboard.py",
+      "line": 850,
+      "type": "Exception",
+      "body": "return"
+    },
+    {
+      "file": "src/gui/ios/posterboard.py",
+      "line": 895,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/preset_menu.py",
+      "line": 541,
+      "type": "Exception",
+      "body": "return ''"
+    },
+    {
+      "file": "src/gui/ios/preset_menu.py",
+      "line": 599,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/settings.py",
+      "line": 470,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/settings.py",
+      "line": 503,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/ios/settings.py",
+      "line": 600,
+      "type": "Exception",
+      "body": "return ''"
+    },
+    {
+      "file": "src/gui/ios/settings.py",
+      "line": 607,
+      "type": "Exception",
+      "body": "return QCoreApplication.translate('Nugget', 'Default (system drive)')"
+    },
+    {
+      "file": "src/gui/ios/statusbar.py",
+      "line": 249,
+      "type": "Exception",
+      "body": "return ''"
+    },
+    {
+      "file": "src/gui/ios/statusbar_preview.py",
+      "line": 77,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/gui/ios/statusbar_preview.py",
+      "line": 104,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/gui/logger.py",
+      "line": 51,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/gui/logger.py",
+      "line": 59,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 312,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 590,
+      "type": "Exception",
+      "body": "return True"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 654,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 694,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 787,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 927,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 931,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1153,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1583,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1592,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1687,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1716,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1752,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1764,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1208,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1706,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/main_window_mixins.py",
+      "line": 1728,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/preset_widget.py",
+      "line": 178,
+      "type": "Exception",
+      "body": "return True"
+    },
+    {
+      "file": "src/gui/thread_workers/apply_worker.py",
+      "line": 429,
+      "type": "Exception",
+      "body": "return ''"
+    },
+    {
+      "file": "src/gui/thread_workers/apply_worker.py",
+      "line": 439,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/thread_workers/apply_worker.py",
+      "line": 488,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/thread_workers/apply_worker.py",
+      "line": 449,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/gui/thread_workers/apply_worker.py",
+      "line": 610,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/__init__.py",
+      "line": 74,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/inject.py",
+      "line": 40,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/restore/inject.py",
+      "line": 164,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/restore/inject.py",
+      "line": 176,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/restore/inject.py",
+      "line": 328,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/restore/protective.py",
+      "line": 207,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/protective.py",
+      "line": 168,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "src/restore/protective.py",
+      "line": 204,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/protective.py",
+      "line": 914,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/protective.py",
+      "line": 724,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/protective_cache.py",
+      "line": 45,
+      "type": "Exception",
+      "body": "return None"
+    },
+    {
+      "file": "src/restore/protective_cache.py",
+      "line": 52,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/restore/protective_cache.py",
+      "line": 118,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/restore/restore.py",
+      "line": 431,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/restore.py",
+      "line": 993,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/restore.py",
+      "line": 913,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/restore.py",
+      "line": 213,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/restore.py",
+      "line": 229,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/restore.py",
+      "line": 844,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/restore.py",
+      "line": 866,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/restore/restore.py",
+      "line": 885,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/tweaks/posterboard/db_validate.py",
+      "line": 75,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/tweaks/posterboard/db_validate.py",
+      "line": 118,
+      "type": "Exception",
+      "body": "return f'unusable ({type(e).__name__}: {e})'"
+    },
+    {
+      "file": "src/tweaks/posterboard/pb_config_manager.py",
+      "line": 83,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_converter.py",
+      "line": 457,
+      "type": "Exception",
+      "body": "return {}"
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_tweak.py",
+      "line": 138,
+      "type": "Exception",
+      "body": "return False"
+    },
+    {
+      "file": "src/tweaks/status_bar/status_bar_tweak.py",
+      "line": 358,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/tweaks/status_bar/status_bar_tweak.py",
+      "line": 365,
+      "type": "Exception",
+      "body": "continue"
+    },
+    {
+      "file": "src/tweaks/tweak_classes.py",
+      "line": 16,
+      "type": "Exception",
+      "body": "pass"
+    },
+    {
+      "file": "src/utils/pages.py",
+      "line": 60,
+      "type": "Exception",
+      "body": "pass"
+    }
+  ],
+  "class_mutable_fields": [
+    {
+      "file": "awesomeui/widgets.py",
+      "class": "StatusBadge",
+      "line": 75,
+      "source": "COLORS = {'success': ('#b7f7ce', '#173c28'), 'warning': ('#ffe4a8', '#4d3510'), 'error': ('#ffc1c1', '#4c1f25'), 'info': ('#c5dcff', '#1d3557')}"
+    },
+    {
+      "file": "src/gui/ios/developer.py",
+      "class": "DeveloperPanel",
+      "line": 25,
+      "source": "_SOURCE_SUFFIXES = {'.py', '.svg', '.qss', '.qrc', '.ui'}"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 9,
+      "source": "thermalmonitord = ['com.apple.thermalmonitord']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 10,
+      "source": "OTA = ['com.apple.mobile.softwareupdated', 'com.apple.OTATaskingAgent', 'com.apple.softwareupdateservicesd', 'com.apple.mobile.NRDUpdated']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 16,
+      "source": "UsageTrackingAgent = ['com.apple.UsageTrackingAgent']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 17,
+      "source": "GameCenter = ['com.apple.gamed']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 18,
+      "source": "CrashReports = ['com.apple.ReportCrash', 'com.apple.ReportCrash.Jetsam', 'com.apple.ReportMemoryException', 'com.apple.OTACrashCopier', 'com.apple.aslmanager', 'com.apple.coresymbolicationd', 'com.apple.crash_mover', 'com.apple.crashreportcopymobile', 'com.apple.DumpBasebandCrash', 'com.apple.DumpPanic', 'com.apple.logd', 'com.apple.logd.admin', 'com.apple.logd.events', 'com.apple.logd.watchdog', 'com.apple.logd_helper', 'com.apple.logd_reporter', 'com.apple.logd_reporter.report_statistics', 'com.apple.system.logger', 'com.apple.hangreporter', 'com.apple.hangtracerd', 'com.apple.spindump', 'com.apple.tailspind', 'com.apple.syslogd', 'com.apple.signpost.signpost_reporter', 'com.apple.pluginkit.pkreporter', 'com.apple.ProxiedCrashCopier', 'com.apple.ProxiedCrashCopier.ProxyingDevice', 'com.apple.ReportSystemMemory']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 48,
+      "source": "Diagnostics = ['com.apple.diagnosticd', 'com.apple.diagnosticextensionsd', 'com.apple.diagnosticservicesd', 'com.apple.diagnosticspushd', 'com.apple.symptomsd-diag', 'com.apple.sysdiagnose', 'com.apple.sysdiagnose.darwinos', 'com.apple.sysdiagnose_helper']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 58,
+      "source": "ATWAKEUP = ['com.apple.atc.atwakeup']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 59,
+      "source": "Tips = ['com.apple.tipsd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 60,
+      "source": "VPN = ['com.apple.racoon']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 61,
+      "source": "Location = ['com.apple.locationd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 62,
+      "source": "ChineseLAN = ['com.apple.wapic', 'com.apple.wifi.wapic']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 66,
+      "source": "HealthKit = ['com.apple.healthd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 67,
+      "source": "AirPrint = ['com.apple.printd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 68,
+      "source": "AssistiveTouch = ['com.apple.assistivetouchd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 69,
+      "source": "iCloud = ['com.apple.itunescloudd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 70,
+      "source": "InternetTethering = ['com.apple.MobileInternetSharing']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 71,
+      "source": "PassBook = ['com.apple.passd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 72,
+      "source": "Spotlight = ['com.apple.searchd', 'com.apple.corespotlightservice', 'com.apple.spotlightknowledged', 'com.apple.spotlightknowledged.updater', 'com.apple.spotlight.IndexAgent']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 79,
+      "source": "VoiceControl = ['com.apple.assistant_service', 'com.apple.assistantd', 'com.apple.voiced']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 84,
+      "source": "NanoTimeKit = ['com.apple.nanotimekitcompaniond']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 85,
+      "source": "FollowUp = ['com.apple.followupd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 88,
+      "source": "AppleAds = ['com.apple.promotedcontentd', 'com.apple.adprivacyd', 'com.apple.adservicesd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 93,
+      "source": "News = ['com.apple.newsd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 94,
+      "source": "FamilySharing = ['com.apple.familycircled', 'com.apple.familynotificationd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 98,
+      "source": "VideoSubscriptions = ['com.apple.videosubscriptionsd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 99,
+      "source": "WebBookmarks = ['com.apple.webbookmarksd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 100,
+      "source": "AppleWatchNano = ['com.apple.nanoregistryd', 'com.apple.nanomediacontrold', 'com.apple.nanopreferencesd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 105,
+      "source": "Feedback = ['com.apple.feedbackd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 106,
+      "source": "WifiLogging = ['com.apple.wifilogd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 107,
+      "source": "Maps = ['com.apple.geod']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 108,
+      "source": "SafariSuggestions = ['com.apple.parsecd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 109,
+      "source": "Shazam = ['com.apple.shazamd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 110,
+      "source": "SettingsStats = ['com.apple.settings-statsd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 111,
+      "source": "Reminders = ['com.apple.reminderd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 112,
+      "source": "AirPlay = ['com.apple.airplay']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 113,
+      "source": "GameKitService = ['com.apple.gamekitservice']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 114,
+      "source": "Sidecar = ['com.apple.sidecarcore']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 115,
+      "source": "SpeechRecognition = ['com.apple.speechrecognition']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 116,
+      "source": "Translate = ['com.apple.translated']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 117,
+      "source": "MockLocation = ['com.apple.mocksynclocationd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 118,
+      "source": "DeviceCheck = ['com.apple.devicecheckd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 123,
+      "source": "WifiAnalytics = ['com.apple.wifianalyticsd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 124,
+      "source": "AnalyticsHelper = ['com.apple.analyticsd', 'com.apple.analyticsd.admin', 'com.apple.analyticsd.events']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 129,
+      "source": "AudioAnalytics = ['com.apple.audioanalyticsd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 130,
+      "source": "EcosystemAnalytics = ['com.apple.ecosystemanalyticsd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 131,
+      "source": "CallAnalytics = ['com.apple.rtcreportingd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 132,
+      "source": "CoreDuet = ['com.apple.coreduetd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 133,
+      "source": "Insight = ['com.apple.insightd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 134,
+      "source": "Metrics = ['com.apple.metricsd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 135,
+      "source": "MediaExperience = ['com.apple.mediaremoted']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 136,
+      "source": "Symptomsd = ['com.apple.symptomsd', 'com.apple.symptomsd-app']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 137,
+      "source": "StatisticalDiagnostic = ['com.apple.StatisticalDiagnosticService']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 138,
+      "source": "WirelessDiagnostics = ['com.apple.wirelessdiagnostics']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 139,
+      "source": "DuetHeuristic = ['com.apple.DuetHeuristic-BM', 'com.apple.DuetHeuristic-BM.Baseband']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 143,
+      "source": "DuetExpert = ['com.apple.duetexpertd']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 144,
+      "source": "Decisiond = ['com.apple.decisiond']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 145,
+      "source": "Triald = ['com.apple.triald']"
+    },
+    {
+      "file": "src/tweaks/daemons_tweak.py",
+      "class": "Daemon",
+      "line": 146,
+      "source": "Sociald = ['com.apple.sociald']"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_file.py",
+      "class": "TemplateFile",
+      "line": 40,
+      "source": "resources: list[str] = []"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_file.py",
+      "class": "TemplateFile",
+      "line": 41,
+      "source": "previews: dict[str, str] = {}"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/picker_option.py",
+      "class": "PickerElement",
+      "line": 13,
+      "source": "files: list[str] = []"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/picker_option.py",
+      "class": "PickerOption",
+      "line": 31,
+      "source": "names: list[str] = []"
+    },
+    {
+      "file": "src/tweaks/tweak_classes.py",
+      "class": "DynamicIslandBorderWriteTest",
+      "line": 120,
+      "source": "VALUES = {'keyLineEnabled': False, 'activityKeyLineColorEnabled': False, 'keyLineAlpha': 0.0, 'keyLineThickness': 0.0, 'backgroundBlurEnabled': False, 'elementShadowEnabled': False, 'sensorShadowVisible': False}"
+    }
+  ],
+  "exact_duplicate_bodies": [],
+  "core_gui_imports": [
+    {
+      "file": "src/controllers/apply_history.py",
+      "line": 7,
+      "source": "from PySide6.QtCore import QStandardPaths, QCoreApplication"
+    },
+    {
+      "file": "src/controllers/apply_plan.py",
+      "line": 9,
+      "source": "from src.gui.ios.compat import compatibility_reasons"
+    },
+    {
+      "file": "src/controllers/apply_preview.py",
+      "line": 8,
+      "source": "from PySide6.QtCore import QCoreApplication, QT_TRANSLATE_NOOP"
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "line": 26,
+      "source": "from PySide6.QtCore import QPointF, QRectF, Qt"
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "line": 27,
+      "source": "from PySide6.QtGui import QColor, QConicalGradient, QFont, QImage, QLinearGradient, QPainter, QPainterPath, QPen, QRadialGradient"
+    },
+    {
+      "file": "src/controllers/ca/render.py",
+      "line": 397,
+      "source": "from PySide6.QtGui import QImage as _QI"
+    },
+    {
+      "file": "src/controllers/device_icons.py",
+      "line": 11,
+      "source": "from PySide6.QtCore import QStandardPaths"
+    },
+    {
+      "file": "src/controllers/favorites.py",
+      "line": 2,
+      "source": "from PySide6.QtCore import QObject, Signal"
+    },
+    {
+      "file": "src/controllers/hotload.py",
+      "line": 20,
+      "source": "from PySide6.QtCore import QCoreApplication, QStandardPaths"
+    },
+    {
+      "file": "src/controllers/hotload.py",
+      "line": 374,
+      "source": "from PySide6.QtWidgets import QMessageBox"
+    },
+    {
+      "file": "src/controllers/nugget_logger.py",
+      "line": 23,
+      "source": "from PySide6.QtCore import QStandardPaths"
+    },
+    {
+      "file": "src/controllers/preset_catalog.py",
+      "line": 30,
+      "source": "from PySide6.QtCore import QStandardPaths, QT_TRANSLATE_NOOP"
+    },
+    {
+      "file": "src/controllers/preset_manager.py",
+      "line": 17,
+      "source": "from PySide6.QtCore import QStandardPaths, QCoreApplication, QT_TRANSLATE_NOOP"
+    },
+    {
+      "file": "src/controllers/risk_assessment.py",
+      "line": 18,
+      "source": "from PySide6.QtCore import QCoreApplication, QT_TRANSLATE_NOOP"
+    },
+    {
+      "file": "src/controllers/risk_assessment.py",
+      "line": 144,
+      "source": "from src.gui.ios.compat import compatibility_reasons"
+    },
+    {
+      "file": "src/controllers/settings.py",
+      "line": 1,
+      "source": "from PySide6.QtCore import QSettings"
+    },
+    {
+      "file": "src/controllers/share_code.py",
+      "line": 19,
+      "source": "from PySide6.QtCore import QT_TRANSLATE_NOOP"
+    },
+    {
+      "file": "src/controllers/tendie_preview.py",
+      "line": 160,
+      "source": "from PySide6.QtCore import QBuffer, QByteArray"
+    },
+    {
+      "file": "src/controllers/tendie_preview.py",
+      "line": 161,
+      "source": "from PySide6.QtGui import QImage, QImageReader"
+    },
+    {
+      "file": "src/controllers/tendie_preview.py",
+      "line": 152,
+      "source": "from PySide6.QtGui import QImage"
+    },
+    {
+      "file": "src/controllers/translator.py",
+      "line": 7,
+      "source": "from PySide6.QtCore import QTranslator, QLibraryInfo, QLocale, QSettings"
+    },
+    {
+      "file": "src/controllers/translator.py",
+      "line": 8,
+      "source": "from PySide6.QtWidgets import QApplication"
+    },
+    {
+      "file": "src/controllers/translator.py",
+      "line": 26,
+      "source": "from src.gui.pages.main.settings import available_languages"
+    },
+    {
+      "file": "src/controllers/tweak_conflicts.py",
+      "line": 5,
+      "source": "from PySide6.QtCore import QCoreApplication, QT_TRANSLATE_NOOP"
+    },
+    {
+      "file": "src/controllers/video_handler.py",
+      "line": 34,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/controllers/wallpaper_api.py",
+      "line": 163,
+      "source": "from PySide6.QtCore import QStandardPaths"
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "line": 21,
+      "source": "from PySide6.QtWidgets import QMessageBox"
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "line": 22,
+      "source": "from PySide6.QtCore import QSettings, QCoreApplication"
+    },
+    {
+      "file": "src/devicemanagement/device_manager.py",
+      "line": 623,
+      "source": "from src.gui.ios.compat import compatibility_reasons"
+    },
+    {
+      "file": "src/devicemanagement/eta.py",
+      "line": 14,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/devicemanagement/passcode_support.py",
+      "line": 4,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/devicemanagement/preference_manager.py",
+      "line": 1,
+      "source": "from PySide6.QtCore import QSettings, QStandardPaths"
+    },
+    {
+      "file": "src/restore/find_my_wait.py",
+      "line": 6,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/restore/lastapply.py",
+      "line": 19,
+      "source": "from PySide6.QtCore import QStandardPaths"
+    },
+    {
+      "file": "src/restore/posterboard_backup.py",
+      "line": 19,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/restore/protective.py",
+      "line": 57,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/restore/restore.py",
+      "line": 18,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/restore/storage.py",
+      "line": 23,
+      "source": "from PySide6.QtCore import QStandardPaths"
+    },
+    {
+      "file": "src/tweaks/hidden.py",
+      "line": 9,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/tweaks/icon_themes/icon_themes_tweak.py",
+      "line": 22,
+      "source": "from PySide6.QtCore import QCoreApplication, QStandardPaths"
+    },
+    {
+      "file": "src/tweaks/posterboard/community_tweaks.py",
+      "line": 41,
+      "source": "from PySide6.QtCore import QT_TRANSLATE_NOOP, QCoreApplication"
+    },
+    {
+      "file": "src/tweaks/posterboard/pb_config_manager.py",
+      "line": 6,
+      "source": "from PySide6.QtCore import QCoreApplication, QStandardPaths"
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_tweak.py",
+      "line": 15,
+      "source": "from PySide6 import QtWidgets"
+    },
+    {
+      "file": "src/tweaks/posterboard/posterboard_tweak.py",
+      "line": 16,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_file.py",
+      "line": 13,
+      "source": "from PySide6 import QtWidgets, QtCore, QtGui"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/picker_option.py",
+      "line": 7,
+      "source": "from PySide6.QtWidgets import QWidget, QLabel, QVBoxLayout, QHBoxLayout, QComboBox"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/remove_option.py",
+      "line": 7,
+      "source": "from PySide6.QtWidgets import QWidget, QVBoxLayout, QCheckBox"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/replace_option.py",
+      "line": 8,
+      "source": "from PySide6 import QtWidgets, QtGui, QtCore"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/set_option.py",
+      "line": 6,
+      "source": "from PySide6.QtGui import QColor"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/set_option.py",
+      "line": 7,
+      "source": "from PySide6 import QtWidgets, QtCore"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/template_options.py",
+      "line": 5,
+      "source": "from PySide6.QtWidgets import QVBoxLayout, QWidget, QLabel"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/templates_tweak.py",
+      "line": 5,
+      "source": "from PySide6 import QtWidgets"
+    },
+    {
+      "file": "src/tweaks/posterboard/template_options/templates_tweak.py",
+      "line": 6,
+      "source": "from PySide6.QtCore import QCoreApplication"
+    },
+    {
+      "file": "src/tweaks/registry.py",
+      "line": 12,
+      "source": "from PySide6.QtCore import QT_TRANSLATE_NOOP"
+    }
+  ]
+}

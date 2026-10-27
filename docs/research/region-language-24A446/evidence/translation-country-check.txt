@@ -1,0 +1,109 @@
+
+-[_LTTranslationServer task:isSupportedInCountry:completion:]
+0x24222d0f8:  7f 23 03 d5   pacibsp
+0x24222d0fc:  ff 43 01 d1   sub	sp, sp, #0x50
+0x24222d100:  f4 4f 03 a9   stp	x20, x19, [sp, #0x30]
+0x24222d104:  fd 7b 04 a9   stp	fp, lr, [sp, #0x40]
+0x24222d108:  fd 03 01 91   add	fp, sp, #0x40
+0x24222d10c:  f3 03 00 aa   mov	x19, x0
+0x24222d110:  e4 b6 79 95   bl	_objc_retain_x4_stub
+0x24222d114:  73 3e 40 f9   ldr	x19, [x19, #0x78]
+0x24222d118:  e8 23 00 91   add	x8, sp, #0x8
+0x24222d11c:  90 fc 12 90   adrp	x16, 0x2681bd000
+0x24222d120:  10 b6 41 f9   ldr	x16, [x16, #0x368] ; _ptr.__NSStackBlock__
+0x24222d124:  f1 03 08 aa   mov	x17, x8
+0x24222d128:  31 5c ed f2   movk	x17, #0x6ae1, lsl #0x30
+0x24222d12c:  30 0a c1 da   pacda	x16, x17
+0x24222d130:  f0 07 00 f9   str	x16, [sp, #0x8]
+0x24222d134:  29 0a 00 90   adrp	x9, 0x242371000
+0x24222d138:  20 15 44 fd   ldr	d0, [x9, #0x828]
+0x24222d13c:  e0 0b 00 fd   str	d0, [sp, #0x10]
+0x24222d140:  08 41 00 91   add	x8, x8, #0x10
+0x24222d144:  10 00 00 90   adrp	x16, 0x24222d000
+0x24222d148:  10 42 06 91   add	x16, x16, #0x190 ; ___61-[_LTTranslationServer task:isSupportedInCountry:completion:]_block_invoke
+0x24222d14c:  10 01 c1 da   pacia	x16, x8
+0x24222d150:  68 6f 13 90   adrp	x8, 0x269019000
+0x24222d154:  08 a1 37 91   add	x8, x8, #0xde8 ; data_269019de8 (TranslationDaemon/__DATA_CONST.__const)
+0x24222d158:  f0 a3 01 a9   stp	x16, x8, [sp, #0x18]
+0x24222d15c:  e0 17 00 f9   str	x0, [sp, #0x28]
+0x24222d160:  5c a0 79 95   bl	_objc_retain_x0_stub
+0x24222d164:  f4 03 00 aa   mov	x20, x0
+0x24222d168:  e1 23 00 91   add	x1, sp, #0x8
+0x24222d16c:  e0 03 13 aa   mov	x0, x19
+0x24222d170:  38 af 79 95   bl	j__dispatch_channel_async
+0x24222d174:  e8 17 40 f9   ldr	x8, [sp, #0x28]
+0x24222d178:  4e a0 79 95   bl	_objc_release_x8_stub
+0x24222d17c:  29 a0 79 95   bl	_objc_release_x20_stub
+0x24222d180:  fd 7b 44 a9   ldp	fp, lr, [sp, #0x40]
+0x24222d184:  f4 4f 43 a9   ldp	x20, x19, [sp, #0x30]
+0x24222d188:  ff 43 01 91   add	sp, sp, #0x50
+0x24222d18c:  ff 0f 5f d6   retab
+
+___61-[_LTTranslationServer task:isSupportedInCountry:completion:]_block_invoke
+0x24222d190:  00 10 40 f9   ldr	x0, [x0, #0x20]
+0x24222d194:  e2 03 00 aa   mov	x2, x0
+0x24222d198:  43 0c 41 f8   ldr	x3, [x2, #0x10]!
+0x24222d19c:  21 00 80 52   mov	w1, #0x1
+0x24222d1a0:  62 08 1f d7   braa	x3, x2
+
+-[_LTTranslationServer _updateHotfix:]
+0x24222d1a4:  7f 23 03 d5   pacibsp
+0x24222d1a8:  ff 43 01 d1   sub	sp, sp, #0x50
+0x24222d1ac:  f4 4f 03 a9   stp	x20, x19, [sp, #0x30]
+0x24222d1b0:  fd 7b 04 a9   stp	fp, lr, [sp, #0x40]
+0x24222d1b4:  fd 03 01 91   add	fp, sp, #0x40
+0x24222d1b8:  f3 03 00 aa   mov	x19, x0
+0x24222d1bc:  b1 b6 79 95   bl	_objc_retain_x2_stub
+0x24222d1c0:  73 3e 40 f9   ldr	x19, [x19, #0x78]
+0x24222d1c4:  e8 23 00 91   add	x8, sp, #0x8
+0x24222d1c8:  90 fc 12 90   adrp	x16, 0x2681bd000
+0x24222d1cc:  10 b6 41 f9   ldr	x16, [x16, #0x368] ; _ptr.__NSStackBlock__
+0x24222d1d0:  f1 03 08 aa   mov	x17, x8
+0x24222d1d4:  31 5c ed f2   movk	x17, #0x6ae1, lsl #0x30
+0x24222d1d8:  30 0a c1 da   pacda	x16, x17
+0x24222d1dc:  f0 07 00 f9   str	x16, [sp, #0x8]
+0x24222d1e0:  29 0a 00 90   adrp	x9, 0x242371000
+0x24222d1e4:  20 15 44 fd   ldr	d0, [x9, #0x828]
+0x24222d1e8:  e0 0b 00 fd   str	d0, [sp, #0x10]
+0x24222d1ec:  08 41 00 91   add	x8, x8, #0x10
+0x24222d1f0:  10 00 00 90   adrp	x16, 0x24222d000
+0x24222d1f4:  10 f2 08 91   add	x16, x16, #0x23c ; ___38-[_LTTranslationServer _updateHotfix:]_block_invoke
+0x24222d1f8:  10 01 c1 da   pacia	x16, x8
+0x24222d1fc:  68 6f 13 90   adrp	x8, 0x269019000
+0x24222d200:  08 a1 37 91   add	x8, x8, #0xde8 ; data_269019de8 (TranslationDaemon/__DATA_CONST.__const)
+0x24222d204:  f0 a3 01 a9   stp	x16, x8, [sp, #0x18]
+0x24222d208:  e0 17 00 f9   str	x0, [sp, #0x28]
+0x24222d20c:  31 a0 79 95   bl	_objc_retain_x0_stub
+0x24222d210:  f4 03 00 aa   mov	x20, x0
+0x24222d214:  e1 23 00 91   add	x1, sp, #0x8
+0x24222d218:  e0 03 13 aa   mov	x0, x19
+0x24222d21c:  0d af 79 95   bl	j__dispatch_channel_async
+0x24222d220:  e8 17 40 f9   ldr	x8, [sp, #0x28]
+0x24222d224:  23 a0 79 95   bl	_objc_release_x8_stub
+0x24222d228:  fe 9f 79 95   bl	_objc_release_x20_stub
+0x24222d22c:  fd 7b 44 a9   ldp	fp, lr, [sp, #0x40]
+0x24222d230:  f4 4f 43 a9   ldp	x20, x19, [sp, #0x30]
+0x24222d234:  ff 43 01 91   add	sp, sp, #0x50
+0x24222d238:  ff 0f 5f d6   retab
+
+___38-[_LTTranslationServer _updateHotfix:]_block_invoke
+0x24222d23c:  7f 23 03 d5   pacibsp
+0x24222d240:  ff 43 01 d1   sub	sp, sp, #0x50
+0x24222d244:  f4 4f 03 a9   stp	x20, x19, [sp, #0x30]
+0x24222d248:  fd 7b 04 a9   stp	fp, lr, [sp, #0x40]
+0x24222d24c:  fd 03 01 91   add	fp, sp, #0x40
+0x24222d250:  f3 03 00 aa   mov	x19, x0
+0x24222d254:  68 76 17 b0   adrp	x8, 0x2710fa000
+0x24222d258:  00 e1 23 91   add	x0, x8, #0x8f8 ; _LTHotfixManager
+0x24222d25c:  75 75 77 95   bl	0x24800a830
+0x24222d260:  44 b1 79 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x24222d264:  f4 03 00 aa   mov	x20, x0
+0x24222d268:  e8 23 00 91   add	x8, sp, #0x8
+0x24222d26c:  90 fc 12 90   adrp	x16, 0x2681bd000
+0x24222d270:  10 b6 41 f9   ldr	x16, [x16, #0x368] ; _ptr.__NSStackBlock__
+0x24222d274:  f1 03 08 aa   mov	x17, x8
+0x24222d278:  31 5c ed f2   movk	x17, #0x6ae1, lsl #0x30
+0x24222d27c:  30 0a c1 da   pacda	x16, x17
+0x24222d280:  f0 07 00 f9   str	x16, [sp, #0x8]
+0x24222d284:  29 0a 00 90   adrp	x9, 0x242371000
+

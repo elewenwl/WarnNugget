@@ -1,0 +1,163 @@
+
+-[_LTDLanguageAssetCache _filterAILanguages:forTaskHint:]
+0x2421d283c:  7f 23 03 d5   pacibsp
+0x2421d2840:  ff c3 02 d1   sub	sp, sp, #0xb0
+0x2421d2844:  f8 5f 07 a9   stp	x24, x23, [sp, #0x70]
+0x2421d2848:  f6 57 08 a9   stp	x22, x21, [sp, #0x80]
+0x2421d284c:  f4 4f 09 a9   stp	x20, x19, [sp, #0x90]
+0x2421d2850:  fd 7b 0a a9   stp	fp, lr, [sp, #0xa0]
+0x2421d2854:  fd 83 02 91   add	fp, sp, #0xa0
+0x2421d2858:  f5 03 03 aa   mov	x21, x3
+0x2421d285c:  09 21 7b 95   bl	_objc_retain_x2_stub
+0x2421d2860:  f3 03 00 aa   mov	x19, x0
+0x2421d2864:  a8 72 13 b0   adrp	x8, 0x269027000
+0x2421d2868:  00 d1 44 f9   ldr	x0, [x8, #0x9a0] ; _ptr._LTDLLMBasedTranslationStatus
+0x2421d286c:  e2 03 15 aa   mov	x2, x21
+0x2421d2870:  28 b2 79 95   bl	0x24803f110
+0x2421d2874:  bf 1b 7b 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421d2878:  f4 03 00 aa   mov	x20, x0
+0x2421d287c:  80 03 00 b4   cbz	x0, loc_2421d28ec ; ⤵ 0x70
+0x2421d2880:  e8 23 01 91   add	x8, sp, #0x48
+0x2421d2884:  50 ff 12 f0   adrp	x16, 0x2681bd000
+0x2421d2888:  10 b6 41 f9   ldr	x16, [x16, #0x368] ; _ptr.__NSStackBlock__
+0x2421d288c:  f1 03 08 aa   mov	x17, x8
+0x2421d2890:  31 5c ed f2   movk	x17, #0x6ae1, lsl #0x30
+0x2421d2894:  30 0a c1 da   pacda	x16, x17
+0x2421d2898:  f0 27 00 f9   str	x16, [sp, #0x48]
+0x2421d289c:  e9 0c 00 f0   adrp	x9, 0x242371000
+0x2421d28a0:  20 15 44 fd   ldr	d0, [x9, #0x828]
+0x2421d28a4:  e0 2b 00 fd   str	d0, [sp, #0x50]
+0x2421d28a8:  08 41 00 91   add	x8, x8, #0x10
+0x2421d28ac:  10 00 00 90   adrp	x16, 0x2421d2000
+0x2421d28b0:  10 82 28 91   add	x16, x16, #0xa20 ; ___57-[_LTDLanguageAssetCache _filterAILanguages:forTaskHint:]_block_invoke
+0x2421d28b4:  10 01 c1 da   pacia	x16, x8
+0x2421d28b8:  48 72 13 90   adrp	x8, 0x26901a000
+0x2421d28bc:  08 61 2c 91   add	x8, x8, #0xb18 ; data_26901ab18 (TranslationDaemon/__DATA_CONST.__const)
+0x2421d28c0:  f0 a3 05 a9   stp	x16, x8, [sp, #0x58]
+0x2421d28c4:  93 0a 7b 95   bl	_objc_retain_x20_stub
+0x2421d28c8:  e0 37 00 f9   str	x0, [sp, #0x68]
+0x2421d28cc:  e2 23 01 91   add	x2, sp, #0x48
+0x2421d28d0:  e0 03 13 aa   mov	x0, x19
+0x2421d28d4:  f3 bd 79 95   bl	0x2480420a0
+0x2421d28d8:  a6 1b 7b 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421d28dc:  f5 03 00 aa   mov	x21, x0
+0x2421d28e0:  e8 37 40 f9   ldr	x8, [sp, #0x68]
+0x2421d28e4:  73 0a 7b 95   bl	_objc_release_x8_stub
+0x2421d28e8:  41 00 00 14   b	loc_2421d29ec ; ⤵ 0x104
+0x2421d28ec:  ; loc_2421d28ec
+0x2421d28ec:  bf 22 00 f1   cmp	x21, #0x8
+0x2421d28f0:  60 00 00 54   b.eq	loc_2421d28fc ; ⤵ 0xc
+0x2421d28f4:  27 34 00 94   bl	__LTPreferencesIncludeAILanguagesInAllTasks
+0x2421d28f8:  80 00 00 34   cbz	w0, loc_2421d2908 ; ⤵ 0x10
+0x2421d28fc:  ; loc_2421d28fc
+0x2421d28fc:  81 0a 7b 95   bl	_objc_retain_x19_stub
+0x2421d2900:  f5 03 00 aa   mov	x21, x0
+0x2421d2904:  3a 00 00 14   b	loc_2421d29ec ; ⤵ 0xe8
+0x2421d2908:  ; loc_2421d2908
+0x2421d2908:  e8 6c ff 97   bl	__LTOSLogAssetObservation
+0x2421d290c:  f6 03 00 aa   mov	x22, x0
+0x2421d2910:  21 00 80 52   mov	w1, #0x1
+0x2421d2914:  ab 0a 7b 95   bl	_os_log_type_enabled_stub
+0x2421d2918:  c0 02 00 34   cbz	w0, loc_2421d2970 ; ⤵ 0x58
+0x2421d291c:  85 0a 7b 95   bl	_objc_retain_x22_stub
+0x2421d2920:  f6 03 00 aa   mov	x22, x0
+0x2421d2924:  e0 03 15 aa   mov	x0, x21
+0x2421d2928:  0e 5b 7b 95   bl	__LTTranslationTaskHintString_stub
+0x2421d292c:  91 1b 7b 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421d2930:  f7 03 00 aa   mov	x23, x0
+0x2421d2934:  e8 0c 00 f0   adrp	x8, 0x242371000
+0x2421d2938:  00 1d 44 fd   ldr	d0, [x8, #0x838]
+0x2421d293c:  e0 33 00 bd   str	s0, [sp, #0x30]
+0x2421d2940:  e0 43 03 f8   stur	x0, [sp, #0x34]
+0x2421d2944:  c0 fe ff b0   adrp	x0, 0x2421ab000
+0x2421d2948:  00 00 00 91   add	x0, x0, #0 ; "\xcf\xfa\xed\xfe\f"
+0x2421d294c:  23 0e 00 90   adrp	x3, 0x242396000
+0x2421d2950:  63 10 2e 91   add	x3, x3, #0xb84 ; "Filtering out AI-Specific languages for task %{public}@ since preference requires it"
+0x2421d2954:  e4 c3 00 91   add	x4, sp, #0x30
+0x2421d2958:  e1 03 16 aa   mov	x1, x22
+0x2421d295c:  22 00 80 52   mov	w2, #0x1
+0x2421d2960:  85 01 80 52   mov	w5, #0xc
+0x2421d2964:  c7 09 7b 95   bl	__os_log_impl_stub
+0x2421d2968:  36 0a 7b 95   bl	_objc_release_x22_stub
+0x2421d296c:  39 0a 7b 95   bl	_objc_release_x23_stub
+0x2421d2970:  ; loc_2421d2970
+0x2421d2970:  e0 03 15 aa   mov	x0, x21
+0x2421d2974:  86 38 00 94   bl	__LTPreferencesSupportedLocales
+0x2421d2978:  7e 1b 7b 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421d297c:  e8 23 00 91   add	x8, sp, #0x8
+0x2421d2980:  50 ff 12 f0   adrp	x16, 0x2681bd000
+0x2421d2984:  10 b6 41 f9   ldr	x16, [x16, #0x368] ; _ptr.__NSStackBlock__
+0x2421d2988:  f1 03 08 aa   mov	x17, x8
+0x2421d298c:  31 5c ed f2   movk	x17, #0x6ae1, lsl #0x30
+0x2421d2990:  30 0a c1 da   pacda	x16, x17
+0x2421d2994:  f0 07 00 f9   str	x16, [sp, #0x8]
+0x2421d2998:  e9 0c 00 f0   adrp	x9, 0x242371000
+0x2421d299c:  20 15 44 fd   ldr	d0, [x9, #0x828]
+0x2421d29a0:  e0 0b 00 fd   str	d0, [sp, #0x10]
+0x2421d29a4:  08 41 00 91   add	x8, x8, #0x10
+0x2421d29a8:  10 00 00 90   adrp	x16, 0x2421d2000
+0x2421d29ac:  10 a2 29 91   add	x16, x16, #0xa68 ; ___57-[_LTDLanguageAssetCache _filterAILanguages:forTaskHint:]_block_invoke.52
+0x2421d29b0:  10 01 c1 da   pacia	x16, x8
+0x2421d29b4:  48 72 13 90   adrp	x8, 0x26901a000
+0x2421d29b8:  08 61 2c 91   add	x8, x8, #0xb18 ; data_26901ab18 (TranslationDaemon/__DATA_CONST.__const)
+0x2421d29bc:  f0 a3 01 a9   stp	x16, x8, [sp, #0x18]
+0x2421d29c0:  e0 17 00 f9   str	x0, [sp, #0x28]
+0x2421d29c4:  43 0a 7b 95   bl	_objc_retain_x0_stub
+0x2421d29c8:  f6 03 00 aa   mov	x22, x0
+0x2421d29cc:  e2 23 00 91   add	x2, sp, #0x8
+0x2421d29d0:  e0 03 13 aa   mov	x0, x19
+0x2421d29d4:  b3 bd 79 95   bl	0x2480420a0
+0x2421d29d8:  66 1b 7b 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421d29dc:  f5 03 00 aa   mov	x21, x0
+0x2421d29e0:  e8 17 40 f9   ldr	x8, [sp, #0x28]
+0x2421d29e4:  33 0a 7b 95   bl	_objc_release_x8_stub
+0x2421d29e8:  16 0a 7b 95   bl	_objc_release_x22_stub
+0x2421d29ec:  ; loc_2421d29ec
+0x2421d29ec:  0d 0a 7b 95   bl	_objc_release_x20_stub
+0x2421d29f0:  08 0a 7b 95   bl	_objc_release_x19_stub
+0x2421d29f4:  e0 03 15 aa   mov	x0, x21
+0x2421d29f8:  fd 7b 4a a9   ldp	fp, lr, [sp, #0xa0]
+0x2421d29fc:  f4 4f 49 a9   ldp	x20, x19, [sp, #0x90]
+0x2421d2a00:  f6 57 48 a9   ldp	x22, x21, [sp, #0x80]
+0x2421d2a04:  f8 5f 47 a9   ldp	x24, x23, [sp, #0x70]
+0x2421d2a08:  ff c3 02 91   add	sp, sp, #0xb0
+0x2421d2a0c:  ff 23 03 d5   autibsp
+0x2421d2a10:  d0 07 1e ca   eor	x16, lr, lr, lsl #0x1
+0x2421d2a14:  50 00 f0 b6   tbz	x16, #0x3e, loc_2421d2a1c ; ⤵ 0x8
+0x2421d2a18:  20 8e 38 d4   brk	#0xc471
+0x2421d2a1c:  ; loc_2421d2a1c
+0x2421d2a1c:  e9 09 7b 15   b	_objc_autoreleaseReturnValue_stub
+
+___57-[_LTDLanguageAssetCache _filterAILanguages:forTaskHint:]_block_invoke
+0x2421d2a20:  7f 23 03 d5   pacibsp
+0x2421d2a24:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x2421d2a28:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x2421d2a2c:  fd 43 00 91   add	fp, sp, #0x10
+0x2421d2a30:  13 10 40 f9   ldr	x19, [x0, #0x20]
+0x2421d2a34:  e0 03 01 aa   mov	x0, x1
+0x2421d2a38:  fa 0f 79 95   bl	0x248016a20
+0x2421d2a3c:  4d 1b 7b 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421d2a40:  f4 03 00 aa   mov	x20, x0
+0x2421d2a44:  e0 03 13 aa   mov	x0, x19
+0x2421d2a48:  e2 03 14 aa   mov	x2, x20
+0x2421d2a4c:  49 c8 78 95   bl	0x248004b70
+0x2421d2a50:  f3 03 00 aa   mov	x19, x0
+0x2421d2a54:  f3 09 7b 95   bl	_objc_release_x20_stub
+0x2421d2a58:  e0 03 13 aa   mov	x0, x19
+0x2421d2a5c:  fd 7b 41 a9   ldp	fp, lr, [sp, #0x10]
+0x2421d2a60:  f4 4f c2 a8   ldp	x20, x19, [sp], #0x20
+0x2421d2a64:  ff 0f 5f d6   retab
+
+___57-[_LTDLanguageAssetCache _filterAILanguages:forTaskHint:]_block_invoke.52
+0x2421d2a68:  7f 23 03 d5   pacibsp
+0x2421d2a6c:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x2421d2a70:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x2421d2a74:  fd 43 00 91   add	fp, sp, #0x10
+0x2421d2a78:  13 10 40 f9   ldr	x19, [x0, #0x20]
+0x2421d2a7c:  e0 03 01 aa   mov	x0, x1
+0x2421d2a80:  e8 0f 79 95   bl	0x248016a20
+0x2421d2a84:  3b 1b 7b 95   bl	_objc_claimAutoreleasedReturnValue_stub
+0x2421d2a88:  f4 03 00 aa   mov	x20, x0
+0x2421d2a8c:  e0 03 13 aa   mov	x0, x19
+0x2421d2a90:  e2 03 14 aa   mov	x2, x20
+

@@ -1,0 +1,24 @@
+
+	disabled services = {
+		"com.apple.nanonewscd" => enabled
+		"com.apple.assistant_service" => disabled
+		"com.apple.companionmessagesd" => enabled
+		"com.apple.bulletindistributord" => enabled
+		"com.apple.security.otpaird" => enabled
+		"com.apple.brook.brookcompaniond" => enabled
+		"com.apple.NPKCompanionAgent" => enabled
+		"com.apple.aslmanager" => enabled
+		"com.apple.nanomapscd" => enabled
+		"com.apple.pairedsyncd" => enabled
+		"com.apple.eventkitsyncd" => enabled
+		"com.apple.companionfindlocallyd" => enabled
+		"com.apple.appconduitd" => enabled
+		"com.apple.schooltimed" => enabled
+		"com.apple.nanosystemsettingsd" => enabled
+		"com.apple.companionappd" => enabled
+		"com.apple.nanoappregistryd" => enabled
+		"com.apple.pairedunlockd" => enabled
+		"com.apple.UsageTrackingAgent" => enabled
+		"com.apple.addressbooksyncd" => enabled
+		"com.apple.shazamd" => enabled
+	}

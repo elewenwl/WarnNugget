@@ -1,0 +1,34 @@
+.env
+.macos-libusb/
+build
+com.apple.MobileGestalt.plist
+.DS_Store
+__pycache__
+*.spec
+/ffmpeg
+/dist
+/secrets_nugget
+.compile+codesign.sh
+.create_build.sh
+/.vscode
+*.dll
+iOS27_FIX.md
+.workbuddy
+my_backup
+homedomain_extracted
+
+# local dev environment & build artifacts
+.venv/
+.claude/
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+test-results/
+status_setter_windows.exe
+AARCH64-64-cpu0x0.c
+docs/DATA_LOSS_AUDIT.md
+docs/IOS27_RESTORE_RISK_AUDIT.md
+
+# release changelog (kept in GitHub release body, not the repo)
+CHANGELOG.md

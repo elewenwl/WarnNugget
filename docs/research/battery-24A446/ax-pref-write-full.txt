@@ -1,0 +1,360 @@
+
+__setPreferenceAppWithNotification
+0x18f7eb6e4:  7f 23 03 d5   pacibsp
+0x18f7eb6e8:  ff 03 03 d1   sub	sp, sp, #0xc0
+0x18f7eb6ec:  fc 6f 06 a9   stp	x28, x27, [sp, #0x60]
+0x18f7eb6f0:  fa 67 07 a9   stp	x26, x25, [sp, #0x70]
+0x18f7eb6f4:  f8 5f 08 a9   stp	x24, x23, [sp, #0x80]
+0x18f7eb6f8:  f6 57 09 a9   stp	x22, x21, [sp, #0x90]
+0x18f7eb6fc:  f4 4f 0a a9   stp	x20, x19, [sp, #0xa0]
+0x18f7eb700:  fd 7b 0b a9   stp	fp, lr, [sp, #0xb0]
+0x18f7eb704:  fd c3 02 91   add	fp, sp, #0xb0
+0x18f7eb708:  e0 1e 00 b4   cbz	x0, loc_18f7ebae4 ; ⤵ 0x3dc
+0x18f7eb70c:  f3 03 03 aa   mov	x19, x3
+0x18f7eb710:  f6 03 02 aa   mov	x22, x2
+0x18f7eb714:  f4 03 01 aa   mov	x20, x1
+0x18f7eb718:  f5 03 00 aa   mov	x21, x0
+0x18f7eb71c:  80 01 00 f0   adrp	x0, 0x18f81e000
+0x18f7eb720:  00 a0 2a 91   add	x0, x0, #0xaa8 ; "__AX_UNIT_TEST_SETTER"
+0x18f7eb724:  23 83 23 94   bl	_getenv_stub
+0x18f7eb728:  a0 00 00 b4   cbz	x0, loc_18f7eb73c ; ⤵ 0x14
+0x18f7eb72c:  81 01 00 f0   adrp	x1, 0x18f81e000
+0x18f7eb730:  21 f8 2a 91   add	x1, x1, #0xabe ; "TRUE"
+0x18f7eb734:  f3 84 23 94   bl	__stub_18c37f644
+0x18f7eb738:  e0 08 00 34   cbz	w0, loc_18f7eb854 ; ⤵ 0x11c
+0x18f7eb73c:  ; loc_18f7eb73c
+0x18f7eb73c:  c8 69 2a b0   adrp	x8, 0x1e4524000
+0x18f7eb740:  01 45 40 f9   ldr	x1, [x8, #0x88] ; _kAXSRosebudLoggingEnabledPreference
+0x18f7eb744:  e0 03 15 aa   mov	x0, x21
+0x18f7eb748:  d2 7c 23 94   bl	_CFEqual_stub
+0x18f7eb74c:  c0 00 00 35   cbnz	w0, loc_18f7eb764 ; ⤵ 0x18
+0x18f7eb750:  c8 69 2a b0   adrp	x8, 0x1e4524000
+0x18f7eb754:  01 49 40 f9   ldr	x1, [x8, #0x90] ; _kAXSSpeechSynthesisOptionsPreference
+0x18f7eb758:  e0 03 15 aa   mov	x0, x21
+0x18f7eb75c:  cd 7c 23 94   bl	_CFEqual_stub
+0x18f7eb760:  e0 05 00 34   cbz	w0, loc_18f7eb81c ; ⤵ 0xbc
+0x18f7eb764:  ; loc_18f7eb764
+0x18f7eb764:  e8 43 00 91   add	x8, sp, #0x10
+0x18f7eb768:  ff 23 01 a9   stp	xzr, x8, [sp, #0x10]
+0x18f7eb76c:  69 01 00 90   adrp	x9, 0x18f817000
+0x18f7eb770:  20 d9 43 fd   ldr	d0, [x9, #0x7b0]
+0x18f7eb774:  e0 13 00 fd   str	d0, [sp, #0x20]
+0x18f7eb778:  d7 69 2a d0   adrp	x23, 0x1e4525000
+0x18f7eb77c:  f8 4e 47 f9   ldr	x24, [x23, #0xe98] ; _getAXProcessIsBackboardSymbolLoc.ptr
+0x18f7eb780:  f8 17 00 f9   str	x24, [sp, #0x28]
+0x18f7eb784:  18 04 00 b5   cbnz	x24, loc_18f7eb804 ; ⤵ 0x80
+0x18f7eb788:  e9 c3 00 91   add	x9, sp, #0x30
+0x18f7eb78c:  f0 4b 28 f0   adrp	x16, 0x1e016a000
+0x18f7eb790:  10 8a 47 f9   ldr	x16, [x16, #0xf10] ; _ptr.__NSStackBlock__
+0x18f7eb794:  f1 03 09 aa   mov	x17, x9
+0x18f7eb798:  31 5c ed f2   movk	x17, #0x6ae1, lsl #0x30
+0x18f7eb79c:  30 0a c1 da   pacda	x16, x17
+0x18f7eb7a0:  f0 1b 00 f9   str	x16, [sp, #0x30]
+0x18f7eb7a4:  6a 01 00 90   adrp	x10, 0x18f817000
+0x18f7eb7a8:  40 d1 43 fd   ldr	d0, [x10, #0x7a0]
+0x18f7eb7ac:  e0 1f 00 fd   str	d0, [sp, #0x38]
+0x18f7eb7b0:  29 41 00 91   add	x9, x9, #0x10
+0x18f7eb7b4:  50 01 00 b0   adrp	x16, 0x18f814000
+0x18f7eb7b8:  10 62 20 91   add	x16, x16, #0x818 ; ___getAXProcessIsBackboardSymbolLoc_block_invoke
+0x18f7eb7bc:  30 01 c1 da   pacia	x16, x9
+0x18f7eb7c0:  e9 92 28 d0   adrp	x9, 0x1e0a49000
+0x18f7eb7c4:  29 01 22 91   add	x9, x9, #0x880 ; data_1e0a49880 (libAccessibility.dylib/__DATA_CONST.__const)
+0x18f7eb7c8:  f0 27 04 a9   stp	x16, x9, [sp, #0x40]
+0x18f7eb7cc:  e8 2b 00 f9   str	x8, [sp, #0x50]
+0x18f7eb7d0:  9e a3 00 94   bl	_AccessibilityUtilitiesLibrary
+0x18f7eb7d4:  81 01 00 f0   adrp	x1, 0x18f81e000
+0x18f7eb7d8:  21 a0 2b 91   add	x1, x1, #0xae8 ; "AXProcessIsBackboard"
+0x18f7eb7dc:  d5 82 23 94   bl	_dlsym_stub
+0x18f7eb7e0:  e8 2b 40 f9   ldr	x8, [sp, #0x50]
+0x18f7eb7e4:  08 05 40 f9   ldr	x8, [x8, #0x8]
+0x18f7eb7e8:  00 0d 00 f9   str	x0, [x8, #0x18]
+0x18f7eb7ec:  e8 2b 40 f9   ldr	x8, [sp, #0x50]
+0x18f7eb7f0:  08 05 40 f9   ldr	x8, [x8, #0x8]
+0x18f7eb7f4:  08 0d 40 f9   ldr	x8, [x8, #0x18]
+0x18f7eb7f8:  e8 4e 07 f9   str	x8, [x23, #0xe98]
+0x18f7eb7fc:  e8 0f 40 f9   ldr	x8, [sp, #0x18]
+0x18f7eb800:  18 0d 40 f9   ldr	x24, [x8, #0x18]
+0x18f7eb804:  ; loc_18f7eb804
+0x18f7eb804:  e0 43 00 91   add	x0, sp, #0x10
+0x18f7eb808:  01 01 80 52   mov	w1, #0x8
+0x18f7eb80c:  29 82 23 94   bl	__Block_object_dispose_stub
+0x18f7eb810:  58 21 00 b4   cbz	x24, loc_18f7ebc38 ; ⤵ 0x428
+0x18f7eb814:  1f 0b 3f d6   blraaz	x24
+0x18f7eb818:  e0 01 00 36   tbz	w0, #0, loc_18f7eb854 ; ⤵ 0x3c
+0x18f7eb81c:  ; loc_18f7eb81c
+0x18f7eb81c:  99 97 23 94   bl	_geteuid_stub
+0x18f7eb820:  c0 01 00 34   cbz	w0, loc_18f7eb858 ; ⤵ 0x38
+0x18f7eb824:  c8 69 2a 90   adrp	x8, 0x1e4523000
+0x18f7eb828:  01 55 44 f9   ldr	x1, [x8, #0x8a8] ; _kAXSAccessibilityNeedsMicrophoneOnLockScreenPreference
+0x18f7eb82c:  e0 03 15 aa   mov	x0, x21
+0x18f7eb830:  98 7c 23 94   bl	_CFEqual_stub
+0x18f7eb834:  00 06 00 34   cbz	w0, loc_18f7eb8f4 ; ⤵ 0xc0
+0x18f7eb838:  c8 69 2a 90   adrp	x8, 0x1e4523000
+0x18f7eb83c:  02 d5 43 f9   ldr	x2, [x8, #0x7a8] ; _kAXSAssistiveTouchPreferenceDomain
+0x18f7eb840:  e0 03 15 aa   mov	x0, x21
+0x18f7eb844:  e1 03 16 aa   mov	x1, x22
+0x18f7eb848:  ce 9d 23 94   bl	_CFPreferencesSetAppValue_stub
+0x18f7eb84c:  b3 13 00 b5   cbnz	x19, loc_18f7ebac0 ; ⤵ 0x274
+0x18f7eb850:  a5 00 00 14   b	loc_18f7ebae4 ; ⤵ 0x294
+0x18f7eb854:  ; loc_18f7eb854
+0x18f7eb854:  8b 97 23 94   bl	_geteuid_stub
+0x18f7eb858:  ; loc_18f7eb858
+0x18f7eb858:  d4 01 00 b4   cbz	x20, loc_18f7eb890 ; ⤵ 0x38
+0x18f7eb85c:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7eb860:  08 45 46 f9   ldr	x8, [x8, #0xc88] ; _AXSupportLogCommon.onceToken
+0x18f7eb864:  1f 05 00 b1   cmn	x8, #0x1
+0x18f7eb868:  a1 21 00 54   b.ne	loc_18f7ebc9c ; ⤵ 0x434
+0x18f7eb86c:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7eb870:  08 41 46 f9   ldr	x8, [x8, #0xc80] ; _AXSupportLogCommon.__logObj
+0x18f7eb874:  13 84 23 94   bl	_objc_retain_x8_stub
+0x18f7eb878:  f3 03 00 aa   mov	x19, x0
+0x18f7eb87c:  01 02 80 52   mov	w1, #0x10
+0x18f7eb880:  38 84 23 94   bl	_os_log_type_enabled_stub
+0x18f7eb884:  e0 0c 00 35   cbnz	w0, loc_18f7eba20 ; ⤵ 0x19c
+0x18f7eb888:  ; loc_18f7eb888
+0x18f7eb888:  7a 83 23 94   bl	_objc_release_x19_stub
+0x18f7eb88c:  96 00 00 14   b	loc_18f7ebae4 ; ⤵ 0x258
+0x18f7eb890:  ; loc_18f7eb890
+0x18f7eb890:  af 49 00 94   bl	_AXUtilsBackBoardServer
+0x18f7eb894:  37 83 23 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x18f7eb898:  f7 03 00 aa   mov	x23, x0
+0x18f7eb89c:  e8 00 33 b0   adrp	x8, 0x1f5808000
+0x18f7eb8a0:  01 61 3b 91   add	x1, x8, #0xed8 ; setAccessibilityPreferenceAsMobile:value:notification:
+0x18f7eb8a4:  5b 83 23 94   bl	_objc_opt_respondsToSelector_stub
+0x18f7eb8a8:  80 10 00 36   tbz	w0, #0, loc_18f7ebab8 ; ⤵ 0x210
+0x18f7eb8ac:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7eb8b0:  08 45 46 f9   ldr	x8, [x8, #0xc88] ; _AXSupportLogCommon.onceToken
+0x18f7eb8b4:  1f 05 00 b1   cmn	x8, #0x1
+0x18f7eb8b8:  e1 1f 00 54   b.ne	loc_18f7ebcb4 ; ⤵ 0x3fc
+0x18f7eb8bc:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7eb8c0:  08 41 46 f9   ldr	x8, [x8, #0xc80] ; _AXSupportLogCommon.__logObj
+0x18f7eb8c4:  ff 83 23 94   bl	_objc_retain_x8_stub
+0x18f7eb8c8:  f8 03 00 aa   mov	x24, x0
+0x18f7eb8cc:  41 00 80 52   mov	w1, #0x2
+0x18f7eb8d0:  24 84 23 94   bl	_os_log_type_enabled_stub
+0x18f7eb8d4:  80 11 00 35   cbnz	w0, loc_18f7ebb04 ; ⤵ 0x230
+0x18f7eb8d8:  ; loc_18f7eb8d8
+0x18f7eb8d8:  7a 83 23 94   bl	_objc_release_x24_stub
+0x18f7eb8dc:  e0 03 17 aa   mov	x0, x23
+0x18f7eb8e0:  e2 03 15 aa   mov	x2, x21
+0x18f7eb8e4:  e3 03 16 aa   mov	x3, x22
+0x18f7eb8e8:  e4 03 13 aa   mov	x4, x19
+0x18f7eb8ec:  61 da 22 94   bl	0x1900a2270
+0x18f7eb8f0:  72 00 00 14   b	loc_18f7ebab8 ; ⤵ 0x1c8
+0x18f7eb8f4:  ; loc_18f7eb8f4
+0x18f7eb8f4:  c8 69 2a 90   adrp	x8, 0x1e4523000
+0x18f7eb8f8:  08 c9 43 f9   ldr	x8, [x8, #0x790] ; _kAXSAccessibilityPreferenceDomain
+0x18f7eb8fc:  9f 02 00 f1   cmp	x20, #0
+0x18f7eb900:  17 01 94 9a   csel	x23, x8, x20, eq
+0x18f7eb904:  54 05 00 b4   cbz	x20, loc_18f7eb9ac ; ⤵ 0xa8
+0x18f7eb908:  72 5d 00 94   bl	_getLSApplicationRecordClass
+0x18f7eb90c:  05 83 23 94   bl	_objc_alloc_stub
+0x18f7eb910:  ff 0b 00 f9   str	xzr, [sp, #0x10]
+0x18f7eb914:  e4 43 00 91   add	x4, sp, #0x10
+0x18f7eb918:  e2 03 14 aa   mov	x2, x20
+0x18f7eb91c:  03 00 80 52   mov	w3, #0
+0x18f7eb920:  30 9b 20 94   bl	0x1900125e0
+0x18f7eb924:  f9 03 00 aa   mov	x25, x0
+0x18f7eb928:  e8 0b 40 f9   ldr	x8, [sp, #0x10]
+0x18f7eb92c:  e5 83 23 94   bl	_objc_retain_x8_stub
+0x18f7eb930:  fa 03 00 aa   mov	x26, x0
+0x18f7eb934:  a0 01 00 b4   cbz	x0, loc_18f7eb968 ; ⤵ 0x34
+0x18f7eb938:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7eb93c:  08 45 46 f9   ldr	x8, [x8, #0xc88] ; _AXSupportLogCommon.onceToken
+0x18f7eb940:  1f 05 00 b1   cmn	x8, #0x1
+0x18f7eb944:  c1 1d 00 54   b.ne	loc_18f7ebcfc ; ⤵ 0x3b8
+0x18f7eb948:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7eb94c:  08 41 46 f9   ldr	x8, [x8, #0xc80] ; _AXSupportLogCommon.__logObj
+0x18f7eb950:  dc 83 23 94   bl	_objc_retain_x8_stub
+0x18f7eb954:  f8 03 00 aa   mov	x24, x0
+0x18f7eb958:  01 02 80 52   mov	w1, #0x10
+0x18f7eb95c:  01 84 23 94   bl	_os_log_type_enabled_stub
+0x18f7eb960:  00 15 00 35   cbnz	w0, loc_18f7ebc00 ; ⤵ 0x2a0
+0x18f7eb964:  57 83 23 94   bl	_objc_release_x24_stub
+0x18f7eb968:  ; loc_18f7eb968
+0x18f7eb968:  e0 03 19 aa   mov	x0, x25
+0x18f7eb96c:  e1 b4 22 94   bl	0x190098cf0
+0x18f7eb970:  00 83 23 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x18f7eb974:  fb 03 00 aa   mov	x27, x0
+0x18f7eb978:  7e 6d 20 94   bl	0x190006f70
+0x18f7eb97c:  f8 03 00 aa   mov	x24, x0
+0x18f7eb980:  5c 83 23 94   bl	_objc_release_x27_stub
+0x18f7eb984:  53 83 23 94   bl	_objc_release_x25_stub
+0x18f7eb988:  56 83 23 94   bl	_objc_release_x26_stub
+0x18f7eb98c:  38 01 00 b4   cbz	x24, loc_18f7eb9b0 ; ⤵ 0x24
+0x18f7eb990:  62 46 2d b0   adrp	x2, 0x1ea0b8000
+0x18f7eb994:  42 e0 26 91   add	x2, x2, #0x9b8 ; _ptr.__NSCFConstantString
+0x18f7eb998:  e0 03 14 aa   mov	x0, x20
+0x18f7eb99c:  c5 59 20 94   bl	0x1900020b0
+0x18f7eb9a0:  c0 05 00 36   tbz	w0, #0, loc_18f7eba58 ; ⤵ 0xb8
+0x18f7eb9a4:  1c 00 80 52   mov	w28, #0
+0x18f7eb9a8:  03 00 00 14   b	loc_18f7eb9b4 ; ⤵ 0xc
+0x18f7eb9ac:  ; loc_18f7eb9ac
+0x18f7eb9ac:  18 00 80 d2   mov	x24, #0
+0x18f7eb9b0:  ; loc_18f7eb9b0
+0x18f7eb9b0:  3c 00 80 52   mov	w28, #0x1
+0x18f7eb9b4:  ; loc_18f7eb9b4
+0x18f7eb9b4:  c8 47 28 f0   adrp	x8, 0x1e00e6000
+0x18f7eb9b8:  08 99 44 f9   ldr	x8, [x8, #0x930] ; _ptr._kCFPreferencesCurrentUser
+0x18f7eb9bc:  19 01 40 f9   ldr	x25, [x8]
+0x18f7eb9c0:  c8 47 28 f0   adrp	x8, 0x1e00e6000
+0x18f7eb9c4:  08 89 44 f9   ldr	x8, [x8, #0x910] ; _ptr._kCFPreferencesAnyHost
+0x18f7eb9c8:  1a 01 40 f9   ldr	x26, [x8]
+0x18f7eb9cc:  e0 03 15 aa   mov	x0, x21
+0x18f7eb9d0:  e1 03 16 aa   mov	x1, x22
+0x18f7eb9d4:  e2 03 17 aa   mov	x2, x23
+0x18f7eb9d8:  e3 03 19 aa   mov	x3, x25
+0x18f7eb9dc:  e4 03 1a aa   mov	x4, x26
+0x18f7eb9e0:  cc a4 23 94   bl	_CFPreferencesSetValue_stub
+0x18f7eb9e4:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7eb9e8:  08 45 46 f9   ldr	x8, [x8, #0xc88] ; _AXSupportLogCommon.onceToken
+0x18f7eb9ec:  1f 05 00 b1   cmn	x8, #0x1
+0x18f7eb9f0:  e1 16 00 54   b.ne	loc_18f7ebccc ; ⤵ 0x2dc
+0x18f7eb9f4:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7eb9f8:  08 41 46 f9   ldr	x8, [x8, #0xc80] ; _AXSupportLogCommon.__logObj
+0x18f7eb9fc:  b1 83 23 94   bl	_objc_retain_x8_stub
+0x18f7eba00:  fb 03 00 aa   mov	x27, x0
+0x18f7eba04:  41 00 80 52   mov	w1, #0x2
+0x18f7eba08:  d6 83 23 94   bl	_os_log_type_enabled_stub
+0x18f7eba0c:  e0 09 00 35   cbnz	w0, loc_18f7ebb48 ; ⤵ 0x13c
+0x18f7eba10:  38 83 23 94   bl	_objc_release_x27_stub
+0x18f7eba14:  fc 02 00 36   tbz	w28, #0, loc_18f7eba70 ; ⤵ 0x5c
+0x18f7eba18:  ; loc_18f7eba18
+0x18f7eba18:  53 05 00 b5   cbnz	x19, loc_18f7ebac0 ; ⤵ 0xa8
+0x18f7eba1c:  32 00 00 14   b	loc_18f7ebae4 ; ⤵ 0xc8
+0x18f7eba20:  ; loc_18f7eba20
+0x18f7eba20:  68 01 00 90   adrp	x8, 0x18f817000
+0x18f7eba24:  00 e9 43 fd   ldr	d0, [x8, #0x7d0]
+0x18f7eba28:  e0 33 00 bd   str	s0, [sp, #0x30]
+0x18f7eba2c:  f5 43 03 f8   stur	x21, [sp, #0x34]
+0x18f7eba30:  80 ff ff f0   adrp	x0, 0x18f7de000
+0x18f7eba34:  00 00 00 91   add	x0, x0, #0 ; "\xcf\xfa\xed\xfe\f"
+0x18f7eba38:  a3 01 00 f0   adrp	x3, 0x18f822000
+0x18f7eba3c:  63 48 16 91   add	x3, x3, #0x592 ; "Error setting Per-App Setting pref: %@"
+0x18f7eba40:  e4 c3 00 91   add	x4, sp, #0x30
+0x18f7eba44:  e1 03 13 aa   mov	x1, x19
+0x18f7eba48:  02 02 80 52   mov	w2, #0x10
+0x18f7eba4c:  85 01 80 52   mov	w5, #0xc
+0x18f7eba50:  d8 81 23 94   bl	__os_log_error_impl_stub
+0x18f7eba54:  8d ff ff 17   b	loc_18f7eb888 ; ⤴ -0x1cc
+0x18f7eba58:  ; loc_18f7eba58
+0x18f7eba58:  c8 47 28 f0   adrp	x8, 0x1e00e6000
+0x18f7eba5c:  08 99 44 f9   ldr	x8, [x8, #0x930] ; _ptr._kCFPreferencesCurrentUser
+0x18f7eba60:  19 01 40 f9   ldr	x25, [x8]
+0x18f7eba64:  c8 47 28 f0   adrp	x8, 0x1e00e6000
+0x18f7eba68:  08 89 44 f9   ldr	x8, [x8, #0x910] ; _ptr._kCFPreferencesAnyHost
+0x18f7eba6c:  1a 01 40 f9   ldr	x26, [x8]
+0x18f7eba70:  ; loc_18f7eba70
+0x18f7eba70:  e0 03 15 aa   mov	x0, x21
+0x18f7eba74:  e1 03 16 aa   mov	x1, x22
+0x18f7eba78:  e2 03 14 aa   mov	x2, x20
+0x18f7eba7c:  e3 03 19 aa   mov	x3, x25
+0x18f7eba80:  e4 03 1a aa   mov	x4, x26
+0x18f7eba84:  e5 03 18 aa   mov	x5, x24
+0x18f7eba88:  9e 46 24 94   bl	__CFPreferencesSetValueWithContainer_stub
+0x18f7eba8c:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7eba90:  08 45 46 f9   ldr	x8, [x8, #0xc88] ; _AXSupportLogCommon.onceToken
+0x18f7eba94:  1f 05 00 b1   cmn	x8, #0x1
+0x18f7eba98:  61 12 00 54   b.ne	loc_18f7ebce4 ; ⤵ 0x24c
+0x18f7eba9c:  e8 c1 2b b0   adrp	x8, 0x1e7028000
+0x18f7ebaa0:  08 41 46 f9   ldr	x8, [x8, #0xc80] ; _AXSupportLogCommon.__logObj
+0x18f7ebaa4:  87 83 23 94   bl	_objc_retain_x8_stub
+0x18f7ebaa8:  f7 03 00 aa   mov	x23, x0
+0x18f7ebaac:  41 00 80 52   mov	w1, #0x2
+0x18f7ebab0:  ac 83 23 94   bl	_os_log_type_enabled_stub
+0x18f7ebab4:  80 07 00 35   cbnz	w0, loc_18f7ebba4 ; ⤵ 0xf0
+0x18f7ebab8:  ; loc_18f7ebab8
+0x18f7ebab8:  fe 82 23 94   bl	_objc_release_x23_stub
+0x18f7ebabc:  53 01 00 b4   cbz	x19, loc_18f7ebae4 ; ⤵ 0x28
+0x18f7ebac0:  ; loc_18f7ebac0
+0x18f7ebac0:  74 00 00 b4   cbz	x20, loc_18f7ebacc ; ⤵ 0xc
+0x18f7ebac4:  1b 9d 23 94   bl	_CFNotificationCenterGetDarwinNotifyCenter_stub
+0x18f7ebac8:  02 00 00 14   b	loc_18f7ebad0 ; ⤵ 0x8
+0x18f7ebacc:  ; loc_18f7ebacc
+0x18f7ebacc:  1d 9d 23 94   bl	_CFNotificationCenterGetLocalCenter_stub
+0x18f7ebad0:  ; loc_18f7ebad0
+0x18f7ebad0:  e1 03 13 aa   mov	x1, x19
+0x18f7ebad4:  02 00 80 d2   mov	x2, #0
+0x18f7ebad8:  03 00 80 d2   mov	x3, #0
+0x18f7ebadc:  24 00 80 52   mov	w4, #0x1
+0x18f7ebae0:  1c 9d 23 94   bl	_CFNotificationCenterPostNotification_stub
+0x18f7ebae4:  ; loc_18f7ebae4
+0x18f7ebae4:  fd 7b 4b a9   ldp	fp, lr, [sp, #0xb0]
+0x18f7ebae8:  f4 4f 4a a9   ldp	x20, x19, [sp, #0xa0]
+0x18f7ebaec:  f6 57 49 a9   ldp	x22, x21, [sp, #0x90]
+0x18f7ebaf0:  f8 5f 48 a9   ldp	x24, x23, [sp, #0x80]
+0x18f7ebaf4:  fa 67 47 a9   ldp	x26, x25, [sp, #0x70]
+0x18f7ebaf8:  fc 6f 46 a9   ldp	x28, x27, [sp, #0x60]
+0x18f7ebafc:  ff 03 03 91   add	sp, sp, #0xc0
+0x18f7ebb00:  ff 0f 5f d6   retab
+0x18f7ebb04:  ; loc_18f7ebb04
+0x18f7ebb04:  68 01 00 90   adrp	x8, 0x18f817000
+0x18f7ebb08:  00 e1 43 fd   ldr	d0, [x8, #0x7c0]
+0x18f7ebb0c:  e0 33 00 bd   str	s0, [sp, #0x30]
+0x18f7ebb10:  f5 43 03 f8   stur	x21, [sp, #0x34]
+0x18f7ebb14:  08 08 81 52   mov	w8, #0x840
+0x18f7ebb18:  e8 7b 00 79   strh	w8, [sp, #0x3c]
+0x18f7ebb1c:  ff e3 03 f8   stur	xzr, [sp, #0x3e]
+0x18f7ebb20:  80 ff ff f0   adrp	x0, 0x18f7de000
+0x18f7ebb24:  00 00 00 91   add	x0, x0, #0 ; "\xcf\xfa\xed\xfe\f"
+0x18f7ebb28:  a3 01 00 f0   adrp	x3, 0x18f822000
+0x18f7ebb2c:  63 e4 16 91   add	x3, x3, #0x5b9 ; "Save as Mobile preference: %@, appID = %@"
+0x18f7ebb30:  e4 c3 00 91   add	x4, sp, #0x30
+0x18f7ebb34:  e1 03 18 aa   mov	x1, x24
+0x18f7ebb38:  42 00 80 52   mov	w2, #0x2
+0x18f7ebb3c:  c5 02 80 52   mov	w5, #0x16
+0x18f7ebb40:  b0 8b 23 94   bl	__os_log_debug_impl_stub
+0x18f7ebb44:  65 ff ff 17   b	loc_18f7eb8d8 ; ⤴ -0x26c
+0x18f7ebb48:  ; loc_18f7ebb48
+0x18f7ebb48:  68 01 00 90   adrp	x8, 0x18f817000
+0x18f7ebb4c:  00 e5 43 fd   ldr	d0, [x8, #0x7c8]
+0x18f7ebb50:  e0 33 00 bd   str	s0, [sp, #0x30]
+0x18f7ebb54:  f7 43 03 f8   stur	x23, [sp, #0x34]
+0x18f7ebb58:  08 08 81 52   mov	w8, #0x840
+0x18f7ebb5c:  e8 7b 00 79   strh	w8, [sp, #0x3c]
+0x18f7ebb60:  f5 e3 03 f8   stur	x21, [sp, #0x3e]
+0x18f7ebb64:  e8 8f 00 79   strh	w8, [sp, #0x46]
+0x18f7ebb68:  f4 27 00 f9   str	x20, [sp, #0x48]
+0x18f7ebb6c:  e8 a3 00 79   strh	w8, [sp, #0x50]
+0x18f7ebb70:  f6 23 05 f8   stur	x22, [sp, #0x52]
+0x18f7ebb74:  80 ff ff f0   adrp	x0, 0x18f7de000
+0x18f7ebb78:  00 00 00 91   add	x0, x0, #0 ; "\xcf\xfa\xed\xfe\f"
+0x18f7ebb7c:  a3 01 00 f0   adrp	x3, 0x18f822000
+0x18f7ebb80:  63 04 18 91   add	x3, x3, #0x601 ; "CF Save: domain = %@, preference = %@, appID = %@, value = %@ (-1 - empty, 0 - false, 1 - true)"
+0x18f7ebb84:  e4 c3 00 91   add	x4, sp, #0x30
+0x18f7ebb88:  e1 03 1b aa   mov	x1, x27
+0x18f7ebb8c:  42 00 80 52   mov	w2, #0x2
+0x18f7ebb90:  45 05 80 52   mov	w5, #0x2a
+0x18f7ebb94:  9b 8b 23 94   bl	__os_log_debug_impl_stub
+0x18f7ebb98:  d6 82 23 94   bl	_objc_release_x27_stub
+0x18f7ebb9c:  fc f3 07 37   tbnz	w28, #0, loc_18f7eba18 ; ⤴ -0x184
+0x18f7ebba0:  b4 ff ff 17   b	loc_18f7eba70 ; ⤴ -0x130
+0x18f7ebba4:  ; loc_18f7ebba4
+0x18f7ebba4:  68 01 00 90   adrp	x8, 0x18f817000
+0x18f7ebba8:  00 e5 43 fd   ldr	d0, [x8, #0x7c8]
+0x18f7ebbac:  e0 33 00 bd   str	s0, [sp, #0x30]
+0x18f7ebbb0:  f8 43 03 f8   stur	x24, [sp, #0x34]
+0x18f7ebbb4:  08 08 81 52   mov	w8, #0x840
+0x18f7ebbb8:  e8 7b 00 79   strh	w8, [sp, #0x3c]
+0x18f7ebbbc:  f5 e3 03 f8   stur	x21, [sp, #0x3e]
+0x18f7ebbc0:  e8 8f 00 79   strh	w8, [sp, #0x46]
+0x18f7ebbc4:  f4 27 00 f9   str	x20, [sp, #0x48]
+0x18f7ebbc8:  e8 a3 00 79   strh	w8, [sp, #0x50]
+0x18f7ebbcc:  f6 23 05 f8   stur	x22, [sp, #0x52]
+0x18f7ebbd0:  80 ff ff f0   adrp	x0, 0x18f7de000
+0x18f7ebbd4:  00 00 00 91   add	x0, x0, #0 ; "\xcf\xfa\xed\xfe\f"
+0x18f7ebbd8:  a3 01 00 f0   adrp	x3, 0x18f822000
+0x18f7ebbdc:  63 84 19 91   add	x3, x3, #0x661 ; "CF Save to Container: domain = %@, preference = %@, appID = %@, value = %@ (-1 - empty, 0 - false, 1 - true)"
+0x18f7ebbe0:  e4 c3 00 91   add	x4, sp, #0x30
+0x18f7ebbe4:  e1 03 17 aa   mov	x1, x23
+0x18f7ebbe8:  42 00 80 52   mov	w2, #0x2
+0x18f7ebbec:  45 05 80 52   mov	w5, #0x2a
+0x18f7ebbf0:  84 8b 23 94   bl	__os_log_debug_impl_stub
+0x18f7ebbf4:  af 82 23 94   bl	_objc_release_x23_stub
+0x18f7ebbf8:  53 f6 ff b5   cbnz	x19, loc_18f7ebac0 ; ⤴ -0x138
+0x18f7ebbfc:  ba ff ff 17   b	loc_18f7ebae4 ; ⤴ -0x118
+0x18f7ebc00:  ; loc_18f7ebc00
+0x18f7ebc00:  68 01 00 90   adrp	x8, 0x18f817000
+0x18f7ebc04:  00 e9 43 fd   ldr	d0, [x8, #0x7d0]
+0x18f7ebc08:  e0 33 00 bd   str	s0, [sp, #0x30]
+

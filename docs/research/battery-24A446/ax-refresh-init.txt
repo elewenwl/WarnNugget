@@ -1,0 +1,143 @@
+0x189dc2ab0:  7f 23 03 d5   pacibsp
+0x189dc2ab4:  fc 0f 1a f8   str	x28, [sp, #-0x60]!
+0x189dc2ab8:  fb 6b 01 a9   stp	x27, x26, [sp, #0x10]
+0x189dc2abc:  f9 63 02 a9   stp	x25, x24, [sp, #0x20]
+0x189dc2ac0:  f7 5b 03 a9   stp	x23, x22, [sp, #0x30]
+0x189dc2ac4:  f4 4f 04 a9   stp	x20, x19, [sp, #0x40]
+0x189dc2ac8:  fd 7b 05 a9   stp	fp, lr, [sp, #0x50]
+0x189dc2acc:  fd 43 01 91   add	fp, sp, #0x50
+0x189dc2ad0:  ff 83 00 d1   sub	sp, sp, #0x20
+0x189dc2ad4:  f3 03 15 aa   mov	x19, x21
+0x189dc2ad8:  f7 03 00 aa   mov	x23, x0
+0x189dc2adc:  f6 03 08 aa   mov	x22, x8
+0x189dc2ae0:  08 29 8c 95   bl	_swift_getObjectType_stub
+0x189dc2ae4:  f4 03 00 aa   mov	x20, x0
+0x189dc2ae8:  40 98 2e b0   adrp	x0, 0x1e70cb000
+0x189dc2aec:  00 00 11 91   add	x0, x0, #0x440 ; data_1e70cb440 (AccessibilityUtilities/__DATA_DIRTY.__data)
+0x189dc2af0:  81 02 00 d0   adrp	x1, 0x189e14000
+0x189dc2af4:  21 c0 15 91   add	x1, x1, #0x570 ; "Tb"
+0x189dc2af8:  89 dd f8 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x189dc2afc:  fa 03 00 aa   mov	x26, x0
+0x189dc2b00:  e8 03 00 aa   mov	x8, x0
+0x189dc2b04:  10 8d 5f f8   ldr	x16, [x8, #-0x8]!
+0x189dc2b08:  f1 03 08 aa   mov	x17, x8
+0x189dc2b0c:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x189dc2b10:  30 1a c1 da   autda	x16, x17
+0x189dc2b14:  09 22 40 f9   ldr	x9, [x16, #0x40]
+0x189dc2b18:  28 3d 00 91   add	x8, x9, #0xf
+0x189dc2b1c:  08 ed 7c 92   and	x8, x8, #0xfffffffffffffff0
+0x189dc2b20:  b1 7b 2f d0   adrp	x17, 0x1e8d38000
+0x189dc2b24:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x189dc2b28:  30 02 40 f9   ldr	x16, [x17]
+0x189dc2b2c:  11 0a 3f d7   blraa	x16, x17
+0x189dc2b30:  e9 03 00 91   mov	x9, sp
+0x189dc2b34:  39 01 08 cb   sub	x25, x9, x8
+0x189dc2b38:  3f 03 00 91   mov	sp, x25
+0x189dc2b3c:  00 00 80 d2   mov	x0, #0
+0x189dc2b40:  18 44 8c 95   bl	_$s15AXCoreUtilities20AXSettingsAttributesVMa_stub
+0x189dc2b44:  10 8c 5f f8   ldr	x16, [x0, #-0x8]!
+0x189dc2b48:  f1 03 00 aa   mov	x17, x0
+0x189dc2b4c:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x189dc2b50:  30 1a c1 da   autda	x16, x17
+0x189dc2b54:  08 22 40 f9   ldr	x8, [x16, #0x40]
+0x189dc2b58:  e9 03 08 aa   mov	x9, x8
+0x189dc2b5c:  b1 7b 2f d0   adrp	x17, 0x1e8d38000
+0x189dc2b60:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x189dc2b64:  30 02 40 f9   ldr	x16, [x17]
+0x189dc2b68:  11 0a 3f d7   blraa	x16, x17
+0x189dc2b6c:  e9 03 00 91   mov	x9, sp
+0x189dc2b70:  08 3d 00 91   add	x8, x8, #0xf
+0x189dc2b74:  08 ed 7c 92   and	x8, x8, #0xfffffffffffffff0
+0x189dc2b78:  38 01 08 cb   sub	x24, x9, x8
+0x189dc2b7c:  1f 03 00 91   mov	sp, x24
+0x189dc2b80:  08 24 2d f0   adrp	x8, 0x1e4245000
+0x189dc2b84:  1b a5 43 f9   ldr	x27, [x8, #0x748]
+0x189dc2b88:  e8 6a 7b f8   ldr	x8, [x23, x27]
+0x189dc2b8c:  68 00 00 b4   cbz	x8, loc_189dc2b98 ; ⤵ 0xc
+0x189dc2b90:  f4 03 08 aa   mov	x20, x8
+0x189dc2b94:  4a 00 00 14   b	loc_189dc2cbc ; ⤵ 0x128
+0x189dc2b98:  ; loc_189dc2b98
+0x189dc2b98:  40 98 2e b0   adrp	x0, 0x1e70cb000
+0x189dc2b9c:  00 40 1d 91   add	x0, x0, #0x750 ; data_1e70cb750 (AccessibilityUtilities/__DATA_DIRTY.__data)
+0x189dc2ba0:  81 02 00 d0   adrp	x1, 0x189e14000
+0x189dc2ba4:  21 c0 10 91   add	x1, x1, #0x430 ; "\n_"
+0x189dc2ba8:  5d dd f8 97   bl	___swift_instantiateConcreteTypeFromMangledNameV2
+0x189dc2bac:  28 03 00 d0   adrp	x8, 0x189e28000
+0x189dc2bb0:  08 81 0a 91   add	x8, x8, #0x2a0 ; "LimitDisplayRefreshRate"
+0x189dc2bb4:  08 81 00 d1   sub	x8, x8, #0x20
+0x189dc2bb8:  a8 83 39 a9   stp	x8, x0, [fp, #-0x68]
+0x189dc2bbc:  5c 33 80 b9   ldrsw	x28, [x26, #0x30]
+0x189dc2bc0:  a0 02 00 d0   adrp	x0, 0x189e18000
+0x189dc2bc4:  00 e0 0e 91   add	x0, x0, #0x3b8 ; "(hCZ"
+0x189dc2bc8:  be 28 8c 95   bl	_swift_getKeyPath_stub
+0x189dc2bcc:  20 03 00 f9   str	x0, [x25]
+0x189dc2bd0:  18 27 8c 95   bl	_objc_retain_x23_stub
+0x189dc2bd4:  fa 03 00 aa   mov	x26, x0
+0x189dc2bd8:  28 03 1c 8b   add	x8, x25, x28
+0x189dc2bdc:  95 43 8c 95   bl	_$s15AXCoreUtilities15AXSettingsTraitV18includeInGuestPassACvgZ_stub
+0x189dc2be0:  b9 83 1b f8   stur	x25, [fp, #-0x48]
+0x189dc2be4:  00 00 80 d2   mov	x0, #0
+0x189dc2be8:  96 43 8c 95   bl	_$s15AXCoreUtilities15AXSettingsTraitVMa_stub
+0x189dc2bec:  a0 83 1a f8   stur	x0, [fp, #-0x58]
+0x189dc2bf0:  a0 23 01 d1   sub	x0, fp, #0x48
+0x189dc2bf4:  a2 63 01 d1   sub	x2, fp, #0x58
+0x189dc2bf8:  e8 03 18 aa   mov	x8, x24
+0x189dc2bfc:  21 00 80 52   mov	w1, #0x1
+0x189dc2c00:  ec 43 8c 95   bl	_$s15AXCoreUtilities20AXSettingsAttributesVyACs15WritableKeyPathCyACxG_xtxQpcRvzlufC_stub
+0x189dc2c04:  40 98 2e b0   adrp	x0, 0x1e70cb000
+0x189dc2c08:  00 c0 1d 91   add	x0, x0, #0x770 ; data_1e70cb770 (AccessibilityUtilities/__DATA_DIRTY.__data)
+0x189dc2c0c:  30 f2 ff d0   adrp	x16, 0x189c08000
+0x189dc2c10:  10 b2 04 91   add	x16, x16, #0x12c ; _$sSo10AXSettingsC22AccessibilityUtilitiesE4MiscCMa
+0x189dc2c14:  11 db 8e d2   mov	x17, #0x76d8
+0x189dc2c18:  30 02 c1 da   pacia	x16, x17
+0x189dc2c1c:  e2 03 10 aa   mov	x2, x16
+0x189dc2c20:  b0 02 00 d0   adrp	x16, 0x189e18000
+0x189dc2c24:  10 02 0b 91   add	x16, x16, #0x2c0 ; _$sSo10AXSettingsC22AccessibilityUtilitiesE4MiscC06AXCoreC020AXObservableSettingsACMc
+0x189dc2c28:  71 dd 98 d2   mov	x17, #0xc6eb
+0x189dc2c2c:  30 0a c1 da   pacda	x16, x17
+0x189dc2c30:  e3 03 10 aa   mov	x3, x16
+0x189dc2c34:  9f f7 f8 97   bl	0x189c00ab0
+0x189dc2c38:  ff 43 01 d1   sub	sp, sp, #0x50
+0x189dc2c3c:  28 1d 2b b0   adrp	x8, 0x1e0167000
+0x189dc2c40:  08 3d 45 f9   ldr	x8, [x8, #0xa78] ; _ptr._$sSbSEsWP
+0x189dc2c44:  e8 03 04 a9   stp	x8, x0, [sp, #0x40]
+0x189dc2c48:  28 1d 2b b0   adrp	x8, 0x1e0167000
+0x189dc2c4c:  08 49 45 f9   ldr	x8, [x8, #0xa90] ; _ptr._$sSbSesWP
+0x189dc2c50:  f4 23 03 a9   stp	x20, x8, [sp, #0x30]
+0x189dc2c54:  00 e4 00 6f   movi	v0.2d, #0
+0x189dc2c58:  e0 0b 80 3d   str	q0, [sp, #0x20]
+0x189dc2c5c:  ff 63 01 a9   stp	xzr, x24, [sp, #0x10]
+0x189dc2c60:  e0 03 80 3d   str	q0, [sp]
+0x189dc2c64:  b0 f1 ff f0   adrp	x16, 0x189bf9000
+0x189dc2c68:  10 72 25 91   add	x16, x16, #0x95c
+0x189dc2c6c:  f1 41 8e d2   mov	x17, #0x720f
+0x189dc2c70:  30 02 c1 da   pacia	x16, x17
+0x189dc2c74:  e1 03 10 aa   mov	x1, x16
+0x189dc2c78:  a8 d3 79 a9   ldp	x8, x20, [fp, #-0x68]
+0x189dc2c7c:  04 01 41 b2   orr	x4, x8, #0x8000000000000000
+0x189dc2c80:  e0 03 1a aa   mov	x0, x26
+0x189dc2c84:  02 00 80 d2   mov	x2, #0
+0x189dc2c88:  e3 02 80 d2   mov	x3, #0x17
+0x189dc2c8c:  03 00 fa f2   movk	x3, #0xd000, lsl #0x30
+0x189dc2c90:  05 00 80 d2   mov	x5, #0
+0x189dc2c94:  06 00 80 d2   mov	x6, #0
+0x189dc2c98:  07 00 80 d2   mov	x7, #0
+0x189dc2c9c:  3d 43 8c 95   bl	_$s15AXCoreUtilities15AXSettingRecordC5owner12defaultValue3key6domain6didSet04willK010attributes0L3GetACyxGqd___xycS2SSgyxcSgxxcSgAA20AXSettingsAttributesVxSgxcSgtcSeRzSERzAA20AXObservableSettingsRd__lufC_stub
+0x189dc2ca0:  ff 43 01 91   add	sp, sp, #0x50
+0x189dc2ca4:  f4 03 00 aa   mov	x20, x0
+0x189dc2ca8:  f8 6a 7b f8   ldr	x24, [x23, x27]
+0x189dc2cac:  e0 6a 3b f8   str	x0, [x23, x27]
+0x189dc2cb0:  8c 29 8c 95   bl	_swift_retain_x20_stub
+0x189dc2cb4:  43 29 8c 95   bl	_swift_release_x24_stub
+0x189dc2cb8:  08 00 80 d2   mov	x8, #0
+0x189dc2cbc:  ; loc_189dc2cbc
+0x189dc2cbc:  d4 02 00 f9   str	x20, [x22]
+0x189dc2cc0:  bc 29 8c 95   bl	_swift_retain_x8_stub
+0x189dc2cc4:  f5 03 13 aa   mov	x21, x19
+0x189dc2cc8:  bf 43 01 d1   sub	sp, fp, #0x50
+0x189dc2ccc:  fd 7b 45 a9   ldp	fp, lr, [sp, #0x50]
+0x189dc2cd0:  f4 4f 44 a9   ldp	x20, x19, [sp, #0x40]
+0x189dc2cd4:  f7 5b 43 a9   ldp	x23, x22, [sp, #0x30]
+0x189dc2cd8:  f9 63 42 a9   ldp	x25, x24, [sp, #0x20]
+0x189dc2cdc:  fb 6b 41 a9   ldp	x27, x26, [sp, #0x10]
+

@@ -1,0 +1,103 @@
+0x18c06756c:  7f 23 03 d5   pacibsp
+0x18c067570:  ff 83 02 d1   sub	sp, sp, #0xa0
+0x18c067574:  fc 6f 04 a9   stp	x28, x27, [sp, #0x40]
+0x18c067578:  fa 67 05 a9   stp	x26, x25, [sp, #0x50]
+0x18c06757c:  f8 5f 06 a9   stp	x24, x23, [sp, #0x60]
+0x18c067580:  f6 57 07 a9   stp	x22, x21, [sp, #0x70]
+0x18c067584:  f4 4f 08 a9   stp	x20, x19, [sp, #0x80]
+0x18c067588:  fd 7b 09 a9   stp	fp, lr, [sp, #0x90]
+0x18c06758c:  fd 43 02 91   add	fp, sp, #0x90
+0x18c067590:  f3 03 14 aa   mov	x19, x20
+0x18c067594:  f6 03 06 aa   mov	x22, x6
+0x18c067598:  fc 03 05 aa   mov	x28, x5
+0x18c06759c:  f9 03 04 aa   mov	x25, x4
+0x18c0675a0:  f8 03 03 aa   mov	x24, x3
+0x18c0675a4:  e2 07 00 f9   str	x2, [sp, #0x8]
+0x18c0675a8:  fa 03 01 aa   mov	x26, x1
+0x18c0675ac:  fb 03 00 aa   mov	x27, x0
+0x18c0675b0:  57 00 80 52   mov	w23, #0x2
+0x18c0675b4:  f5 03 14 aa   mov	x21, x20
+0x18c0675b8:  b7 9e 03 38   strb	w23, [x21, #0x39]!
+0x18c0675bc:  bf 72 1e f8   stur	xzr, [x21, #-0x19]
+0x18c0675c0:  bf f2 1d f8   stur	xzr, [x21, #-0x21]
+0x18c0675c4:  bf 72 01 f8   stur	xzr, [x21, #0x17]
+0x18c0675c8:  00 00 80 d2   mov	x0, #0
+0x18c0675cc:  46 8a fc 97   bl	0x18bf89ee4
+0x18c0675d0:  01 03 80 52   mov	w1, #0x18
+0x18c0675d4:  e2 00 80 52   mov	w2, #0x7
+0x18c0675d8:  5e 95 01 95   bl	_swift_allocObject_stub
+0x18c0675dc:  f4 03 00 aa   mov	x20, x0
+0x18c0675e0:  80 00 80 52   mov	w0, #0x4
+0x18c0675e4:  01 00 80 92   mov	x1, #0xffffffffffffffff
+0x18c0675e8:  86 97 01 95   bl	_swift_slowAlloc_stub
+0x18c0675ec:  1f 00 00 b9   str	wzr, [x0]
+0x18c0675f0:  80 0a 00 f9   str	x0, [x20, #0x10]
+0x18c0675f4:  b4 f2 01 f8   stur	x20, [x21, #0x1f]
+0x18c0675f8:  b7 9e 00 39   strb	w23, [x21, #0x27]
+0x18c0675fc:  5a 08 00 b4   cbz	x26, loc_18c067704 ; ⤵ 0x108
+0x18c067600:  68 04 2a 90   adrp	x8, 0x1e00f3000
+0x18c067604:  00 65 43 f9   ldr	x0, [x8, #0x6c8] ; _ptr.NSBundle
+0x18c067608:  06 94 01 95   bl	_objc_opt_self_stub
+0x18c06760c:  81 6c fe 94   bl	0x190002810
+0x18c067610:  fd 03 1d aa   mov	fp, fp
+0x18c067614:  57 94 01 95   bl	_objc_retainAutoreleasedReturnValue_stub
+0x18c067618:  f4 03 00 aa   mov	x20, x0
+0x18c06761c:  95 68 fe 94   bl	0x190001870
+0x18c067620:  fd 03 1d aa   mov	fp, fp
+0x18c067624:  53 94 01 95   bl	_objc_retainAutoreleasedReturnValue_stub
+0x18c067628:  f7 03 00 aa   mov	x23, x0
+0x18c06762c:  15 94 01 95   bl	_objc_release_x20_stub
+0x18c067630:  77 03 00 b4   cbz	x23, loc_18c06769c ; ⤵ 0x6c
+0x18c067634:  f6 07 00 b9   str	w22, [sp, #0x4]
+0x18c067638:  f6 03 19 aa   mov	x22, x25
+0x18c06763c:  f9 03 18 aa   mov	x25, x24
+0x18c067640:  f8 03 1c aa   mov	x24, x28
+0x18c067644:  e0 03 17 aa   mov	x0, x23
+0x18c067648:  52 7f 01 95   bl	_$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ_stub
+0x18c06764c:  f4 03 00 aa   mov	x20, x0
+0x18c067650:  fc 03 01 aa   mov	x28, x1
+0x18c067654:  17 94 01 95   bl	_objc_release_x23_stub
+0x18c067658:  7f 03 14 eb   cmp	x27, x20
+0x18c06765c:  40 03 5c fa   ccmp	x26, x28, #0, eq
+0x18c067660:  60 04 00 54   b.eq	loc_18c0676ec ; ⤵ 0x8c
+0x18c067664:  e0 03 1b aa   mov	x0, x27
+0x18c067668:  e1 03 1a aa   mov	x1, x26
+0x18c06766c:  e2 03 14 aa   mov	x2, x20
+0x18c067670:  e3 03 1c aa   mov	x3, x28
+0x18c067674:  04 00 80 52   mov	w4, #0
+0x18c067678:  ea 87 01 95   bl	_$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF_stub
+0x18c06767c:  f4 03 00 aa   mov	x20, x0
+0x18c067680:  e0 03 1c aa   mov	x0, x28
+0x18c067684:  53 95 01 95   bl	_swift_bridgeObjectRelease_stub
+0x18c067688:  fc 03 18 aa   mov	x28, x24
+0x18c06768c:  f8 03 19 aa   mov	x24, x25
+0x18c067690:  f9 03 16 aa   mov	x25, x22
+0x18c067694:  f6 07 40 b9   ldr	w22, [sp, #0x4]
+0x18c067698:  74 03 00 37   tbnz	w20, #0, loc_18c067704 ; ⤵ 0x6c
+0x18c06769c:  ; loc_18c06769c
+0x18c06769c:  e8 03 2a f0   adrp	x8, 0x1e00e6000
+0x18c0676a0:  00 71 40 f9   ldr	x0, [x8, #0xe0] ; _ptr.NSUserDefaults
+0x18c0676a4:  a3 93 01 95   bl	_objc_allocWithZone_stub
+0x18c0676a8:  f4 03 00 aa   mov	x20, x0
+0x18c0676ac:  e0 03 1a aa   mov	x0, x26
+0x18c0676b0:  50 95 01 95   bl	_swift_bridgeObjectRetain_stub
+0x18c0676b4:  e0 03 1b aa   mov	x0, x27
+0x18c0676b8:  e1 03 1a aa   mov	x1, x26
+0x18c0676bc:  25 7f 01 95   bl	_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF_stub
+0x18c0676c0:  f7 03 00 aa   mov	x23, x0
+0x18c0676c4:  e0 03 1a aa   mov	x0, x26
+0x18c0676c8:  42 95 01 95   bl	_swift_bridgeObjectRelease_stub
+0x18c0676cc:  e0 03 14 aa   mov	x0, x20
+0x18c0676d0:  e2 03 17 aa   mov	x2, x23
+0x18c0676d4:  57 6b fe 94   bl	0x190002430
+0x18c0676d8:  f4 03 00 aa   mov	x20, x0
+0x18c0676dc:  f5 93 01 95   bl	_objc_release_x23_stub
+0x18c0676e0:  e0 03 14 aa   mov	x0, x20
+0x18c0676e4:  d4 01 00 b5   cbnz	x20, loc_18c06771c ; ⤵ 0x38
+0x18c0676e8:  20 00 20 d4   brk	#0x1
+0x18c0676ec:  ; loc_18c0676ec
+0x18c0676ec:  e0 03 1c aa   mov	x0, x28
+0x18c0676f0:  38 95 01 95   bl	_swift_bridgeObjectRelease_stub
+0x18c0676f4:  fc 03 18 aa   mov	x28, x24
+0x18c0676f8:  f8 03 19 aa   mov	x24, x25
+

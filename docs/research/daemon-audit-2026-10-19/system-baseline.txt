@@ -1,0 +1,204 @@
+system = {
+	type = system
+	handle = 0
+	active count = 263
+	service count = 6
+	active service count = 5
+	maximum allowed shutdown time = 30 s
+	service stats = {
+	}
+	trial factors = {
+		reload count = 0
+		memory = 0/0
+		active config locked = 0
+	}
+		creator = launchd_sim[20961]
+	creator euid = 501
+	session = System
+	security context = {
+		uid unset
+		session uid = -101
+	}
+
+	bringup time = 244 ms
+	death port = 0x3f03
+	subdomains = {
+		pid/21806
+		pid/21790
+		pid/21791
+		pid/21785
+		pid/21775
+		pid/21769
+		pid/21748
+		pid/21759
+		pid/21767
+		pid/21755
+		pid/21753
+		pid/21726
+		pid/21717
+		pid/21723
+		pid/21728
+		pid/21702
+		pid/21716
+		pid/21694
+		pid/21693
+		pid/21696
+		pid/21679
+		pid/21684
+		pid/21669
+		pid/21671
+		pid/21674
+		pid/21659
+		pid/21657
+		pid/21655
+		pid/21661
+		pid/21640
+		pid/21638
+		pid/21649
+		pid/21652
+		pid/21635
+		pid/21623
+		pid/21619
+		pid/21633
+		pid/21631
+		pid/21616
+		pid/21618
+		pid/21592
+		pid/21615
+		pid/21595
+		pid/21610
+		pid/21588
+		pid/21584
+		pid/21597
+		pid/21591
+		pid/21594
+		pid/21519
+		pid/21587
+		pid/21574
+		pid/21571
+		pid/21568
+		pid/21541
+		pid/21524
+		pid/21521
+		pid/21513
+		pid/21506
+		pid/21487
+		pid/21509
+		pid/21482
+		pid/21481
+		pid/21492
+		pid/21484
+		pid/21479
+		pid/21470
+		pid/21465
+		pid/21468
+		pid/21469
+		pid/21463
+		pid/21457
+		pid/21464
+		pid/21461
+		pid/21459
+		pid/21453
+		pid/21456
+		pid/21451
+		pid/21450
+		pid/21444
+		pid/21441
+		pid/21437
+		pid/21436
+		pid/21428
+		pid/21408
+		pid/21406
+		pid/20988
+		pid/21213
+		pid/21215
+		pid/21220
+		pid/20980
+		pid/21212
+		pid/21193
+		pid/21192
+		pid/21183
+		pid/20979
+		pid/21169
+		pid/20999
+		pid/21159
+		pid/21157
+		pid/21135
+		pid/21116
+		pid/20972
+		pid/21091
+		pid/21086
+		pid/21114
+		pid/21096
+		pid/21055
+		pid/21071
+		pid/21067
+		pid/21080
+		pid/21095
+		pid/21088
+		pid/20970
+		pid/20992
+		pid/20976
+		pid/20978
+		pid/20984
+		pid/21037
+		pid/21029
+		pid/21026
+		pid/21000
+		pid/20991
+		pid/20996
+		user/501
+	}
+
+	services = {
+		   21019      - 	com.apple.logd_helper
+		   21018      - 	com.apple.diagnosticd
+		   20971      - 	com.apple.logd
+		   21032      - 	com.apple.containermanagerd.system
+		   21007      - 	com.apple.notifyd
+		       0      - 	com.apple.cfprefsd.xpc.daemon.system
+	}
+
+	unmanaged processes = {
+	}
+
+	endpoints = {
+		  0x5603    M   A   com.apple.logd.events
+		 0x1c617    M   A   com.apple.diagnosticd
+		       0    M   D   com.apple.cfprefsd.daemon.system
+		  0x5803    M   A   com.apple.logd
+		 0x17c03    M   A   com.apple.system.notification_center
+		 0x1c73f    M   A   com.apple.logd_helper
+		 0x1a403    M   A   com.apple.containermanagerd.system
+		  0x7f03    M   A   com.apple.logd.cachedelete
+		  0x5703    M   A   com.apple.logd.realtime
+		  0x7e03    M   A   com.apple.logd.admin
+	}
+
+	task-special ports = {
+			  0x1a03 4       bootstrap  com.apple.xpc.launchd.domain.system
+	}
+
+	disabled services = {
+		"com.apple.nanonewscd" => enabled
+		"com.apple.companionmessagesd" => enabled
+		"com.apple.bulletindistributord" => enabled
+		"com.apple.security.otpaird" => enabled
+		"com.apple.brook.brookcompaniond" => enabled
+		"com.apple.NPKCompanionAgent" => enabled
+		"com.apple.nanomapscd" => enabled
+		"com.apple.pairedsyncd" => enabled
+		"com.apple.eventkitsyncd" => enabled
+		"com.apple.companionfindlocallyd" => enabled
+		"com.apple.appconduitd" => enabled
+		"com.apple.schooltimed" => enabled
+		"com.apple.nanosystemsettingsd" => enabled
+		"com.apple.companionappd" => enabled
+		"com.apple.nanoappregistryd" => enabled
+		"com.apple.pairedunlockd" => enabled
+		"com.apple.addressbooksyncd" => enabled
+		"com.apple.shazamd" => enabled
+	}
+
+	properties = uncorked | bound
+}

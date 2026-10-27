@@ -1,0 +1,411 @@
+[
+  {
+    "name": "baseline",
+    "keys": [],
+    "verdict": "booted_stable",
+    "duration": 49.3
+  },
+  {
+    "name": "key-com.apple.UsageTrackingAgent",
+    "keys": [
+      "com.apple.UsageTrackingAgent"
+    ],
+    "verdict": "booted_stable",
+    "duration": 53.9
+  },
+  {
+    "name": "key-com.apple.aslmanager",
+    "keys": [
+      "com.apple.aslmanager"
+    ],
+    "verdict": "booted_stable",
+    "duration": 51.1
+  },
+  {
+    "name": "key-com.apple.assistant_service",
+    "keys": [
+      "com.apple.assistant_service"
+    ],
+    "verdict": "booted_stable",
+    "duration": 54.1
+  },
+  {
+    "name": "key-com.apple.assistantd",
+    "keys": [
+      "com.apple.assistantd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 54.1
+  },
+  {
+    "name": "key-com.apple.assistivetouchd",
+    "keys": [
+      "com.apple.assistivetouchd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 56.7
+  },
+  {
+    "name": "key-com.apple.corespotlightservice",
+    "keys": [
+      "com.apple.corespotlightservice"
+    ],
+    "verdict": "booted_stable",
+    "duration": 50.7
+  },
+  {
+    "name": "key-com.apple.coresymbolicationd",
+    "keys": [
+      "com.apple.coresymbolicationd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 51.7
+  },
+  {
+    "name": "key-com.apple.devicecheckd",
+    "keys": [
+      "com.apple.devicecheckd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 53.1
+  },
+  {
+    "name": "key-com.apple.diagnosticd",
+    "keys": [
+      "com.apple.diagnosticd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 49.7
+  },
+  {
+    "name": "key-com.apple.diagnosticextensionsd",
+    "keys": [
+      "com.apple.diagnosticextensionsd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 50.7
+  },
+  {
+    "name": "key-com.apple.familycircled",
+    "keys": [
+      "com.apple.familycircled"
+    ],
+    "verdict": "booted_stable",
+    "duration": 51.2
+  },
+  {
+    "name": "key-com.apple.feedbackd",
+    "keys": [
+      "com.apple.feedbackd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 53.1
+  },
+  {
+    "name": "key-com.apple.followupd",
+    "keys": [
+      "com.apple.followupd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 55.4
+  },
+  {
+    "name": "key-com.apple.gamed",
+    "keys": [
+      "com.apple.gamed"
+    ],
+    "verdict": "booted_stable",
+    "duration": 55.0
+  },
+  {
+    "name": "key-com.apple.geod",
+    "keys": [
+      "com.apple.geod"
+    ],
+    "verdict": "booted_stable",
+    "duration": 54.5
+  },
+  {
+    "name": "key-com.apple.healthd",
+    "keys": [
+      "com.apple.healthd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 56.4
+  },
+  {
+    "name": "key-com.apple.itunescloudd",
+    "keys": [
+      "com.apple.itunescloudd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 56.7
+  },
+  {
+    "name": "key-com.apple.locationd",
+    "keys": [
+      "com.apple.locationd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 66.3
+  },
+  {
+    "name": "key-com.apple.logd",
+    "keys": [
+      "com.apple.logd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 56.1
+  },
+  {
+    "name": "key-com.apple.logd_helper",
+    "keys": [
+      "com.apple.logd_helper"
+    ],
+    "verdict": "booted_stable",
+    "duration": 56.9
+  },
+  {
+    "name": "key-com.apple.logd_reporter",
+    "keys": [
+      "com.apple.logd_reporter"
+    ],
+    "verdict": "booted_stable",
+    "duration": 59.4
+  },
+  {
+    "name": "key-com.apple.mediaremoted",
+    "keys": [
+      "com.apple.mediaremoted"
+    ],
+    "verdict": "booted_stable",
+    "duration": 57.6
+  },
+  {
+    "name": "key-com.apple.nanoregistryd",
+    "keys": [
+      "com.apple.nanoregistryd"
+    ],
+    "verdict": "needs_investigation",
+    "duration": 186.3
+  },
+  {
+    "name": "repeat-com.apple.nanoregistryd",
+    "keys": [
+      "com.apple.nanoregistryd"
+    ],
+    "verdict": "needs_investigation",
+    "duration": 182.2
+  },
+  {
+    "name": "control-after-investigation",
+    "keys": [],
+    "verdict": "booted_stable",
+    "duration": 50.0
+  },
+  {
+    "name": "key-com.apple.nanotimekitcompaniond",
+    "keys": [
+      "com.apple.nanotimekitcompaniond"
+    ],
+    "verdict": "booted_stable",
+    "duration": 50.9
+  },
+  {
+    "name": "key-com.apple.newsd",
+    "keys": [
+      "com.apple.newsd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 53.6
+  },
+  {
+    "name": "key-com.apple.parsecd",
+    "keys": [
+      "com.apple.parsecd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 52.2
+  },
+  {
+    "name": "key-com.apple.passd",
+    "keys": [
+      "com.apple.passd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 54.9
+  },
+  {
+    "name": "key-com.apple.rtcreportingd",
+    "keys": [
+      "com.apple.rtcreportingd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 54.2
+  },
+  {
+    "name": "key-com.apple.searchd",
+    "keys": [
+      "com.apple.searchd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 52.2
+  },
+  {
+    "name": "key-com.apple.shazamd",
+    "keys": [
+      "com.apple.shazamd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 52.1
+  },
+  {
+    "name": "key-com.apple.spotlightknowledged",
+    "keys": [
+      "com.apple.spotlightknowledged"
+    ],
+    "verdict": "booted_stable",
+    "duration": 53.9
+  },
+  {
+    "name": "key-com.apple.spotlightknowledged.updater",
+    "keys": [
+      "com.apple.spotlightknowledged.updater"
+    ],
+    "verdict": "booted_stable",
+    "duration": 49.4
+  },
+  {
+    "name": "key-com.apple.syslogd",
+    "keys": [
+      "com.apple.syslogd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 52.9
+  },
+  {
+    "name": "key-com.apple.tipsd",
+    "keys": [
+      "com.apple.tipsd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 52.6
+  },
+  {
+    "name": "key-com.apple.triald",
+    "keys": [
+      "com.apple.triald"
+    ],
+    "verdict": "booted_stable",
+    "duration": 52.4
+  },
+  {
+    "name": "key-com.apple.videosubscriptionsd",
+    "keys": [
+      "com.apple.videosubscriptionsd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 52.9
+  },
+  {
+    "name": "key-com.apple.voiced",
+    "keys": [
+      "com.apple.voiced"
+    ],
+    "verdict": "booted_stable",
+    "duration": 51.9
+  },
+  {
+    "name": "group-CrashReports",
+    "keys": [
+      "com.apple.aslmanager",
+      "com.apple.coresymbolicationd",
+      "com.apple.logd",
+      "com.apple.logd_helper",
+      "com.apple.logd_reporter",
+      "com.apple.syslogd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 61.9
+  },
+  {
+    "name": "group-Diagnostics",
+    "keys": [
+      "com.apple.diagnosticd",
+      "com.apple.diagnosticextensionsd"
+    ],
+    "verdict": "booted_stable",
+    "duration": 52.7
+  },
+  {
+    "name": "group-Spotlight",
+    "keys": [
+      "com.apple.searchd",
+      "com.apple.corespotlightservice",
+      "com.apple.spotlightknowledged",
+      "com.apple.spotlightknowledged.updater"
+    ],
+    "verdict": "booted_stable",
+    "duration": 57.6
+  },
+  {
+    "name": "group-VoiceControl",
+    "keys": [
+      "com.apple.assistant_service",
+      "com.apple.assistantd",
+      "com.apple.voiced"
+    ],
+    "verdict": "booted_stable",
+    "duration": 55.2
+  },
+  {
+    "name": "combined-present",
+    "keys": [
+      "com.apple.UsageTrackingAgent",
+      "com.apple.aslmanager",
+      "com.apple.assistant_service",
+      "com.apple.assistantd",
+      "com.apple.assistivetouchd",
+      "com.apple.corespotlightservice",
+      "com.apple.coresymbolicationd",
+      "com.apple.devicecheckd",
+      "com.apple.diagnosticd",
+      "com.apple.diagnosticextensionsd",
+      "com.apple.familycircled",
+      "com.apple.feedbackd",
+      "com.apple.followupd",
+      "com.apple.gamed",
+      "com.apple.geod",
+      "com.apple.healthd",
+      "com.apple.itunescloudd",
+      "com.apple.locationd",
+      "com.apple.logd",
+      "com.apple.logd_helper",
+      "com.apple.logd_reporter",
+      "com.apple.mediaremoted",
+      "com.apple.nanoregistryd",
+      "com.apple.nanotimekitcompaniond",
+      "com.apple.newsd",
+      "com.apple.parsecd",
+      "com.apple.passd",
+      "com.apple.rtcreportingd",
+      "com.apple.searchd",
+      "com.apple.shazamd",
+      "com.apple.spotlightknowledged",
+      "com.apple.spotlightknowledged.updater",
+      "com.apple.syslogd",
+      "com.apple.tipsd",
+      "com.apple.triald",
+      "com.apple.videosubscriptionsd",
+      "com.apple.voiced"
+    ],
+    "verdict": "needs_investigation",
+    "duration": 252.7
+  },
+  {
+    "name": "control-final",
+    "keys": [],
+    "verdict": "booted_stable",
+    "duration": 51.6
+  }
+]

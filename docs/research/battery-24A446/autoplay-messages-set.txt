@@ -1,0 +1,46 @@
+
+__AXSSetReduceMotionAutoplayMessagesEffectsEnabled
+0x18f80a9dc:  7f 23 03 d5   pacibsp
+0x18f80a9e0:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x18f80a9e4:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x18f80a9e8:  fd 43 00 91   add	fp, sp, #0x10
+0x18f80a9ec:  e2 03 00 aa   mov	x2, x0
+0x18f80a9f0:  c8 68 2a b0   adrp	x8, 0x1e4523000
+0x18f80a9f4:  00 05 1e 39   strb	w0, [x8, #0x781] ; __kAXSCacheReduceMotionAutoplayMessagesEffectsEnabled
+0x18f80a9f8:  c8 68 2a b0   adrp	x8, 0x1e4523000
+0x18f80a9fc:  13 41 47 f9   ldr	x19, [x8, #0xe80] ; _kAXSReduceMotionAutoplayMessagesEffectsPreference
+0x18f80aa00:  48 47 28 b0   adrp	x8, 0x1e00f3000
+0x18f80aa04:  00 b5 44 f9   ldr	x0, [x8, #0x968] ; _ptr.NSNumber
+0x18f80aa08:  be f0 1f 94   bl	0x190006d00
+0x18f80aa0c:  e2 03 00 aa   mov	x2, x0
+0x18f80aa10:  63 45 2d b0   adrp	x3, 0x1ea0b7000
+0x18f80aa14:  63 60 14 91   add	x3, x3, #0x518 ; _ptr.__NSCFConstantString
+0x18f80aa18:  e0 03 13 aa   mov	x0, x19
+0x18f80aa1c:  01 00 80 d2   mov	x1, #0
+0x18f80aa20:  31 83 ff 97   bl	__setPreferenceAppWithNotification
+0x18f80aa24:  fd 7b 41 a9   ldp	fp, lr, [sp, #0x10]
+0x18f80aa28:  f4 4f c2 a8   ldp	x20, x19, [sp], #0x20
+0x18f80aa2c:  ff 23 03 d5   autibsp
+0x18f80aa30:  d0 07 1e ca   eor	x16, lr, lr, lsl #0x1
+0x18f80aa34:  50 00 f0 b6   tbz	x16, #0x3e, loc_18f80aa3c ; ⤵ 0x8
+0x18f80aa38:  20 8e 38 d4   brk	#0xc471
+0x18f80aa3c:  ; loc_18f80aa3c
+0x18f80aa3c:  08 7a ff 17   b	__updateAccessibilitySettings
+
+__AXSReduceMotionAutoplayVideoPreviewsEnabledValueFromValueRespectingVoiceOverDefault
+0x18f80aa40:  7f 23 03 d5   pacibsp
+0x18f80aa44:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x18f80aa48:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x18f80aa4c:  fd 43 00 91   add	fp, sp, #0x10
+0x18f80aa50:  f3 03 00 aa   mov	x19, x0
+0x18f80aa54:  d4 68 2a f0   adrp	x20, 0x1e4525000
+0x18f80aa58:  88 de 45 f9   ldr	x8, [x20, #0xbb8] ; _VoiceOverTemporaryOverride
+0x18f80aa5c:  88 01 00 b4   cbz	x8, loc_18f80aa8c ; ⤵ 0x30
+0x18f80aa60:  e8 c0 2b d0   adrp	x8, 0x1e7028000
+0x18f80aa64:  08 55 46 f9   ldr	x8, [x8, #0xca8] ; _cachedAppID.onceToken
+0x18f80aa68:  1f 05 00 b1   cmn	x8, #0x1
+0x18f80aa6c:  61 04 00 54   b.ne	loc_18f80aaf8 ; ⤵ 0x8c
+0x18f80aa70:  e8 c0 2b d0   adrp	x8, 0x1e7028000
+0x18f80aa74:  00 4d 46 f9   ldr	x0, [x8, #0xc98] ; _cachedAppID.CachedAppID
+0x18f80aa78:  a0 00 00 b4   cbz	x0, loc_18f80aa8c ; ⤵ 0x14
+

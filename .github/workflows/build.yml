@@ -1,0 +1,279 @@
+name: Build Nugget
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_for_macos:
+        description: 'Build macOS Universal2 (Sonoma 14.4+, DMG and ZIP)'
+        required: false
+        default: true
+        type: boolean
+      build_for_windows:
+        description: 'Build Windows'
+        required: false
+        default: true
+        type: boolean
+      build_for_linux:
+        description: 'Build Linux'
+        required: false
+        default: true
+        type: boolean
+      build_for_arm_linux:
+        description: 'Build Linux ARM'
+        required: false
+        default: true
+        type: boolean
+  push:
+    branches: [main, release]
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  build-macos-qt:
+    if: ${{ github.event_name == 'push' || inputs.build_for_macos }}
+    name: Shared Qt 6.12 / Python 3.15 (Universal2)
+    uses: GoldenNugget-Team/QTBuildMacOS/.github/workflows/download.yml@0d9e4ff6893e66c5b98a85ded2186a79c83e7199
+    with:
+      release: qt-6.12.0-python-3.15-macos-14.4-v1
+
+  build-macos-cryptography:
+    if: ${{ github.event_name == 'push' || inputs.build_for_macos }}
+    name: cryptography 50 / static Universal2 OpenSSL
+    runs-on: macos-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install universal Python 3.15
+        run: |
+          curl --fail --location --retry 3 --output "$RUNNER_TEMP/python.pkg" \
+            https://www.python.org/ftp/python/3.15.0/python-3.15.0-macos11.pkg
+          pkgutil --check-signature "$RUNNER_TEMP/python.pkg"
+          sudo installer -pkg "$RUNNER_TEMP/python.pkg" -target /
+          /Library/Frameworks/Python.framework/Versions/3.15/bin/python3.15 -m venv .crypto-env
+          echo "$GITHUB_WORKSPACE/.crypto-env/bin" >> "$GITHUB_PATH"
+      - uses: actions/cache@v4
+        id: crypto-cache
+        with:
+          path: .macos-cryptography-wheels
+          key: cryptography-50-python315-macos26-universal2-${{ hashFiles('tools/build_macos_cryptography.sh') }}
+      - name: Cross-compile static OpenSSL and cryptography
+        if: steps.crypto-cache.outputs.cache-hit != 'true'
+        run: bash tools/build_macos_cryptography.sh
+      - name: Test source-built cryptography on the native host
+        run: |
+          python -m pip install .macos-cryptography-wheels/*.whl
+          python - <<'PY'
+          import cryptography
+          from cryptography.hazmat.primitives import hashes
+          from cryptography.hazmat.primitives.asymmetric import padding, rsa
+          from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+          assert cryptography.__version__ == '50.0.0'
+          cipher = Cipher(algorithms.AES(bytes(16)), modes.ECB()).encryptor()
+          assert cipher.update(bytes(16)) + cipher.finalize() == bytes.fromhex('66e94bd4ef8a2c3b884cfa59ca342b2e')
+          key = rsa.generate_private_key(public_exponent=65537, key_size=2048)
+          signature = key.sign(b'GoldenNugget', padding.PKCS1v15(), hashes.SHA256())
+          key.public_key().verify(signature, b'GoldenNugget', padding.PKCS1v15(), hashes.SHA256())
+          print('cryptography 50: AES and RSA passed')
+          PY
+      - uses: actions/upload-artifact@v6
+        with:
+          name: macOS-cryptography-universal2
+          include-hidden-files: true
+          path: .macos-cryptography-wheels/*.whl
+          if-no-files-found: error
+
+  build-macos:
+    needs: [build-macos-qt, build-macos-cryptography]
+    name: macOS Universal2 / Python 3.15 / Qt 6.12
+    runs-on: macos-latest
+    timeout-minutes: 60
+    env:
+      MACOSX_DEPLOYMENT_TARGET: '14.4'
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v7
+        with:
+          name: macOS-Qt-universal2
+          path: .macos-qt-wheels
+      - uses: actions/download-artifact@v7
+        with:
+          name: macOS-cryptography-universal2
+          path: .macos-cryptography-wheels
+      - name: Install universal Python 3.15
+        run: |
+          curl --fail --location --retry 3 --output "$RUNNER_TEMP/python.pkg" \
+            https://www.python.org/ftp/python/3.15.0/python-3.15.0-macos11.pkg
+          pkgutil --check-signature "$RUNNER_TEMP/python.pkg"
+          sudo installer -pkg "$RUNNER_TEMP/python.pkg" -target /
+          /Library/Frameworks/Python.framework/Versions/3.15/bin/python3.15 -m venv .env
+          echo "$GITHUB_WORKSPACE/.env/bin" >> "$GITHUB_PATH"
+      - name: Install compatible dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install --no-deps .macos-qt-wheels/*.whl .macos-cryptography-wheels/*.whl
+          python -m pip install -r requirements.txt -c requirements-macos.txt
+          python tools/prepare_macos_universal.py .macos-qt-wheels
+          python -m pip check
+          python -m pip freeze > macOS-dependencies.txt
+      - name: Build portable Universal2 libusb
+        run: bash tools/build_macos_libusb.sh
+      - name: Build Universal2, validate and package DMG
+        run: |
+          python compile.py --target-arch=universal2
+          python tools/package_macos.py
+          # Keep every uploaded file under dist/: upload-artifact roots the
+          # artifact at the common parent, and a file outside dist/ would nest
+          # the ZIP and DMG under dist/ where the smoke test cannot find them.
+          cp macOS-dependencies.txt dist/
+          QT_QPA_PLATFORM=offscreen dist/Nugget.app/Contents/MacOS/Nugget tools/smoke_macos.py > smoke.log 2>&1
+          cat smoke.log
+          grep -q 'MACOS_SMOKE_OK' smoke.log
+      - name: Upload macOS failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v6
+        with:
+          name: Nugget_macOS_diagnostics
+          path: |
+            dist/macOS-validation.json
+            dist/macOS-validation.stderr.log
+            dist/Nugget-macOS-Universal.zip
+            macOS-dependencies.txt
+            smoke.log
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Upload macOS Universal2
+        uses: actions/upload-artifact@v6
+        with:
+          name: Nugget_macOS_Universal2
+          path: |
+            dist/Nugget-macOS-Universal2.dmg
+            dist/Nugget-macOS-Universal.zip
+            dist/macOS-validation.json
+            dist/SHA256SUMS-macOS.txt
+            dist/macOS-dependencies.txt
+          if-no-files-found: error
+          
+  build-windows:
+    if: ${{ github.event_name == 'push' || github.event.inputs.build_for_windows == 'true' }}
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.15'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install -U pip setuptools wheel
+          pip install -r requirements.txt
+          pip install pyuac
+
+      - name: Build Windows
+        run: python compile.py
+
+      - name: Upload Windows
+        uses: actions/upload-artifact@v6
+        with:
+          name: Nugget_Windows
+          path: dist/Nugget
+          if-no-files-found: error
+
+  build-linux:
+    if: ${{ github.event_name == 'push' || github.event.inputs.build_for_linux == 'true' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.15'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libssl-dev pkg-config
+
+      - name: Install dependencies
+        run: |
+          set -uo pipefail
+          installed=0
+          for attempt in 1 2 3 4; do
+            if python -m pip install -U pip setuptools wheel \
+              && pip install --retries 5 --timeout 60 -r requirements.txt; then
+              installed=1
+              break
+            fi
+            echo "::warning::dependency install failed (attempt $attempt/4) - retrying in 30s"
+            sleep 30
+          done
+          if [ "$installed" -ne 1 ]; then
+            echo "::error::requirements.txt still not installable after 4 attempts"
+            exit 1
+          fi
+          pip check
+
+      - name: Build Linux
+        run: python compile.py
+
+      - name: Upload Linux
+        uses: actions/upload-artifact@v6
+        with:
+          name: Nugget_Linux
+          path: dist/Nugget
+          if-no-files-found: error
+
+  build-linux-arm:
+    if: ${{ github.event_name == 'push' || github.event.inputs.build_for_arm_linux == 'true' }}
+    runs-on: ubuntu-24.04-arm
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.15'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libssl-dev pkg-config
+
+      - name: Install dependencies
+        run: |
+          set -uo pipefail
+          installed=0
+          for attempt in 1 2 3 4; do
+            if python -m pip install -U pip setuptools wheel \
+              && pip install --retries 5 --timeout 60 -r requirements.txt; then
+              installed=1
+              break
+            fi
+            echo "::warning::dependency install failed (attempt $attempt/4) - retrying in 30s"
+            sleep 30
+          done
+          if [ "$installed" -ne 1 ]; then
+            echo "::error::requirements.txt still not installable after 4 attempts"
+            exit 1
+          fi
+          pip check
+
+      - name: Build Linux ARM
+        run: python compile.py
+
+      - name: Upload Linux ARM
+        uses: actions/upload-artifact@v6
+        with:
+          name: Nugget_Linux_aarch64
+          path: dist/Nugget
+          if-no-files-found: error

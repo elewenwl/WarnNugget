@@ -1,0 +1,20 @@
+0x1e4523790:  (__DATA,__data) external	_kAXSAccessibilityPreferenceDomain	
+0x1e4524610:  (__DATA,__data) external	_kAXSReduceMotionAutoplayAnimatedImagesChangedNotification	
+0x1e4523e70:  (__DATA,__data) external	_kAXSReduceMotionAutoplayAnimatedImagesPreference	
+0x1e4524620:  (__DATA,__data) external	_kAXSReduceMotionAutoplayMessagesEffectsChangedNotification	
+0x1e4523e80:  (__DATA,__data) external	_kAXSReduceMotionAutoplayMessagesEffectsPreference	
+0x1e4524628:  (__DATA,__data) external	_kAXSReduceMotionAutoplayVideoPreviewsChangedNotification	
+0x1e4523e88:  (__DATA,__data) external	_kAXSReduceMotionAutoplayVideoPreviewsPreference	
+0x1ea0b1bb8:  "com.apple.Accessibility"
+0x1ea0b3738:  "ReduceMotionAutoplayAnimatedImagesEnabled"
+0x1ea0b3778:  "ReduceMotionAutoplayMessagesEffectsEnabled"
+0x1ea0b3798:  "ReduceMotionAutoplayVideoPreviewsEnabled"
+
+ipsw dyld dump <DSC> 0x1e4523e70 --count 4 --addr:
+0x1ea0b3738
+0x1ea0b3758
+0x1ea0b3778
+0x1ea0b3798
+
+ipsw dyld dump <DSC> 0x1e4523790 --count 1 --addr:
+0x1ea0b1bb8

@@ -1,0 +1,70 @@
+{
+  "task9_normal": [
+    "de_DE",
+    "en_GB",
+    "en_US",
+    "es_ES",
+    "fr_FR",
+    "pt_BR",
+    "zh_CN",
+    "ja_JP",
+    "ko_KR",
+    "it_IT",
+    "zh_TW"
+  ],
+  "task9_hidden": [
+    "de_DE",
+    "en_GB",
+    "en_US",
+    "es_ES",
+    "fr_FR",
+    "pt_BR",
+    "zh_CN",
+    "ja_JP",
+    "ko_KR",
+    "it_IT",
+    "zh_TW"
+  ],
+  "task10_normal": [
+    "de_DE",
+    "en_GB",
+    "en_US",
+    "es_ES",
+    "fr_FR",
+    "pt_BR",
+    "zh_CN",
+    "ja_JP",
+    "ko_KR",
+    "it_IT",
+    "zh_TW"
+  ],
+  "task10_hidden": [
+    "de_DE",
+    "en_GB",
+    "en_US",
+    "es_ES",
+    "fr_FR",
+    "pt_BR",
+    "zh_CN",
+    "ja_JP",
+    "ko_KR",
+    "it_IT",
+    "zh_TW"
+  ],
+  "task11": [
+    "en_US",
+    "en_GB",
+    "pt_BR",
+    "fr_FR",
+    "it_IT",
+    "de_DE",
+    "es_ES",
+    "zh_CN",
+    "ja_JP",
+    "ko_KR",
+    "zh_TW",
+    "vi_VN",
+    "tr_TR",
+    "nl_NL"
+  ]
+}

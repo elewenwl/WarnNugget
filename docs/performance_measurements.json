@@ -1,0 +1,118 @@
+{
+  "environment": {
+    "python": "3.15.0",
+    "platform": "macOS-26.7.1-x86_64-i386-64bit-Mach-O",
+    "machine": "x86_64"
+  },
+  "method": "median of 3 warm-cache calls; synthetic temporary data",
+  "manifest_inode_scan": [
+    {
+      "rows": 1000,
+      "median_ms": 10.993,
+      "samples_ms": [
+        10.305,
+        10.993,
+        11.245
+      ]
+    },
+    {
+      "rows": 10000,
+      "median_ms": 105.401,
+      "samples_ms": [
+        106.349,
+        102.408,
+        105.401
+      ]
+    }
+  ],
+  "media_verification": [
+    {
+      "files": 1000,
+      "median_ms": 91.765,
+      "samples_ms": [
+        140.605,
+        90.919,
+        91.765
+      ],
+      "python_os_metadata_calls_per_verify": {
+        "stat": 2001,
+        "lstat": 14008
+      }
+    },
+    {
+      "files": 3000,
+      "median_ms": 280.897,
+      "samples_ms": [
+        275.066,
+        281.551,
+        280.897
+      ],
+      "python_os_metadata_calls_per_verify": {
+        "stat": 6001,
+        "lstat": 42008
+      }
+    }
+  ],
+  "icon_batch_add": [
+    {
+      "icons": 1000,
+      "median_ms": 29.871,
+      "samples_ms": [
+        29.27,
+        30.465,
+        29.871
+      ]
+    },
+    {
+      "icons": 5000,
+      "median_ms": 793.45,
+      "samples_ms": [
+        781.988,
+        871.15,
+        793.45
+      ]
+    }
+  ],
+  "scene_state_overrides": [
+    {
+      "layers": 200,
+      "overrides": 40,
+      "median_ms": 7.886,
+      "samples_ms": [
+        7.886,
+        8.09,
+        7.306
+      ]
+    },
+    {
+      "layers": 1000,
+      "overrides": 200,
+      "median_ms": 65.916,
+      "samples_ms": [
+        65.916,
+        54.724,
+        82.56
+      ]
+    }
+  ],
+  "hsl_layer_blend": {
+    "width": 390,
+    "height": 844,
+    "full_blend": {
+      "median_ms": 166.952,
+      "samples_ms": [
+        166.952,
+        172.339,
+        155.258
+      ]
+    },
+    "png_roundtrip_only": {
+      "median_ms": 75.939,
+      "samples_ms": [
+        76.486,
+        75.939,
+        74.459
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+
+__LTIsInternalInstall
+0x24c63d160:  7f 23 03 d5   pacibsp
+0x24c63d164:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x24c63d168:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x24c63d16c:  fd 43 00 91   add	fp, sp, #0x10
+0x24c63d170:  00 b1 14 d0   adrp	x0, 0x275c5f000
+0x24c63d174:  00 00 08 91   add	x0, x0, #0x200 ; _ptr.__NSCFConstantString
+0x24c63d178:  01 00 80 d2   mov	x1, #0
+0x24c63d17c:  31 b0 e9 94   bl	_MGCopyAnswer_stub
+0x24c63d180:  f3 03 00 aa   mov	x19, x0
+0x24c63d184:  83 14 e7 94   bl	0x250002390
+0x24c63d188:  f4 03 00 aa   mov	x20, x0
+0x24c63d18c:  05 90 e9 94   bl	_objc_release_x19_stub
+0x24c63d190:  e0 03 14 aa   mov	x0, x20
+0x24c63d194:  fd 7b 41 a9   ldp	fp, lr, [sp, #0x10]
+0x24c63d198:  f4 4f c2 a8   ldp	x20, x19, [sp], #0x20
+0x24c63d19c:  ff 0f 5f d6   retab
+
+__LTIsSeedInstall
+0x24c63d1a0:  00 00 80 52   mov	w0, #0
+0x24c63d1a4:  c0 03 5f d6   ret
+
+__LTObjectMappedForKey
+0x24c63d1a8:  7f 23 03 d5   pacibsp
+0x24c63d1ac:  f6 57 bd a9   stp	x22, x21, [sp, #-0x30]!
+0x24c63d1b0:  f4 4f 01 a9   stp	x20, x19, [sp, #0x10]
+0x24c63d1b4:  fd 7b 02 a9   stp	fp, lr, [sp, #0x20]
+0x24c63d1b8:  fd 83 00 91   add	fp, sp, #0x20
+0x24c63d1bc:  f4 03 01 aa   mov	x20, x1
+0x24c63d1c0:  e4 9f e9 94   bl	_objc_retain_x0_stub
+0x24c63d1c4:  f3 03 00 aa   mov	x19, x0
+0x24c63d1c8:  e2 03 14 aa   mov	x2, x20
+0x24c63d1cc:  15 11 e7 94   bl	0x250001620
+0x24c63d1d0:  e4 8f e9 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x24c63d1d4:  f4 03 00 aa   mov	x20, x0
+0x24c63d1d8:  48 d5 0d d0   adrp	x8, 0x2680e7000
+0x24c63d1dc:  00 5d 43 f9   ldr	x0, [x8, #0x6b8] ; _ptr.NSString
+0x24c63d1e0:  e4 8f e9 94   bl	_objc_opt_class_stub
+0x24c63d1e4:  e1 03 00 aa   mov	x1, x0
+0x24c63d1e8:  e0 03 14 aa   mov	x0, x20
+0x24c63d1ec:  e5 8f e9 94   bl	_objc_opt_isKindOfClass_stub
+0x24c63d1f0:  00 01 00 36   tbz	w0, #0, loc_24c63d210 ; ⤵ 0x20
+0x24c63d1f4:  e0 03 13 aa   mov	x0, x19
+0x24c63d1f8:  e2 03 14 aa   mov	x2, x20
+0x24c63d1fc:  09 11 e7 94   bl	0x250001620
+0x24c63d200:  d8 8f e9 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x24c63d204:  f5 03 00 aa   mov	x21, x0
+0x24c63d208:  ea 8f e9 94   bl	_objc_release_x20_stub
+0x24c63d20c:  f4 03 15 aa   mov	x20, x21
+0x24c63d210:  ; loc_24c63d210
+0x24c63d210:  e4 8f e9 94   bl	_objc_release_x19_stub
+0x24c63d214:  e0 03 14 aa   mov	x0, x20
+0x24c63d218:  fd 7b 42 a9   ldp	fp, lr, [sp, #0x20]
+0x24c63d21c:  f4 4f 41 a9   ldp	x20, x19, [sp, #0x10]
+0x24c63d220:  f6 57 c3 a8   ldp	x22, x21, [sp], #0x30
+0x24c63d224:  ff 23 03 d5   autibsp
+0x24c63d228:  d0 07 1e ca   eor	x16, lr, lr, lsl #0x1
+0x24c63d22c:  50 00 f0 b6   tbz	x16, #0x3e, loc_24c63d234 ; ⤵ 0x8
+0x24c63d230:  20 8e 38 d4   brk	#0xc471
+0x24c63d234:  ; loc_24c63d234
+0x24c63d234:  9f 9f e9 14   b	_objc_autoreleaseReturnValue_stub
+
+__LTLocaleMappedForTTS
+0x24c63d238:  7f 23 03 d5   pacibsp
+0x24c63d23c:  f6 57 bd a9   stp	x22, x21, [sp, #-0x30]!
+0x24c63d240:  f4 4f 01 a9   stp	x20, x19, [sp, #0x10]
+0x24c63d244:  fd 7b 02 a9   stp	fp, lr, [sp, #0x20]
+0x24c63d248:  fd 83 00 91   add	fp, sp, #0x20
+0x24c63d24c:  e8 d4 0d b0   adrp	x8, 0x2680da000
+0x24c63d250:  13 6d 47 f9   ldr	x19, [x8, #0xed8] ; _ptr.NSLocale
+0x24c63d254:  4f 21 e7 94   bl	0x250005790
+0x24c63d258:  c2 8f e9 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x24c63d25c:  f4 03 00 aa   mov	x20, x0
+0x24c63d260:  13 00 00 94   bl	__LTLocaleIdentifierMappedForTTS
+0x24c63d264:  bf 8f e9 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x24c63d268:  f5 03 00 aa   mov	x21, x0
+0x24c63d26c:  e0 03 13 aa   mov	x0, x19
+0x24c63d270:  e2 03 15 aa   mov	x2, x21
+0x24c63d274:  4b 21 e7 94   bl	0x2500057a0
+0x24c63d278:  ba 8f e9 94   bl	_objc_claimAutoreleasedReturnValue_stub
+0x24c63d27c:  f3 03 00 aa   mov	x19, x0
+0x24c63d280:  94 9f e9 94   bl	_objc_release_x21_stub
+0x24c63d284:  cb 8f e9 94   bl	_objc_release_x20_stub
+0x24c63d288:  e0 03 13 aa   mov	x0, x19
+0x24c63d28c:  fd 7b 42 a9   ldp	fp, lr, [sp, #0x20]
+0x24c63d290:  f4 4f 41 a9   ldp	x20, x19, [sp, #0x10]
+0x24c63d294:  f6 57 c3 a8   ldp	x22, x21, [sp], #0x30
+0x24c63d298:  ff 23 03 d5   autibsp
+0x24c63d29c:  d0 07 1e ca   eor	x16, lr, lr, lsl #0x1
+0x24c63d2a0:  50 00 f0 b6   tbz	x16, #0x3e, loc_24c63d2a8 ; ⤵ 0x8
+0x24c63d2a4:  20 8e 38 d4   brk	#0xc471
+0x24c63d2a8:  ; loc_24c63d2a8
+0x24c63d2a8:  82 9f e9 14   b	_objc_autoreleaseReturnValue_stub
+
+__LTLocaleIdentifierMappedForTTS
+0x24c63d2ac:  7f 23 03 d5   pacibsp
+0x24c63d2b0:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x24c63d2b4:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x24c63d2b8:  fd 43 00 91   add	fp, sp, #0x10
+0x24c63d2bc:  a5 9f e9 94   bl	_objc_retain_x0_stub
+0x24c63d2c0:  f3 03 00 aa   mov	x19, x0
+0x24c63d2c4:  02 b1 14 d0   adrp	x2, 0x275c5f000
+

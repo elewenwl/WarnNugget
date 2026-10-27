@@ -1,0 +1,97 @@
+{
+  "name": "key-com.apple.rtcreportingd",
+  "keys": [
+    "com.apple.rtcreportingd"
+  ],
+  "started": 1792437132.971622,
+  "shutdown": {
+    "code": 0,
+    "out": "",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\n"
+  },
+  "boot": {
+    "code": 0,
+    "out": "",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\n"
+  },
+  "bootstatus": {
+    "code": 0,
+    "out": "Monitoring boot status for GoldenNugget-Daemon-Audit (362457BA-2C1E-49CE-B6FB-DC7B1FEBD053).\n[2026-10-19 19:12:21 +0000] Status=1, isTerminal=NO, Elapsed=00:01.\n\tWaiting on BackBoard\n\n[2026-10-19 19:12:26 +0000] Status=4, isTerminal=NO, Elapsed=00:06.\n\tWaiting on System App\n\n[2026-10-19 19:12:26 +0000] Status=4, isTerminal=NO, Elapsed=00:07.\n\tWaiting on System App\n\n[2026-10-19 19:12:27 +0000] Status=4, isTerminal=NO, Elapsed=00:07.\n\tWaiting on System App\n\n[2026-10-19 19:12:27 +0000] Status=4, isTerminal=NO, Elapsed=00:08.\n\tWaiting on System App\n\n[2026-10-19 19:12:28 +0000] Status=4, isTerminal=NO, Elapsed=00:09.\n\tWaiting on System App\n\n[2026-10-19 19:12:30 +0000] Status=4, isTerminal=NO, Elapsed=00:10.\n\tWaiting on System App\n\n[2026-10-19 19:12:30 +0000] Status=4, isTerminal=NO, Elapsed=00:11.\n\tWaiting on System App\n\n[2026-10-19 19:12:32 +0000] Status=4, isTerminal=NO, Elapsed=00:12.\n\tWaiting on System App\n\n[2026-10-19 19:12:32 +0000] Status=4, isTerminal=NO, Elapsed=00:13.\n\tWaiting on System App\n\n[2026-10-19 19:12:33 +0000] Status=4, isTerminal=NO, Elapsed=00:14.\n\tWaiting on System App\n\n[2026-10-19 19:12:35 +0000] Status=4, isTerminal=NO, Elapsed=00:15.\n\tWaiting on System App\n\n[2026-10-19 19:12:35 +0000] Status=4294967295, isTerminal=YES, Elapsed=00:16.\n\tFinished\n\n",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\n"
+  },
+  "disabled": {
+    "com.apple.rtcreportingd": true
+  },
+  "target_jobs": {
+    "com.apple.rtcreportingd": {
+      "code": 113,
+      "out": "",
+      "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nBad request.\nCould not find service \"com.apple.rtcreportingd\" in domain for uid: 501\n"
+    }
+  },
+  "samples": [
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "50264",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "50286",
+        "runs": "1",
+        "state": "running"
+      }
+    },
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "50264",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "50286",
+        "runs": "1",
+        "state": "running"
+      }
+    },
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "50264",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "50286",
+        "runs": "1",
+        "state": "running"
+      }
+    },
+    {
+      "com.apple.SpringBoard": {
+        "code": 0,
+        "pid": "50264",
+        "runs": "1",
+        "state": "running"
+      },
+      "com.apple.backboardd": {
+        "code": 0,
+        "pid": "50286",
+        "runs": "1",
+        "state": "running"
+      }
+    }
+  ],
+  "screenshot": {
+    "code": 0,
+    "out": "",
+    "err": "nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0\nnvrm: b72 host-pointer import ON (probe NV_STATUS 0)\nnvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8188 MB, default)\nnvrm: upload queue async copy engine: found (engine type 0xb, 3D class 0xc997)\nnvrm: b81 SET_LG_SECTOR_PROMOTION 64B rc 0x56\nDetected file type from extension: PNG\nNote: No display specified. Defaulting to display: 9A391893-4866-4E2C-A255-EC91290FF5EA (screenID: 1, name: LCD)\nWrote screenshot to: /Users/awesomenull/Projects/GoldenNugget/docs/research/daemon-audit-2026-10-19/key-com.apple.rtcreportingd/screen.png\n"
+  },
+  "verdict": "booted_stable",
+  "duration": 54.2
+}

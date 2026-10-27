@@ -1,0 +1,161 @@
+
+_$sSo21GMAvailabilityWrapperC16GenerativeModelsE32isSensitiveRegionForEnhancedSiriSbyFZ
+0x1872958a0:  7f 23 03 d5   pacibsp
+0x1872958a4:  e0 03 1e aa   mov	x0, lr
+0x1872958a8:  30 bf fd 97   bl	0x187205568
+0x1872958ac:  fe 03 00 aa   mov	lr, x0
+0x1872958b0:  fd 7b 05 a9   stp	fp, lr, [sp, #0x50]
+0x1872958b4:  fd 43 01 91   add	fp, sp, #0x50
+0x1872958b8:  ff 43 00 d1   sub	sp, sp, #0x10
+0x1872958bc:  00 00 80 d2   mov	x0, #0
+0x1872958c0:  54 9f 3a 94   bl	_$s2os6LoggerVMa_stub
+0x1872958c4:  f3 03 00 aa   mov	x19, x0
+0x1872958c8:  b0 cd fd 97   bl	0x187208f88
+0x1872958cc:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x1872958d0:  30 1a c1 da   autda	x16, x17
+0x1872958d4:  f1 03 10 aa   mov	x17, x16
+0x1872958d8:  f1 47 c1 da   xpacd	x17
+0x1872958dc:  1f 02 11 eb   cmp	x16, x17
+0x1872958e0:  40 00 00 54   b.eq	loc_1872958e8 ; ⤵ 0x8
+0x1872958e4:  40 8e 38 d4   brk	#0xc472
+0x1872958e8:  ; loc_1872958e8
+0x1872958e8:  f5 03 10 aa   mov	x21, x16
+0x1872958ec:  f0 03 08 aa   mov	x16, x8
+0x1872958f0:  f1 03 09 aa   mov	x17, x9
+0x1872958f4:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x1872958f8:  30 1a c1 da   autda	x16, x17
+0x1872958fc:  08 22 40 f9   ldr	x8, [x16, #0x40]
+0x187295900:  e9 03 08 aa   mov	x9, x8
+0x187295904:  11 d5 30 f0   adrp	x17, 0x1e8d38000
+0x187295908:  31 c2 28 91   add	x17, x17, #0xa30 ; _ptr._thread_chkstk_darwin
+0x18729590c:  30 02 40 f9   ldr	x16, [x17]
+0x187295910:  11 0a 3f d7   blraa	x16, x17
+0x187295914:  c1 ce fd 97   bl	0x187209418
+0x187295918:  34 01 08 cb   sub	x20, x9, x8
+0x18729591c:  9f 02 00 91   mov	sp, x20
+0x187295920:  34 26 3b 94   bl	_MobileGestalt_get_current_device_stub
+0x187295924:  fd 03 1d aa   mov	fp, fp
+0x187295928:  86 b8 3a 94   bl	_objc_retainAutoreleasedReturnValue_stub
+0x18729592c:  00 0f 00 b4   cbz	x0, loc_187295b0c ; ⤵ 0x1e0
+0x187295930:  f6 03 00 aa   mov	x22, x0
+0x187295934:  2b 26 3b 94   bl	_MobileGestalt_copy_regionCode_obj_stub
+0x187295938:  fd 03 1d aa   mov	fp, fp
+0x18729593c:  81 b8 3a 94   bl	_objc_retainAutoreleasedReturnValue_stub
+0x187295940:  f8 03 00 aa   mov	x24, x0
+0x187295944:  af 96 3a 94   bl	_objc_release_x22_stub
+0x187295948:  b8 01 00 b4   cbz	x24, loc_18729597c ; ⤵ 0x34
+0x18729594c:  e0 03 18 aa   mov	x0, x24
+0x187295950:  e0 c6 3a 94   bl	_$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ_stub
+0x187295954:  f6 03 00 aa   mov	x22, x0
+0x187295958:  f7 03 01 aa   mov	x23, x1
+0x18729595c:  b1 96 3a 94   bl	_objc_release_x24_stub
+0x187295960:  08 40 fc d2   mov	x8, #0xe200000000000000
+0x187295964:  78 08 89 52   mov	w24, #0x4843
+0x187295968:  df 02 18 eb   cmp	x22, x24
+0x18729596c:  e0 02 48 fa   ccmp	x23, x8, #0, eq
+0x187295970:  80 01 00 54   b.eq	loc_1872959a0 ; ⤵ 0x30
+0x187295974:  f8 03 16 aa   mov	x24, x22
+0x187295978:  02 00 00 14   b	loc_187295980 ; ⤵ 0x8
+0x18729597c:  ; loc_18729597c
+0x18729597c:  17 00 fc d2   mov	x23, #0xe000000000000000
+0x187295980:  ; loc_187295980
+0x187295980:  e0 03 18 aa   mov	x0, x24
+0x187295984:  e1 03 17 aa   mov	x1, x23
+0x187295988:  62 08 89 52   mov	w2, #0x4843
+0x18729598c:  03 40 fc d2   mov	x3, #0xe200000000000000
+0x187295990:  04 00 80 52   mov	w4, #0
+0x187295994:  8b a8 3a 94   bl	_$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF_stub
+0x187295998:  f6 03 00 aa   mov	x22, x0
+0x18729599c:  03 00 00 14   b	loc_1872959a8 ; ⤵ 0xc
+0x1872959a0:  ; loc_1872959a0
+0x1872959a0:  36 00 80 52   mov	w22, #0x1
+0x1872959a4:  17 40 fc d2   mov	x23, #0xe200000000000000
+0x1872959a8:  ; loc_1872959a8
+0x1872959a8:  6f ca fd 97   bl	0x187208364
+0x1872959ac:  60 00 00 54   b.eq	loc_1872959b8 ; ⤵ 0xc
+0x1872959b0:  bb cc fd 97   bl	0x187208c9c
+0x1872959b4:  07 bb 3a 94   bl	_swift_once_stub
+0x1872959b8:  ; loc_1872959b8
+0x1872959b8:  e1 f0 2f d0   adrp	x1, 0x1e70b3000
+0x1872959bc:  21 80 04 91   add	x1, x1, #0x120 ; data_1e70b3120 (GenerativeModels/__DATA_DIRTY.__data)
+0x1872959c0:  e0 03 13 aa   mov	x0, x19
+0x1872959c4:  6f 0d fe 97   bl	0x187218f80
+0x1872959c8:  e1 03 00 aa   mov	x1, x0
+0x1872959cc:  e8 03 15 aa   mov	x8, x21
+0x1872959d0:  09 0d 41 f8   ldr	x9, [x8, #0x10]!
+0x1872959d4:  e0 03 14 aa   mov	x0, x20
+0x1872959d8:  e2 03 13 aa   mov	x2, x19
+0x1872959dc:  f1 03 08 aa   mov	x17, x8
+0x1872959e0:  51 77 fc f2   movk	x17, #0xe3ba, lsl #0x30
+0x1872959e4:  31 09 3f d7   blraa	x9, x17
+0x1872959e8:  e0 03 17 aa   mov	x0, x23
+0x1872959ec:  e5 b9 3a 94   bl	_swift_bridgeObjectRetain_stub
+0x1872959f0:  fc 9e 3a 94   bl	_$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg_stub
+0x1872959f4:  f9 03 00 aa   mov	x25, x0
+0x1872959f8:  c6 c7 3a 94   bl	_$sSo13os_log_type_ta0A0E7defaultABvgZ_stub
+0x1872959fc:  fb 03 00 aa   mov	x27, x0
+0x187295a00:  01 1c 00 12   and	w1, w0, #0xff
+0x187295a04:  e0 03 19 aa   mov	x0, x25
+0x187295a08:  2a 97 3a 94   bl	_os_log_type_enabled_stub
+0x187295a0c:  e0 05 00 36   tbz	w0, #0, loc_187295ac8 ; ⤵ 0xbc
+0x187295a10:  40 02 80 52   mov	w0, #0x12
+0x187295a14:  01 00 80 92   mov	x1, #0xffffffffffffffff
+0x187295a18:  92 bb 3a 94   bl	_swift_slowAlloc_stub
+0x187295a1c:  fa 03 00 aa   mov	x26, x0
+0x187295a20:  00 04 80 52   mov	w0, #0x20
+0x187295a24:  01 00 80 92   mov	x1, #0xffffffffffffffff
+0x187295a28:  8e bb 3a 94   bl	_swift_slowAlloc_stub
+0x187295a2c:  fc 03 00 aa   mov	x28, x0
+0x187295a30:  a0 83 1a f8   stur	x0, [fp, #-0x58]
+0x187295a34:  08 02 00 f0   adrp	x8, 0x1872d8000
+0x187295a38:  00 b5 42 fd   ldr	d0, [x8, #0x568]
+0x187295a3c:  40 03 00 bd   str	s0, [x26]
+0x187295a40:  c8 02 00 12   and	w8, w22, #0x1
+0x187295a44:  48 07 00 b9   str	w8, [x26, #0x4]
+0x187295a48:  28 04 81 52   mov	w8, #0x821
+0x187295a4c:  48 13 00 79   strh	w8, [x26, #0x8]
+0x187295a50:  a2 63 01 d1   sub	x2, fp, #0x58
+0x187295a54:  e0 03 18 aa   mov	x0, x24
+0x187295a58:  e1 03 17 aa   mov	x1, x23
+0x187295a5c:  fa 3c fe 97   bl	0x187224e44
+0x187295a60:  40 a3 00 f8   stur	x0, [x26, #0xa]
+0x187295a64:  e0 03 17 aa   mov	x0, x23
+0x187295a68:  41 00 80 52   mov	w1, #0x2
+0x187295a6c:  c1 b9 3a 94   bl	_swift_bridgeObjectRelease_n_stub
+0x187295a70:  84 cf fd 97   bl	0x187209880
+0x187295a74:  a3 02 00 d0   adrp	x3, 0x1872eb000
+0x187295a78:  63 40 09 91   add	x3, x3, #0x250 ; "isSensitiveRegionForEnhancedSiri returning: %{bool,public}d for region: %{private}s"
+0x187295a7c:  62 1f 00 12   and	w2, w27, #0xff
+0x187295a80:  e1 03 19 aa   mov	x1, x25
+0x187295a84:  e4 03 1a aa   mov	x4, x26
+0x187295a88:  45 02 80 52   mov	w5, #0x12
+0x187295a8c:  b9 92 3a 94   bl	__os_log_impl_stub
+0x187295a90:  e0 03 1c aa   mov	x0, x28
+0x187295a94:  d3 de fd 97   bl	0x18720d5e0
+0x187295a98:  e0 03 1c aa   mov	x0, x28
+0x187295a9c:  43 cd fd 97   bl	0x187208fa8
+0x187295aa0:  e0 03 1a aa   mov	x0, x26
+0x187295aa4:  41 cd fd 97   bl	0x187208fa8
+0x187295aa8:  62 96 3a 94   bl	_objc_release_x25_stub
+0x187295aac:  a8 8e 40 f8   ldr	x8, [x21, #0x8]!
+0x187295ab0:  e0 03 14 aa   mov	x0, x20
+0x187295ab4:  e1 03 13 aa   mov	x1, x19
+0x187295ab8:  f1 03 15 aa   mov	x17, x21
+0x187295abc:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x187295ac0:  11 09 3f d7   blraa	x8, x17
+0x187295ac4:  0b 00 00 14   b	loc_187295af0 ; ⤵ 0x2c
+0x187295ac8:  ; loc_187295ac8
+0x187295ac8:  a8 8e 40 f8   ldr	x8, [x21, #0x8]!
+0x187295acc:  e0 03 14 aa   mov	x0, x20
+0x187295ad0:  e1 03 13 aa   mov	x1, x19
+0x187295ad4:  f1 03 15 aa   mov	x17, x21
+0x187295ad8:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x187295adc:  11 09 3f d7   blraa	x8, x17
+0x187295ae0:  e0 03 17 aa   mov	x0, x23
+0x187295ae4:  41 00 80 52   mov	w1, #0x2
+0x187295ae8:  a2 b9 3a 94   bl	_swift_bridgeObjectRelease_n_stub
+0x187295aec:  51 96 3a 94   bl	_objc_release_x25_stub
+0x187295af0:  ; loc_187295af0
+0x187295af0:  c0 02 00 12   and	w0, w22, #0x1
+0x187295af4:  bf 43 01 d1   sub	sp, fp, #0x50
+

@@ -1,0 +1,882 @@
+{
+  "OS_ELIGIBILITY_DOMAIN_INVALID": {
+    "id": 0,
+    "return_address": "0x2c2cce2e4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ACTINIUM": {
+    "id": 90,
+    "return_address": "0x2c2cce2ec"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ADALIA": {
+    "id": 199,
+    "return_address": "0x2c2cce2f4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ADULT_AGE_VERIFICATION_REQUIRED": {
+    "id": 144,
+    "return_address": "0x2c2cce2fc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ADULT_AGE_VERIFICATION_REQUIRED_MINI_BUDDY": {
+    "id": 145,
+    "return_address": "0x2c2cce304"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ADULT_AGE_VERIFICATION_REQUIRED_SCREEN_TIME": {
+    "id": 165,
+    "return_address": "0x2c2cce30c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ADULT_AGE_VERIFICATION_STATUS_REQUIRED_SPYGLASS": {
+    "id": 220,
+    "return_address": "0x2c2cce314"
+  },
+  "OS_ELIGIBILITY_DOMAIN_AGE_ASSURANCE_JURISDICTION_LIFECYCLE": {
+    "id": 156,
+    "return_address": "0x2c2cce31c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_AGE_ASSURANCE_REGULATORY_FEATURES": {
+    "id": 157,
+    "return_address": "0x2c2cce324"
+  },
+  "OS_ELIGIBILITY_DOMAIN_AGE_VERIFICATION_REQUIRED_SCREEN_TIME": {
+    "id": 166,
+    "return_address": "0x2c2cce32c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_AGONUM": {
+    "id": 176,
+    "return_address": "0x2c2cce334"
+  },
+  "OS_ELIGIBILITY_DOMAIN_AGRILUS": {
+    "id": 190,
+    "return_address": "0x2c2cce33c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_AGRIOTES": {
+    "id": 193,
+    "return_address": "0x2c2cce344"
+  },
+  "OS_ELIGIBILITY_DOMAIN_AI_LABELING": {
+    "id": 133,
+    "return_address": "0x2c2cce34c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ALUMINUM": {
+    "id": 14,
+    "return_address": "0x2c2cce354"
+  },
+  "OS_ELIGIBILITY_DOMAIN_AMARA": {
+    "id": 177,
+    "return_address": "0x2c2cce35c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_AMERICIUM": {
+    "id": 96,
+    "return_address": "0x2c2cce364"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ANATIS": {
+    "id": 200,
+    "return_address": "0x2c2cce36c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ANTHOCHARIS": {
+    "id": 213,
+    "return_address": "0x2c2cce374"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ANTIMONY": {
+    "id": 52,
+    "return_address": "0x2c2cce37c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_APP_STORE_LAUNCH_AGE_VERIFICATION": {
+    "id": 134,
+    "return_address": "0x2c2cce384"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ARGON": {
+    "id": 19,
+    "return_address": "0x2c2cce38c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ARSENIC": {
+    "id": 34,
+    "return_address": "0x2c2cce394"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ASTATINE": {
+    "id": 86,
+    "return_address": "0x2c2cce39c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BARIUM": {
+    "id": 57,
+    "return_address": "0x2c2cce3a4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BEMBIDION": {
+    "id": 171,
+    "return_address": "0x2c2cce3ac"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BERKELIUM": {
+    "id": 98,
+    "return_address": "0x2c2cce3b4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BERYLLIUM": {
+    "id": 5,
+    "return_address": "0x2c2cce3bc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BISMUTH": {
+    "id": 84,
+    "return_address": "0x2c2cce3c4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BLOCK_ASK_TO_BUY_DISABLE": {
+    "id": 152,
+    "return_address": "0x2c2cce3cc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BOHRIUM": {
+    "id": 108,
+    "return_address": "0x2c2cce3d4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BORON": {
+    "id": 6,
+    "return_address": "0x2c2cce3dc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BROMINE": {
+    "id": 36,
+    "return_address": "0x2c2cce3e4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_BUPRESTIS": {
+    "id": 187,
+    "return_address": "0x2c2cce3ec"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CADMIUM": {
+    "id": 49,
+    "return_address": "0x2c2cce3f4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CALCIUM": {
+    "id": 21,
+    "return_address": "0x2c2cce3fc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CALIFORNIUM": {
+    "id": 99,
+    "return_address": "0x2c2cce404"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CALOSOMA": {
+    "id": 174,
+    "return_address": "0x2c2cce40c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CALVIA": {
+    "id": 201,
+    "return_address": "0x2c2cce414"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CARABUS": {
+    "id": 168,
+    "return_address": "0x2c2cce41c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CARBON": {
+    "id": 7,
+    "return_address": "0x2c2cce424"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CELASTRINA": {
+    "id": 217,
+    "return_address": "0x2c2cce42c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CERIUM": {
+    "id": 59,
+    "return_address": "0x2c2cce434"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CESIUM": {
+    "id": 56,
+    "return_address": "0x2c2cce43c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CHILD_AND_TEEN_RESTRICTION_REQUIRED": {
+    "id": 150,
+    "return_address": "0x2c2cce444"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CHILD_AND_TEEN_RESTRICTION_REQUIRED_MINI_BUDDY": {
+    "id": 163,
+    "return_address": "0x2c2cce44c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CHILD_TEEN_AGE_VERIFICATION_REQUIRED_SCREEN_TIME": {
+    "id": 164,
+    "return_address": "0x2c2cce454"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CHLAENIUS": {
+    "id": 178,
+    "return_address": "0x2c2cce45c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CHLORINE": {
+    "id": 18,
+    "return_address": "0x2c2cce464"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CHROMIUM": {
+    "id": 25,
+    "return_address": "0x2c2cce46c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CHRYSOBOTHRIS": {
+    "id": 191,
+    "return_address": "0x2c2cce474"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CICINDELA": {
+    "id": 169,
+    "return_address": "0x2c2cce47c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_COBALT": {
+    "id": 28,
+    "return_address": "0x2c2cce484"
+  },
+  "OS_ELIGIBILITY_DOMAIN_COCCINELLA": {
+    "id": 197,
+    "return_address": "0x2c2cce48c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_COLIAS": {
+    "id": 211,
+    "return_address": "0x2c2cce494"
+  },
+  "OS_ELIGIBILITY_DOMAIN_COMM_SAFETY_FORCE_ON": {
+    "id": 154,
+    "return_address": "0x2c2cce49c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_COPERNICIUM": {
+    "id": 113,
+    "return_address": "0x2c2cce4a4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_COPPER": {
+    "id": 30,
+    "return_address": "0x2c2cce4ac"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CORE_NFC_PAYMENT_TAG_READER": {
+    "id": 132,
+    "return_address": "0x2c2cce4b4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CTENICERA": {
+    "id": 194,
+    "return_address": "0x2c2cce4bc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CURCULIO": {
+    "id": 202,
+    "return_address": "0x2c2cce4c4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_CURIUM": {
+    "id": 97,
+    "return_address": "0x2c2cce4cc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DARMSTADTIUM": {
+    "id": 111,
+    "return_address": "0x2c2cce4d4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DECLARED_AGE_RANGE_API_ALWAYS_SHARE_REQUIRED": {
+    "id": 140,
+    "return_address": "0x2c2cce4dc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DECLARED_AGE_RANGE_API_NOTIFY_FOR_SIGNIFICANT_APP_CHANGE": {
+    "id": 141,
+    "return_address": "0x2c2cce4e4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DECLARED_AGE_RANGE_API_VEND_GEO_SPECIFIC_AGE_RANGES": {
+    "id": 137,
+    "return_address": "0x2c2cce4ec"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DECLARED_AGE_RANGE_API_VEND_GEO_SPECIFIC_AGE_RANGES_SANDBOX": {
+    "id": 139,
+    "return_address": "0x2c2cce4f4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DECLARED_AGE_RANGE_API_VEND_VERIFICATION_REQUIRED": {
+    "id": 136,
+    "return_address": "0x2c2cce4fc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DECLARED_AGE_RANGE_API_VEND_VERIFICATION_REQUIRED_SANDBOX": {
+    "id": 138,
+    "return_address": "0x2c2cce504"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DECLARED_AGE_RANGE_REQUIRES_AGE_RANGE_FETCH": {
+    "id": 161,
+    "return_address": "0x2c2cce50c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DECLARED_AGE_RANGE_SIGNIFICANT_APP_CHANGE_ADULT": {
+    "id": 159,
+    "return_address": "0x2c2cce514"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DECLARED_AGE_RANGE_SIGNIFICANT_APP_CHANGE_CHILD_TEEN": {
+    "id": 160,
+    "return_address": "0x2c2cce51c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DICERCA": {
+    "id": 189,
+    "return_address": "0x2c2cce524"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DUBNIUM": {
+    "id": 106,
+    "return_address": "0x2c2cce52c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_DYSPROSIUM": {
+    "id": 67,
+    "return_address": "0x2c2cce534"
+  },
+  "OS_ELIGIBILITY_DOMAIN_EINSTEINIUM": {
+    "id": 100,
+    "return_address": "0x2c2cce53c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ELAPHRUS": {
+    "id": 179,
+    "return_address": "0x2c2cce544"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ELATER": {
+    "id": 192,
+    "return_address": "0x2c2cce54c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ERBIUM": {
+    "id": 69,
+    "return_address": "0x2c2cce554"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ERGATES": {
+    "id": 184,
+    "return_address": "0x2c2cce55c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_EUCHLOE": {
+    "id": 212,
+    "return_address": "0x2c2cce564"
+  },
+  "OS_ELIGIBILITY_DOMAIN_EUROPIUM": {
+    "id": 64,
+    "return_address": "0x2c2cce56c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_FERMIUM": {
+    "id": 101,
+    "return_address": "0x2c2cce574"
+  },
+  "OS_ELIGIBILITY_DOMAIN_FLEROVIUM": {
+    "id": 115,
+    "return_address": "0x2c2cce57c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_FLUORINE": {
+    "id": 10,
+    "return_address": "0x2c2cce584"
+  },
+  "OS_ELIGIBILITY_DOMAIN_FORCED_SHUTTER_SOUND": {
+    "id": 126,
+    "return_address": "0x2c2cce58c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_FORCE_ASK_TO_BUY_ON": {
+    "id": 151,
+    "return_address": "0x2c2cce594"
+  },
+  "OS_ELIGIBILITY_DOMAIN_FOUNDATION_MODELS": {
+    "id": 130,
+    "return_address": "0x2c2cce59c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_FRANCIUM": {
+    "id": 88,
+    "return_address": "0x2c2cce5a4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_GADOLINIUM": {
+    "id": 65,
+    "return_address": "0x2c2cce5ac"
+  },
+  "OS_ELIGIBILITY_DOMAIN_GALLIUM": {
+    "id": 32,
+    "return_address": "0x2c2cce5b4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_GERMANIUM": {
+    "id": 33,
+    "return_address": "0x2c2cce5bc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_GLAUCOPSYCHE": {
+    "id": 216,
+    "return_address": "0x2c2cce5c4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_GOLD": {
+    "id": 80,
+    "return_address": "0x2c2cce5cc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_GREYMATTER": {
+    "id": 122,
+    "return_address": "0x2c2cce5d4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_GUARDIAN_AGE_VERIFICATION_REQUIRED": {
+    "id": 146,
+    "return_address": "0x2c2cce5dc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_GUARDIAN_AGE_VERIFICATION_REQUIRED_MINI_BUDDY": {
+    "id": 147,
+    "return_address": "0x2c2cce5e4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_HAFNIUM": {
+    "id": 73,
+    "return_address": "0x2c2cce5ec"
+  },
+  "OS_ELIGIBILITY_DOMAIN_HARPALUS": {
+    "id": 172,
+    "return_address": "0x2c2cce5f4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_HASSIUM": {
+    "id": 109,
+    "return_address": "0x2c2cce5fc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_HELIUM": {
+    "id": 3,
+    "return_address": "0x2c2cce604"
+  },
+  "OS_ELIGIBILITY_DOMAIN_HIGHLIGHTS_MARKETPLACES": {
+    "id": 129,
+    "return_address": "0x2c2cce60c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_HOLMIUM": {
+    "id": 68,
+    "return_address": "0x2c2cce614"
+  },
+  "OS_ELIGIBILITY_DOMAIN_HYDROGEN": {
+    "id": 2,
+    "return_address": "0x2c2cce61c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_HYLOBIUS": {
+    "id": 205,
+    "return_address": "0x2c2cce624"
+  },
+  "OS_ELIGIBILITY_DOMAIN_INDIUM": {
+    "id": 50,
+    "return_address": "0x2c2cce62c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_IODINE": {
+    "id": 54,
+    "return_address": "0x2c2cce634"
+  },
+  "OS_ELIGIBILITY_DOMAIN_IRIDIUM": {
+    "id": 78,
+    "return_address": "0x2c2cce63c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_IRON": {
+    "id": 27,
+    "return_address": "0x2c2cce644"
+  },
+  "OS_ELIGIBILITY_DOMAIN_KRYPTON": {
+    "id": 37,
+    "return_address": "0x2c2cce64c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LANTHANUM": {
+    "id": 58,
+    "return_address": "0x2c2cce654"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LAWRENCIUM": {
+    "id": 104,
+    "return_address": "0x2c2cce65c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LEAD": {
+    "id": 83,
+    "return_address": "0x2c2cce664"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LEBIA": {
+    "id": 175,
+    "return_address": "0x2c2cce66c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LIMONIUS": {
+    "id": 196,
+    "return_address": "0x2c2cce674"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LISTRONOTUS": {
+    "id": 204,
+    "return_address": "0x2c2cce67c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LITHIUM": {
+    "id": 4,
+    "return_address": "0x2c2cce684"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LIVERMORIUM": {
+    "id": 117,
+    "return_address": "0x2c2cce68c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LOTX": {
+    "id": 1,
+    "return_address": "0x2c2cce694"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LUTETIUM": {
+    "id": 72,
+    "return_address": "0x2c2cce69c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_LYCAENA": {
+    "id": 214,
+    "return_address": "0x2c2cce6a4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MAGNESIUM": {
+    "id": 13,
+    "return_address": "0x2c2cce6ac"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MANGANESE": {
+    "id": 26,
+    "return_address": "0x2c2cce6b4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MEITNERIUM": {
+    "id": 110,
+    "return_address": "0x2c2cce6bc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MELANOPHILA": {
+    "id": 188,
+    "return_address": "0x2c2cce6c4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MELANOTUS": {
+    "id": 195,
+    "return_address": "0x2c2cce6cc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MENDELEVIUM": {
+    "id": 102,
+    "return_address": "0x2c2cce6d4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MERCURY": {
+    "id": 81,
+    "return_address": "0x2c2cce6dc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MOLYBDENUM": {
+    "id": 43,
+    "return_address": "0x2c2cce6e4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MONOCHAMUS": {
+    "id": 183,
+    "return_address": "0x2c2cce6ec"
+  },
+  "OS_ELIGIBILITY_DOMAIN_MOSCOVIUM": {
+    "id": 116,
+    "return_address": "0x2c2cce6f4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NEODYMIUM": {
+    "id": 61,
+    "return_address": "0x2c2cce6fc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NEON": {
+    "id": 11,
+    "return_address": "0x2c2cce704"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NEOPHASIA": {
+    "id": 210,
+    "return_address": "0x2c2cce70c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NEPTUNIUM": {
+    "id": 94,
+    "return_address": "0x2c2cce714"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NICKEL": {
+    "id": 29,
+    "return_address": "0x2c2cce71c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NIHONIUM": {
+    "id": 114,
+    "return_address": "0x2c2cce724"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NIOBIUM": {
+    "id": 42,
+    "return_address": "0x2c2cce72c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NITROGEN": {
+    "id": 8,
+    "return_address": "0x2c2cce734"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NOBELIUM": {
+    "id": 103,
+    "return_address": "0x2c2cce73c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_NOTIOPHILUS": {
+    "id": 180,
+    "return_address": "0x2c2cce744"
+  },
+  "OS_ELIGIBILITY_DOMAIN_OGANESSON": {
+    "id": 119,
+    "return_address": "0x2c2cce74c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_OSMIUM": {
+    "id": 77,
+    "return_address": "0x2c2cce754"
+  },
+  "OS_ELIGIBILITY_DOMAIN_OTIORHYNCHUS": {
+    "id": 203,
+    "return_address": "0x2c2cce75c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_OXYGEN": {
+    "id": 9,
+    "return_address": "0x2c2cce764"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PALLADIUM": {
+    "id": 47,
+    "return_address": "0x2c2cce76c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PAPILIO": {
+    "id": 208,
+    "return_address": "0x2c2cce774"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PARNASSIUS": {
+    "id": 209,
+    "return_address": "0x2c2cce77c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PERMISSIONKIT_SIGNIFICANT_APP_CHANGE_REQUEST": {
+    "id": 142,
+    "return_address": "0x2c2cce784"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PERMISSIONKIT_SIGNIFICANT_APP_CHANGE_REQUEST_SANDBOX": {
+    "id": 143,
+    "return_address": "0x2c2cce78c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PERSONAL_QA": {
+    "id": 127,
+    "return_address": "0x2c2cce794"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PHOSPHORUS": {
+    "id": 16,
+    "return_address": "0x2c2cce79c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PISSODES": {
+    "id": 206,
+    "return_address": "0x2c2cce7a4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PLATINUM": {
+    "id": 79,
+    "return_address": "0x2c2cce7ac"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PLEBEJUS": {
+    "id": 215,
+    "return_address": "0x2c2cce7b4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PLUTONIUM": {
+    "id": 95,
+    "return_address": "0x2c2cce7bc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PODCASTS_TRANSCRIPTS": {
+    "id": 121,
+    "return_address": "0x2c2cce7c4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_POLONIUM": {
+    "id": 85,
+    "return_address": "0x2c2cce7cc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_POTASSIUM": {
+    "id": 20,
+    "return_address": "0x2c2cce7d4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PRASEODYMIUM": {
+    "id": 60,
+    "return_address": "0x2c2cce7dc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PRIONUS": {
+    "id": 185,
+    "return_address": "0x2c2cce7e4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PROMETHIUM": {
+    "id": 62,
+    "return_address": "0x2c2cce7ec"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PROTACTINIUM": {
+    "id": 92,
+    "return_address": "0x2c2cce7f4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PSYLLOBORA": {
+    "id": 198,
+    "return_address": "0x2c2cce7fc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_PTEROSTICHUS": {
+    "id": 170,
+    "return_address": "0x2c2cce804"
+  },
+  "OS_ELIGIBILITY_DOMAIN_RADIUM": {
+    "id": 89,
+    "return_address": "0x2c2cce80c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_RADON": {
+    "id": 87,
+    "return_address": "0x2c2cce814"
+  },
+  "OS_ELIGIBILITY_DOMAIN_REVOKE_APP_ACCESS_REQUIRED": {
+    "id": 167,
+    "return_address": "0x2c2cce81c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_RHENIUM": {
+    "id": 76,
+    "return_address": "0x2c2cce824"
+  },
+  "OS_ELIGIBILITY_DOMAIN_RHODIUM": {
+    "id": 46,
+    "return_address": "0x2c2cce82c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ROENTGENIUM": {
+    "id": 112,
+    "return_address": "0x2c2cce834"
+  },
+  "OS_ELIGIBILITY_DOMAIN_RUBIDIUM": {
+    "id": 38,
+    "return_address": "0x2c2cce83c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_RUTHENIUM": {
+    "id": 45,
+    "return_address": "0x2c2cce844"
+  },
+  "OS_ELIGIBILITY_DOMAIN_RUTHERFORDIUM": {
+    "id": 105,
+    "return_address": "0x2c2cce84c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SAMARIUM": {
+    "id": 63,
+    "return_address": "0x2c2cce854"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SCANDIUM": {
+    "id": 22,
+    "return_address": "0x2c2cce85c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SCAPHINOTUS": {
+    "id": 173,
+    "return_address": "0x2c2cce864"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SEABORGIUM": {
+    "id": 107,
+    "return_address": "0x2c2cce86c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SEARCH_MARKETPLACES": {
+    "id": 124,
+    "return_address": "0x2c2cce874"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SELENIUM": {
+    "id": 35,
+    "return_address": "0x2c2cce87c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SIGNIFICANT_APP_UPDATE_RESTRICTED": {
+    "id": 135,
+    "return_address": "0x2c2cce884"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SILICON": {
+    "id": 15,
+    "return_address": "0x2c2cce88c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SILVER": {
+    "id": 48,
+    "return_address": "0x2c2cce894"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SIRI_MODE": {
+    "id": 155,
+    "return_address": "0x2c2cce89c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SIRI_MODE_NEEDS_CONSENT": {
+    "id": 158,
+    "return_address": "0x2c2cce8a4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SIRI_WITH_APP_INTENTS": {
+    "id": 128,
+    "return_address": "0x2c2cce8ac"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SITONA": {
+    "id": 207,
+    "return_address": "0x2c2cce8b4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SMS_MMS_RCS_API": {
+    "id": 131,
+    "return_address": "0x2c2cce8bc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SODIUM": {
+    "id": 12,
+    "return_address": "0x2c2cce8c4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_STRONTIUM": {
+    "id": 39,
+    "return_address": "0x2c2cce8cc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SULFUR": {
+    "id": 17,
+    "return_address": "0x2c2cce8d4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_SWIFT_ASSIST": {
+    "id": 125,
+    "return_address": "0x2c2cce8dc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TACHYS": {
+    "id": 181,
+    "return_address": "0x2c2cce8e4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TANTALUM": {
+    "id": 74,
+    "return_address": "0x2c2cce8ec"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TECHNETIUM": {
+    "id": 44,
+    "return_address": "0x2c2cce8f4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TEEN_ATTACHED_TO_FAMILY_REQUIRED": {
+    "id": 148,
+    "return_address": "0x2c2cce8fc"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TELLURIUM": {
+    "id": 53,
+    "return_address": "0x2c2cce904"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TENNESSINE": {
+    "id": 118,
+    "return_address": "0x2c2cce90c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TERBIUM": {
+    "id": 66,
+    "return_address": "0x2c2cce914"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TEST": {
+    "id": 120,
+    "return_address": "0x2c2cce91c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_THALLIUM": {
+    "id": 82,
+    "return_address": "0x2c2cce924"
+  },
+  "OS_ELIGIBILITY_DOMAIN_THORIUM": {
+    "id": 91,
+    "return_address": "0x2c2cce92c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_THULIUM": {
+    "id": 70,
+    "return_address": "0x2c2cce934"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TIN": {
+    "id": 51,
+    "return_address": "0x2c2cce93c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TITANIUM": {
+    "id": 23,
+    "return_address": "0x2c2cce944"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TRECHUS": {
+    "id": 182,
+    "return_address": "0x2c2cce94c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_TUNGSTEN": {
+    "id": 75,
+    "return_address": "0x2c2cce954"
+  },
+  "OS_ELIGIBILITY_DOMAIN_UNVERIFIED_ADULT_BACKGROUND_RESTRICTION_REQUIRED": {
+    "id": 218,
+    "return_address": "0x2c2cce95c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_UNVERIFIED_ADULT_BACKGROUND_RESTRICTION_REQUIRED_MINI_BUDDY": {
+    "id": 219,
+    "return_address": "0x2c2cce964"
+  },
+  "OS_ELIGIBILITY_DOMAIN_UNVERIFIED_ADULT_RESTRICTION_REQUIRED": {
+    "id": 149,
+    "return_address": "0x2c2cce96c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_UNVERIFIED_ADULT_RESTRICTION_REQUIRED_MINI_BUDDY": {
+    "id": 162,
+    "return_address": "0x2c2cce974"
+  },
+  "OS_ELIGIBILITY_DOMAIN_URANIUM": {
+    "id": 93,
+    "return_address": "0x2c2cce97c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_VANADIUM": {
+    "id": 24,
+    "return_address": "0x2c2cce984"
+  },
+  "OS_ELIGIBILITY_DOMAIN_WEB_CONTENT_FILTER_FORCE_ON": {
+    "id": 153,
+    "return_address": "0x2c2cce98c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_XCODE_LLM": {
+    "id": 123,
+    "return_address": "0x2c2cce994"
+  },
+  "OS_ELIGIBILITY_DOMAIN_XENON": {
+    "id": 55,
+    "return_address": "0x2c2cce99c"
+  },
+  "OS_ELIGIBILITY_DOMAIN_XYLOTRECHUS": {
+    "id": 186,
+    "return_address": "0x2c2cce9a4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_YTTERBIUM": {
+    "id": 71,
+    "return_address": "0x2c2cce9ac"
+  },
+  "OS_ELIGIBILITY_DOMAIN_YTTRIUM": {
+    "id": 40,
+    "return_address": "0x2c2cce9b4"
+  },
+  "OS_ELIGIBILITY_DOMAIN_ZINC": {
+    "id": 31,
+    "return_address": "0x2c2cce9bc"
+  }
+}

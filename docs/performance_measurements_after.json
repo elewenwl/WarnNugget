@@ -1,0 +1,134 @@
+{
+  "environment": {
+    "python": "3.15.0",
+    "platform": "macOS-26.7.1-x86_64-i386-64bit-Mach-O",
+    "machine": "x86_64"
+  },
+  "method": "median of 3 warm-cache calls; synthetic temporary data",
+  "manifest_inode_scan": [
+    {
+      "rows": 1000,
+      "median_ms": 15.157,
+      "samples_ms": [
+        16.896,
+        15.157,
+        11.767
+      ]
+    },
+    {
+      "rows": 10000,
+      "median_ms": 117.464,
+      "samples_ms": [
+        106.647,
+        120.233,
+        117.464
+      ]
+    }
+  ],
+  "media_verification": [
+    {
+      "files": 1000,
+      "median_ms": 21.346,
+      "samples_ms": [
+        25.006,
+        21.346,
+        21.204
+      ],
+      "python_os_metadata_calls_per_verify": {
+        "stat": 1003,
+        "lstat": 8
+      }
+    },
+    {
+      "files": 3000,
+      "median_ms": 65.951,
+      "samples_ms": [
+        65.951,
+        68.594,
+        64.502
+      ],
+      "python_os_metadata_calls_per_verify": {
+        "stat": 3003,
+        "lstat": 8
+      }
+    }
+  ],
+  "icon_batch_add": [
+    {
+      "icons": 1000,
+      "median_ms": 0.152,
+      "samples_ms": [
+        0.16,
+        0.152,
+        0.15
+      ]
+    },
+    {
+      "icons": 5000,
+      "median_ms": 0.827,
+      "samples_ms": [
+        0.788,
+        0.965,
+        0.827
+      ]
+    }
+  ],
+  "scene_state_overrides": [
+    {
+      "layers": 200,
+      "overrides": 40,
+      "median_ms": 6.635,
+      "samples_ms": [
+        6.85,
+        6.635,
+        6.388
+      ],
+      "reused_transition": {
+        "median_ms": 0.049,
+        "samples_ms": [
+          0.052,
+          0.049,
+          0.047
+        ]
+      }
+    },
+    {
+      "layers": 1000,
+      "overrides": 200,
+      "median_ms": 45.126,
+      "samples_ms": [
+        45.126,
+        71.087,
+        37.294
+      ],
+      "reused_transition": {
+        "median_ms": 0.239,
+        "samples_ms": [
+          0.239,
+          0.235,
+          0.279
+        ]
+      }
+    }
+  ],
+  "hsl_layer_blend": {
+    "width": 390,
+    "height": 844,
+    "full_blend": {
+      "median_ms": 1.456,
+      "samples_ms": [
+        1.31,
+        1.621,
+        1.456
+      ]
+    },
+    "png_roundtrip_only": {
+      "median_ms": 74.256,
+      "samples_ms": [
+        80.193,
+        74.157,
+        74.256
+      ]
+    }
+  }
+}

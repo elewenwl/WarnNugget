@@ -1,0 +1,8 @@
+pymobiledevice3==10.7.1
+certifi
+PySide6-Essentials==6.12.0; sys_platform == 'win32'
+PySide6==6.12.0; sys_platform != 'win32'
+PyInstaller==6.22.1
+ffmpeg-python==0.2.0
+opencv-python==4.14.0.94
+pillow-heif==1.7.0; sys_platform == 'linux'

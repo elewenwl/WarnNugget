@@ -1,0 +1,82 @@
+
+__AXSSetReduceMotionAutoplayAnimatedImagesEnabled
+0x18f80a77c:  7f 23 03 d5   pacibsp
+0x18f80a780:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x18f80a784:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x18f80a788:  fd 43 00 91   add	fp, sp, #0x10
+0x18f80a78c:  e2 03 00 aa   mov	x2, x0
+0x18f80a790:  c8 68 2a d0   adrp	x8, 0x1e4524000
+0x18f80a794:  00 c1 28 39   strb	w0, [x8, #0xa30] ; __kAXSCacheReduceMotionAutoplayAnimatedImagesEnabled
+0x18f80a798:  c8 68 2a b0   adrp	x8, 0x1e4523000
+0x18f80a79c:  13 39 47 f9   ldr	x19, [x8, #0xe70] ; _kAXSReduceMotionAutoplayAnimatedImagesPreference
+0x18f80a7a0:  48 47 28 b0   adrp	x8, 0x1e00f3000
+0x18f80a7a4:  00 b5 44 f9   ldr	x0, [x8, #0x968] ; _ptr.NSNumber
+0x18f80a7a8:  56 f1 1f 94   bl	0x190006d00
+0x18f80a7ac:  e2 03 00 aa   mov	x2, x0
+0x18f80a7b0:  63 45 2d b0   adrp	x3, 0x1ea0b7000
+0x18f80a7b4:  63 e0 14 91   add	x3, x3, #0x538 ; _ptr.__NSCFConstantString
+0x18f80a7b8:  e0 03 13 aa   mov	x0, x19
+0x18f80a7bc:  01 00 80 d2   mov	x1, #0
+0x18f80a7c0:  c9 83 ff 97   bl	__setPreferenceAppWithNotification
+0x18f80a7c4:  fd 7b 41 a9   ldp	fp, lr, [sp, #0x10]
+0x18f80a7c8:  f4 4f c2 a8   ldp	x20, x19, [sp], #0x20
+0x18f80a7cc:  ff 23 03 d5   autibsp
+0x18f80a7d0:  d0 07 1e ca   eor	x16, lr, lr, lsl #0x1
+0x18f80a7d4:  50 00 f0 b6   tbz	x16, #0x3e, loc_18f80a7dc ; ⤵ 0x8
+0x18f80a7d8:  20 8e 38 d4   brk	#0xc471
+0x18f80a7dc:  ; loc_18f80a7dc
+0x18f80a7dc:  a0 7a ff 17   b	__updateAccessibilitySettings
+
+__AXSReduceMotionReduceSlideTransitionsEnabledGlobal
+0x18f80a7e0:  7f 23 03 d5   pacibsp
+0x18f80a7e4:  ff 83 00 d1   sub	sp, sp, #0x20
+0x18f80a7e8:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x18f80a7ec:  fd 43 00 91   add	fp, sp, #0x10
+0x18f80a7f0:  c8 68 2a b0   adrp	x8, 0x1e4523000
+0x18f80a7f4:  00 49 47 f9   ldr	x0, [x8, #0xe90] ; _kAXSReduceMotionReduceSlideTransitionsPreference
+0x18f80a7f8:  08 00 80 12   mov	w8, #0xffffffff
+0x18f80a7fc:  a8 c3 1f b8   stur	w8, [fp, #-0x4]
+0x18f80a800:  01 00 80 d2   mov	x1, #0
+0x18f80a804:  09 58 ff 97   bl	__getNumberPreference
+0x18f80a808:  e0 00 00 b4   cbz	x0, loc_18f80a824 ; ⤵ 0x1c
+0x18f80a80c:  a2 13 00 d1   sub	x2, fp, #0x4
+0x18f80a810:  21 01 80 52   mov	w1, #0x9
+0x18f80a814:  13 0e 23 94   bl	_CFNumberGetValue_stub
+0x18f80a818:  a8 c3 5f b8   ldur	w8, [fp, #-0x4]
+0x18f80a81c:  1f 05 00 71   cmp	w8, #0x1
+0x18f80a820:  e0 17 9f 1a   cset	w0, eq
+0x18f80a824:  ; loc_18f80a824
+0x18f80a824:  fd 7b 41 a9   ldp	fp, lr, [sp, #0x10]
+0x18f80a828:  ff 83 00 91   add	sp, sp, #0x20
+0x18f80a82c:  ff 0f 5f d6   retab
+
+__AXSReduceMotionReduceSlideTransitionsEnabledApp
+0x18f80a830:  7f 23 03 d5   pacibsp
+0x18f80a834:  ff c3 00 d1   sub	sp, sp, #0x30
+0x18f80a838:  f4 4f 01 a9   stp	x20, x19, [sp, #0x10]
+0x18f80a83c:  fd 7b 02 a9   stp	fp, lr, [sp, #0x20]
+0x18f80a840:  fd 83 00 91   add	fp, sp, #0x20
+0x18f80a844:  e1 03 00 aa   mov	x1, x0
+0x18f80a848:  c8 68 2a b0   adrp	x8, 0x1e4523000
+0x18f80a84c:  00 49 47 f9   ldr	x0, [x8, #0xe90] ; _kAXSReduceMotionReduceSlideTransitionsPreference
+0x18f80a850:  13 00 80 12   mov	w19, #0xffffffff
+0x18f80a854:  f3 0f 00 b9   str	w19, [sp, #0xc]
+0x18f80a858:  f4 57 ff 97   bl	__getNumberPreference
+0x18f80a85c:  a0 00 00 b4   cbz	x0, loc_18f80a870 ; ⤵ 0x14
+0x18f80a860:  e2 33 00 91   add	x2, sp, #0xc
+0x18f80a864:  21 01 80 52   mov	w1, #0x9
+0x18f80a868:  fe 0d 23 94   bl	_CFNumberGetValue_stub
+0x18f80a86c:  f3 0f 40 b9   ldr	w19, [sp, #0xc]
+0x18f80a870:  ; loc_18f80a870
+0x18f80a870:  e0 03 13 aa   mov	x0, x19
+0x18f80a874:  fd 7b 42 a9   ldp	fp, lr, [sp, #0x20]
+0x18f80a878:  f4 4f 41 a9   ldp	x20, x19, [sp, #0x10]
+0x18f80a87c:  ff c3 00 91   add	sp, sp, #0x30
+0x18f80a880:  ff 0f 5f d6   retab
+
+__AXSSetReduceMotionReduceSlideTransitionsEnabled
+0x18f80a884:  7f 23 03 d5   pacibsp
+0x18f80a888:  ff c3 00 d1   sub	sp, sp, #0x30
+0x18f80a88c:  f4 4f 01 a9   stp	x20, x19, [sp, #0x10]
+0x18f80a890:  fd 7b 02 a9   stp	fp, lr, [sp, #0x20]
+
