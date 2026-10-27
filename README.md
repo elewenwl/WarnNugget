@@ -54,8 +54,6 @@ Status Bar Modifications	        ✅ Supported	                                 
 Passcode Themes                 	✅ Supported	                                    ❌ Not supported
 Note: iOS 27 support relies on a protective backup-and-restore workaround. Apple's patch means the process can trigger a bootloop if it fails. Use with extreme caution.
 
-Screenshots
-(Insert your screenshots here. Example: ![Main Window](docs/screenshot.png))
 
 Credits
 This project would not exist without the work of these people:
