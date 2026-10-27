@@ -78,9 +78,6 @@ WarNugget
 Модификация GoldenNugget для работы с анимированными обоями и системными твиками на iOS.
 Сделано для iOS 26.2+ (включая экспериментальную поддержку iOS 27).
 
-https://img.shields.io/github/v/release/elewenwl/WarNugget?style=for-the-badge
-https://img.shields.io/github/license/elewenwl/WarNugget?style=for-the-badge
-https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python
 
 Что это?
 WarNugget — это форк проекта GoldenNugget, переработанный и переименованный мной (elewenwl).
